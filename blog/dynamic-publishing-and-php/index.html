@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic Publishing and PHP - </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body id="20060201-dynamic-publishing-and-php">
+<nav>
+<section>
+    <span class="home">
+        <a href="/">Home</a>
+    </span>
+    <span class="links">
+		<ul id="navigation">
+		
+		</ul>
+    </span>
+</section>
+</nav>
+<main>
+
+<article>
+<h1><a href="//20060201-dynamic-publishing-and-php/">Dynamic Publishing and PHP</a></h1>
+<p class="meta">Published on 1970-01-01 by <b></b></p>
+<p>Not that anybody will care about this article, except maybe one or two people, I still wanted to document how I got this site working on PHP, and technically able to dynamically run. I'd like to tell you that it was just as easy as SixApart/Movable Type made it out to be, but that's not the case.</p>
+<p>Let me compile for you the following list of pages that I originally found, which helped in a round about way to figured out my problems with dynamic publishing, as well as a successful implementation of PHP:</p>
+<ul>
+<li><a href="http://www.movalog.com/archives/dynamic">Movalog - Dynamic Publishing</a></li>
+<li><a href="http://www.movalog.com/archives/dynamic/custom-error-messages">Custom Error Messages</a></li>
+<li><a href="http://www.movalog.com/archives/dynamic/dynamic-pages-the-htaccess">Movalog - Dynamic Pages \&amp; .htaccess</a></li>
+<li><a href="http://www.sixapart.com/movabletype/docs/3.2/06_publishing/enabling_dynamic_publishing.html">MT - Enabling Dynamic Publishing</a> - Usefulness - 1</li>
+<li><a href="http://www.sixapart.com/movabletype/docs/3.2/06_publishing/mixing_publishing_modes.html">MT - Selecting the Publishing Model</a></li>
+</ul>
+<p>I thought it'd be easy as cake. I went into the publishing settings and changed my File Extension for Archive Files to PHP. I changed my Dynamic Publishing option to Set each template's Build Options separately. Thinking that everything was perfect after that, I rebuilt the site. Not only did the site no longer work, but it failed miserably. What they don't tell you is that when you switch to dynamic publishing, all of your files on your server stay exactly where they are. The system just appends a little ".static" file extension to them, and they're never used again. You can delete these files.</p>
+<p>I have limited knowledge about PHP, but one thing I knew had to happen - the PHP files needed to have the correct permissions set on them so they could be run by anybody visiting the site. By looking into the mt-config.cgi file I could see that default file permission was set to 666 (read and write by User, Group, and World). A fairly standard file permission is either 777, or more commonly 755 (read, write execute by User, read and execute by Group and World). You can uncomment a certain line in your mt-config.cgi file which is the following:</p>
+<ul>
+<li><strong>HTMLPerms 0755</strong>
+I think the default for this is actually 777, but I downgraded mine to 755 and let it fly. I knew I was one step closer to having PHP working. Now looking back I don't think you actually have to switch to PHP in order to have the dynamic publishing. I wanted to have PHP and dynamic publishing so that I could get the Longbored Photos to have dynamic loading of content.</li>
+</ul>
+<p>Back on the dynamic publishing front, I swapped nearly every template over to being dynamically built. I included the site bootstrap file (mtview.php) in that, but learned that I shouldn't have, so I disabled it. If you look in that file though, it mentions the path to your PHP directory in your system folder. Well, I had moved my system folder to be different from the default, so this bootstrap file was aiming off into the abyss. I adjusted this to aim at the correct location, and I was one step closer.</p>
+<p>My problem came when going to my main index page on the site. All I would ever get was the MT system's 404 error (page not found). Even though I had customized the page, I was a little tired of seeing it over and over again, especially since it kept telling me the same thing. The real trick was to find out the details of that error... since I could SEE the file was actually there it was pretty annoying. I went to my server logs and found that MT kept looking for a file that truly wasn't there. The error was this:</p>
+<blockquote>
+<p><strong>PHP Warning: Unknown(): Unable to load dynamic library './ixed.lin.4.3.10.pxp' - ./ixed.lin.4.3.10.pxp: cannot open shared object file: No such file or directory in Unknown on line 0</strong>
+I did a little Google slueth work, and came up with some files that needed to be loaded onto my server. It was good to find out that I didn't have to load them higher than my authority on the server. I just could put it in the site root, and call it good. I unzipped the stuff, renamed the base folder appropriately, and voila. Fixed - that error.</p>
+</blockquote>
+<p>Now though, I kept getting the 404 message. I switched OFF dynamic publishing, but kept the PHP file extensions turned on. Still, I got the same error message. I knew that the files really were there, since I could see them. Add that to the fact that my error logs weren't producing any more errors... so it must have been something just in MT. <a href="http://www.movalog.com/archives/dynamic/custom-error-messages">This article</a> let me on customizing my error page a bit more so I could get some of the details behind the error, since I knew it couldn't be 404. When I updated my error page, I could finally see the truth behind it all.</p>
+<p>Smarty Errors. <a href="http://www.movalog.com/archives/dynamic/troubleshooting-smarty-errors">This article</a> helped me out from here. The problem I had was unrecognized tags. Of all things it was telling me that the \&lt;MTBlogURL&gt; tag wasn't recognized. Since my blog is located in this site root, I swapped out that tag to just go to the site root... no special tag required. After that, I was sailing smooth. My index page finally showed up. My articles were showing up. I had some custom templates that I had created that weren't quite up to snuff yet. Come to find out, on those it was doubling up on the file extensions. So it was having story_name.php.php. A little tweak in the publishing settings, and that was fixed. My archives were a little off, but I refreshed their content, and that was all fixed.</p>
+<p>I ended up deciding against dynamic publishing, for the most part. My database was just getting way too hammered and wasn't able to generate the pages nearly as quickly as the static pages could be served up. I didn't really have a problem with the rebuild time that is required for the site as a whole, plus I don't get very many visitors to the site overall. Static publishing works just fine for me.</p>
+<p>So, despite this article, or the simplicity that some of SixAparts make it sound, I tried to make this happen on at 4 separate occasions. Thanks to a bit of spare time on my hands, and immense patience, it ended up working out to my benefit. My thanks to <a href="http://movalog.com/">Movalog</a> for providing the most insight to this 'painless' process.</p>
+
+</article>
+
+</main>
+<footer>
+<section>
+<p>&copy; 2005- LongboredSurfer.com</p>
+<p>
+    <a href="https://twitter.com/longbored">Twitter</a>
+    <a href="https://github.com/longbored">GitHub</a>
+    <a href="https://longboredsurfer.com/">LongboredSurfer.com</a>
+</p>
+<p>
+	<a href="https://longboredsurfer.com/privacy">Privacy Policy</a>
+	<a href="http://www.amazon.com/exec/obidos/redirect?tag=thelongsurf-20">Shop at Amazon and support LongboredSurfer.com</a>
+</section>
+</footer>
+</body>
+</html>

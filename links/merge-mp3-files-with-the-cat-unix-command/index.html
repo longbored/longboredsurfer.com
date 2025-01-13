@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Merge MP3 Files with the &#34;cat&#34; Unix Command - </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body id="201206120000-merge-mp3-files-with-the-cat-unix-command">
+<nav>
+<section>
+    <span class="home">
+        <a href="/">Home</a>
+    </span>
+    <span class="links">
+		<ul id="navigation">
+		
+		</ul>
+    </span>
+</section>
+</nav>
+<main>
+
+<article>
+<h1><a href="//201206120000-merge-mp3-files-with-the-cat-unix-command/">Merge MP3 Files with the &#34;cat&#34; Unix Command</a></h1>
+<p class="meta">Published on 1970-01-01 by <b></b></p>
+<p>I enjoy listening to audio books, and wanted a way to mash all of those three-minute tracks together. It's a multi-step process, but worth it to narrow down the number of files. Here are the steps I take:</p>
+<ol>
+<li>I organize all of my MP3s into nicely named folders, like "Chapter 1". Tricky, I know.</li>
+<li>Now, you should remove all the ID3 tags (the meta data inside each MP3 that has the Title, Artist, etc). I use my favorite ID3 tag editor - <a href="http://www.chaoticsoftware.com/ProductPages/MediaRage.html">Media Rage</a>. In the Data Remover tool, just set the MP3 ID3v2 and ID3v1 tag to "None", and process all of your nicely named/organized MP3s.</li>
+<li>Now go through the step explained on this page. Basically, cd into each directory, and then run that happy "cat" command. If I continue our example, I'd go with "cat * Chapter01.mp3". Avoid spaces in the file name (I don't want to go into escaping spaces). Do that with each folder you want combined.</li>
+<li>You're done, but I'd go through and move each of your new files into a folder, and go back and re-add ID3 tags. Again, use Media Rage. It's awesome (especially at this point, where it can read the file names, and put them into the ID3 tags automagically. Yes. It's magic.)</li>
+</ol>
+<p>Or, you could do it a different, super simple way, and pay $6 for the great OS X application <a href="https://apps.apple.com/us/app/audiobook-builder-2/id1437681957?mt=12">Audiobook Builder</a>. I admit I like to have the combined MP3s in addition to the nicely formatted M4B file. So, after I go through the above steps, I throw them into Audiobook Builder, and get that iTunes/iOS-friendly file (so I can play the files at double-speed).</p>
+
+</article>
+
+</main>
+<footer>
+<section>
+<p>&copy; 2005- LongboredSurfer.com</p>
+<p>
+    <a href="https://twitter.com/longbored">Twitter</a>
+    <a href="https://github.com/longbored">GitHub</a>
+    <a href="https://longboredsurfer.com/">LongboredSurfer.com</a>
+</p>
+<p>
+	<a href="https://longboredsurfer.com/privacy">Privacy Policy</a>
+	<a href="http://www.amazon.com/exec/obidos/redirect?tag=thelongsurf-20">Shop at Amazon and support LongboredSurfer.com</a>
+</section>
+</footer>
+</body>
+</html>

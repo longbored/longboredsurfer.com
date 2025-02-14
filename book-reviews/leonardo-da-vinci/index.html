@@ -4,21 +4,163 @@
     <title>Leonardo da Vinci - Longboredsurfer.com</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <style>/* General */
+body {
+    margin: 0;
+    line-height: 1.5em;
+    color: #333333;
+    font-family: helvetica, arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+    line-height: 1.2em;
+    margin-top: 1em;
+}
+
+a:link, a:visited {
+    color: #0000e0;
+    text-decoration: none
+}
+
+a:hover, a:active {
+    color: #0000ff;
+    text-decoration: underline
+}
+
+
+/* Single column layout */
+nav section, header section, main, footer section {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0.5em;
+}
+
+
+/* Navigation panel */
+nav {
+    background: #333333;
+    border-bottom: thin solid #111111;
+    line-height: 3em;
+}
+
+nav a {
+    margin-right: 1em;
+}
+
+nav a:link, nav a:visited {
+    color: #cccccc;
+}
+
+nav a:hover, nav a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+    nav .links {
+        float: right;
+    }
+}
+
+
+/* Footer */
+footer {
+    background: #f0f0f0;
+    border-top: thin solid #e0e0e0;
+    margin-top: 2em;
+    padding: 1em 0;
+    box-shadow: 0 100vh 0 100vh #f0f0f0;
+    text-align: center;
+}
+
+footer section p {
+    font-size: 0.8em;
+}
+
+footer a {
+    margin-right: 1em;
+}
+
+footer a:last-child {
+    margin-right: 0;
+}
+
+
+/* Posts */
+article {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+article h2 a:link, article h2 a:visited,
+article h1 a:link, article h1 a:visited,
+.more:link, .more:visited {
+    color: #333333;
+}
+
+article h2 a:hover, article h2 a:active,
+article h1 a:hover, article h1 a:active,
+.more:hover, .more:active {
+    color: #777777;
+}
+
+p.meta {
+    margin-top: 0;
+    font-size: 0.8em;
+    color: #777777;
+    font-style: italic;
+}
+
+p.summary {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+div .more {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+
+/* RSS */
+.rss {
+    padding: 0.3em 0.35em;
+    border-radius: 0.25em;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+.rss:link, .rss:visited, .rss:hover, .rss:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.rss:link, .rss:visited {
+    background: #ff6600;
+}
+
+.rss:hover, .rss:active {
+    background: #ff8822;
+}
+</style>
 </head>
 <body id="leonardo-da-vinci">
 <nav>
 <section>
     <span class="home">
         <a href="/">Home</a>
-    </span>
-    <span class="links">
-		<ul id="navigation">
-			<li><a href="/about">About</a></li>
-			<li><a href="/blog">Blog</a></li>
-			<li><a href="/links">Links</a></li>
-			<li><a href="/book-reviews">Book Reviews</a></li>
-		</ul>
+        <a href="/about">About</a>
+        <a href="/blog">Blog</a>
+        <a href="/links">Links</a>
+        <a href="/book-reviews">Book Reviews</a>
+        
     </span>
 </section>
 </nav>
@@ -26,12 +168,13 @@
 <article>
 <h1><a href="/book-reviews/leonardo-da-vinci">Leonardo da Vinci</a></h1>
 <img src="cover.jpg" height="200" alt="Book cover for Leonardo da Vinci" class="book_cover"/>
-<p class="meta">Read on 2019-03-19</p>
+<p class="meta" id="2019-03-19">Read on 2019-03-19</p>
 <p class="stars">⭐️⭐️⭐️⭐️⭐️</p>
-<p class="format">Format: audio (17 hours 1 minute)</p>
-<ul class="previous_next"><li class="previous">Previously: <a href="/book-reviews/into-the-storm#2019-03-07">Into the Storm</a></li><li class="next">Next: <a href="/book-reviews/spoonbenders#2019-03-25">Spoonbenders</a></li></ul>
+<p class="format audio">Format: 🎧 (17 hours 1 minute)</p>
 <div class="content"><p>This was fantastic. Leonardo Da Vinci was clearly an amazing and inspiring individual. I know - you're not into Biographies. Get over it, and read this one. Even if you listen to the audio book (and look at the provided PDF of the various illustrations from the book), it's totally worth it.</p>
 <p>With biographies, sometimes the results are the fault/credit of the biographer, and sometimes it's the subject themself. I've read Einstein and Steve Jobs, both by Isaacson. I thought he did well with one of those (and the other was... okay). With Da Vinci, I'm not sure how he did, since Da Vinci himself was so clearly incredible. When the person has died 500 years ago, and there is as much material as there was, and enough dissection of the material, I'm totally on board. I would have liked to have had more insight into Da Vinci's day-to-day mentality (or even activities), but I'm not sure the source materials are available for that.</p></div>
+<ul class="prior_next"><li class="prior">Prior: <a href="/book-reviews/into-the-storm#2019-03-07">Into the Storm</a></li><li class="next">Next: <a href="/book-reviews/spoonbenders#2019-03-25">Spoonbenders</a></li></ul>
+
 <div class="tags"><h3>Tags</h3>
 <ul>
 	<li class="audio_duration"><a href="/book-reviews/tags/audio">audio</a></li>

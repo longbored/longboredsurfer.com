@@ -4,21 +4,163 @@
     <title>DelliStore: A Free Professional CSS/XHTML/PSD-Template - Longboredsurfer.com</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <style>/* General */
+body {
+    margin: 0;
+    line-height: 1.5em;
+    color: #333333;
+    font-family: helvetica, arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+    line-height: 1.2em;
+    margin-top: 1em;
+}
+
+a:link, a:visited {
+    color: #0000e0;
+    text-decoration: none
+}
+
+a:hover, a:active {
+    color: #0000ff;
+    text-decoration: underline
+}
+
+
+/* Single column layout */
+nav section, header section, main, footer section {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0.5em;
+}
+
+
+/* Navigation panel */
+nav {
+    background: #333333;
+    border-bottom: thin solid #111111;
+    line-height: 3em;
+}
+
+nav a {
+    margin-right: 1em;
+}
+
+nav a:link, nav a:visited {
+    color: #cccccc;
+}
+
+nav a:hover, nav a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+    nav .links {
+        float: right;
+    }
+}
+
+
+/* Footer */
+footer {
+    background: #f0f0f0;
+    border-top: thin solid #e0e0e0;
+    margin-top: 2em;
+    padding: 1em 0;
+    box-shadow: 0 100vh 0 100vh #f0f0f0;
+    text-align: center;
+}
+
+footer section p {
+    font-size: 0.8em;
+}
+
+footer a {
+    margin-right: 1em;
+}
+
+footer a:last-child {
+    margin-right: 0;
+}
+
+
+/* Posts */
+article {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+article h2 a:link, article h2 a:visited,
+article h1 a:link, article h1 a:visited,
+.more:link, .more:visited {
+    color: #333333;
+}
+
+article h2 a:hover, article h2 a:active,
+article h1 a:hover, article h1 a:active,
+.more:hover, .more:active {
+    color: #777777;
+}
+
+p.meta {
+    margin-top: 0;
+    font-size: 0.8em;
+    color: #777777;
+    font-style: italic;
+}
+
+p.summary {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+div .more {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+
+/* RSS */
+.rss {
+    padding: 0.3em 0.35em;
+    border-radius: 0.25em;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+.rss:link, .rss:visited, .rss:hover, .rss:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.rss:link, .rss:visited {
+    background: #ff6600;
+}
+
+.rss:hover, .rss:active {
+    background: #ff8822;
+}
+</style>
 </head>
 <body id="200905020000-dellistore-a-free-professional-cssxhtmlpsd-template">
 <nav>
 <section>
     <span class="home">
         <a href="/">Home</a>
-    </span>
-    <span class="links">
-		<ul id="navigation">
-			<li><a href="/about">About</a></li>
-			<li><a href="/blog">Blog</a></li>
-			<li><a href="/links">Links</a></li>
-			<li><a href="/book-reviews">Book Reviews</a></li>
-		</ul>
+        <a href="/about">About</a>
+        <a href="/blog">Blog</a>
+        <a href="/links">Links</a>
+        <a href="/book-reviews">Book Reviews</a>
+        
     </span>
 </section>
 </nav>
@@ -30,7 +172,7 @@
 <p>I wish Smashing Magazine had these back in the day when I started to learn about web design/development, since I would have eaten this stuff up. Instead of chopping apart other people's sites to learn how to adjust stuff, this is a cleanly coded site, just waiting for any manipulation to be made. Slick.</p>
 
 
-Previously: <a href="/links/200905020000-tidbits-networking-achieving-email-bliss-with-imap-gmail-and-apple-mail">TidBITS: Achieving Email Bliss with IMAP, Gmail, and Apple Mail</a>
+Prior: <a href="/links/200905020000-tidbits-networking-achieving-email-bliss-with-imap-gmail-and-apple-mail">TidBITS: Achieving Email Bliss with IMAP, Gmail, and Apple Mail</a>
 
 
 Next: <a href="/links/200905020000-lego-9f-train---flickr">LEGO: 9f Train - Flickr</a>

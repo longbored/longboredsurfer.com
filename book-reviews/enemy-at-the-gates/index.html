@@ -4,21 +4,163 @@
     <title>Enemy at the Gates - Longboredsurfer.com</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <style>/* General */
+body {
+    margin: 0;
+    line-height: 1.5em;
+    color: #333333;
+    font-family: helvetica, arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+    line-height: 1.2em;
+    margin-top: 1em;
+}
+
+a:link, a:visited {
+    color: #0000e0;
+    text-decoration: none
+}
+
+a:hover, a:active {
+    color: #0000ff;
+    text-decoration: underline
+}
+
+
+/* Single column layout */
+nav section, header section, main, footer section {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0.5em;
+}
+
+
+/* Navigation panel */
+nav {
+    background: #333333;
+    border-bottom: thin solid #111111;
+    line-height: 3em;
+}
+
+nav a {
+    margin-right: 1em;
+}
+
+nav a:link, nav a:visited {
+    color: #cccccc;
+}
+
+nav a:hover, nav a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+    nav .links {
+        float: right;
+    }
+}
+
+
+/* Footer */
+footer {
+    background: #f0f0f0;
+    border-top: thin solid #e0e0e0;
+    margin-top: 2em;
+    padding: 1em 0;
+    box-shadow: 0 100vh 0 100vh #f0f0f0;
+    text-align: center;
+}
+
+footer section p {
+    font-size: 0.8em;
+}
+
+footer a {
+    margin-right: 1em;
+}
+
+footer a:last-child {
+    margin-right: 0;
+}
+
+
+/* Posts */
+article {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+article h2 a:link, article h2 a:visited,
+article h1 a:link, article h1 a:visited,
+.more:link, .more:visited {
+    color: #333333;
+}
+
+article h2 a:hover, article h2 a:active,
+article h1 a:hover, article h1 a:active,
+.more:hover, .more:active {
+    color: #777777;
+}
+
+p.meta {
+    margin-top: 0;
+    font-size: 0.8em;
+    color: #777777;
+    font-style: italic;
+}
+
+p.summary {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+div .more {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+
+/* RSS */
+.rss {
+    padding: 0.3em 0.35em;
+    border-radius: 0.25em;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+.rss:link, .rss:visited, .rss:hover, .rss:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.rss:link, .rss:visited {
+    background: #ff6600;
+}
+
+.rss:hover, .rss:active {
+    background: #ff8822;
+}
+</style>
 </head>
 <body id="enemy-at-the-gates">
 <nav>
 <section>
     <span class="home">
         <a href="/">Home</a>
-    </span>
-    <span class="links">
-		<ul id="navigation">
-			<li><a href="/about">About</a></li>
-			<li><a href="/blog">Blog</a></li>
-			<li><a href="/links">Links</a></li>
-			<li><a href="/book-reviews">Book Reviews</a></li>
-		</ul>
+        <a href="/about">About</a>
+        <a href="/blog">Blog</a>
+        <a href="/links">Links</a>
+        <a href="/book-reviews">Book Reviews</a>
+        
     </span>
 </section>
 </nav>
@@ -26,11 +168,12 @@
 <article>
 <h1><a href="/book-reviews/enemy-at-the-gates">Enemy at the Gates</a></h1>
 <img src="cover.jpg" height="200" alt="Book cover for Enemy at the Gates" class="book_cover"/>
-<p class="meta">Read on 2021-10-09</p>
+<p class="meta" id="2021-10-09">Read on 2021-10-09</p>
 <p class="stars">⭐️⭐️⭐️</p>
-<p class="format">Format: audio (13 hours 26 minutes)</p>
-<ul class="previous_next"><li class="previous">Previously: <a href="/book-reviews/the-stone-sky#2021-09-23">The Stone Sky</a></li><li class="next">Next: <a href="/book-reviews/the-rosie-project#2021-10-30">The Rosie Project</a></li></ul>
+<p class="format audio">Format: 🎧 (13 hours 26 minutes)</p>
 <div class="content"><p>Although the battle/siege was really crucial to WWII and the demise of the Nazis, this book won't be crucial to your understanding of that. The atrocities of WWII are numerous, and the extents people will go to for self-preservation (or to avoid starvation) are lengthy. Mix those two together, and you've got some idea of what is covered in this book. Plus, there are way too many troop movements in unfamiliar territory. My negative impressions aside, I appreciate all of the first-hand accounts retrieved through interviews, letters, journals, etc. The first half of the book was rather slow, but picked up significantly in the second half. I'd really only recommend this book if you're <em>really</em> into WWII.</p></div>
+<ul class="prior_next"><li class="prior">Prior: <a href="/book-reviews/the-stone-sky#2021-09-23">The Stone Sky</a></li><li class="next">Next: <a href="/book-reviews/the-rosie-project#2021-10-30">The Rosie Project</a></li></ul>
+
 <div class="tags"><h3>Tags</h3>
 <ul>
 	<li class="audio_duration"><a href="/book-reviews/tags/audio">audio</a></li>	<li><a href="/book-reviews/tags/wwii">wwii</a></li>

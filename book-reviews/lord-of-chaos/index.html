@@ -4,21 +4,163 @@
     <title>Lord of Chaos - Longboredsurfer.com</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <style>/* General */
+body {
+    margin: 0;
+    line-height: 1.5em;
+    color: #333333;
+    font-family: helvetica, arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+    line-height: 1.2em;
+    margin-top: 1em;
+}
+
+a:link, a:visited {
+    color: #0000e0;
+    text-decoration: none
+}
+
+a:hover, a:active {
+    color: #0000ff;
+    text-decoration: underline
+}
+
+
+/* Single column layout */
+nav section, header section, main, footer section {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0.5em;
+}
+
+
+/* Navigation panel */
+nav {
+    background: #333333;
+    border-bottom: thin solid #111111;
+    line-height: 3em;
+}
+
+nav a {
+    margin-right: 1em;
+}
+
+nav a:link, nav a:visited {
+    color: #cccccc;
+}
+
+nav a:hover, nav a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+    nav .links {
+        float: right;
+    }
+}
+
+
+/* Footer */
+footer {
+    background: #f0f0f0;
+    border-top: thin solid #e0e0e0;
+    margin-top: 2em;
+    padding: 1em 0;
+    box-shadow: 0 100vh 0 100vh #f0f0f0;
+    text-align: center;
+}
+
+footer section p {
+    font-size: 0.8em;
+}
+
+footer a {
+    margin-right: 1em;
+}
+
+footer a:last-child {
+    margin-right: 0;
+}
+
+
+/* Posts */
+article {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+article h2 a:link, article h2 a:visited,
+article h1 a:link, article h1 a:visited,
+.more:link, .more:visited {
+    color: #333333;
+}
+
+article h2 a:hover, article h2 a:active,
+article h1 a:hover, article h1 a:active,
+.more:hover, .more:active {
+    color: #777777;
+}
+
+p.meta {
+    margin-top: 0;
+    font-size: 0.8em;
+    color: #777777;
+    font-style: italic;
+}
+
+p.summary {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+div .more {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+
+/* RSS */
+.rss {
+    padding: 0.3em 0.35em;
+    border-radius: 0.25em;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+.rss:link, .rss:visited, .rss:hover, .rss:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.rss:link, .rss:visited {
+    background: #ff6600;
+}
+
+.rss:hover, .rss:active {
+    background: #ff8822;
+}
+</style>
 </head>
 <body id="lord-of-chaos">
 <nav>
 <section>
     <span class="home">
         <a href="/">Home</a>
-    </span>
-    <span class="links">
-		<ul id="navigation">
-			<li><a href="/about">About</a></li>
-			<li><a href="/blog">Blog</a></li>
-			<li><a href="/links">Links</a></li>
-			<li><a href="/book-reviews">Book Reviews</a></li>
-		</ul>
+        <a href="/about">About</a>
+        <a href="/blog">Blog</a>
+        <a href="/links">Links</a>
+        <a href="/book-reviews">Book Reviews</a>
+        
     </span>
 </section>
 </nav>
@@ -26,13 +168,14 @@
 <article>
 <h1><a href="/book-reviews/lord-of-chaos">Lord of Chaos</a></h1>
 <img src="cover.jpg" height="200" alt="Book cover for Lord of Chaos" class="book_cover"/>
-<p class="meta">Read on 2015-08-06</p>
+<p class="meta" id="2015-08-06">Read on 2015-08-06</p>
 <p class="stars">⭐️⭐️⭐️</p>
-<p class="format">Format: audio (41 hours 32 minutes)</p>
-<ul class="previous_next"><li class="previous">Previously: <a href="/book-reviews/the-fires-of-heaven#2015-07-27">The Fires of Heaven</a></li><li class="next">Next: <a href="/book-reviews/1776#2015-08-13">1776</a></li></ul>
+<p class="format audio">Format: 🎧 (41 hours 32 minutes)</p>
 <div class="content"><p>I liked this one better than the fifth, but not as much as the fourth. It's filled with some really cool moments (which obviously wouldn't be anywhere nearly as rewarding without reading all the previous books). It has a moment in it, which I know for any first-time reader, will completely surprise you. Jordan continues to do a fantastic job.</p>
-<p>We get introduced to the title of Asha'man. I continue to be leary of Mazrim Taim - he gives me the creeps, which I imagine he's supposed to. I didn't like the fact that the Asha'man didn't stop slaughtering the Shaido until _he_ said something. The Shaido are annoying and I'm intrigued by this cube thing that Sevanna, but it makes my hackles rise as well. I love the concept of Rand hopping all over the place with gateways and feel bad for him being bonded by Alanna, only because it was without permission. My favorite pieces of the book are things I can't mention without spoiling some rather significant elements. Nynaeve healing gentling/stilling is awesome. I'm excited for Egwene becoming Amyrlin, and loved Siuan's realization that they didn't get the puppet they were hoping for. Lastly, I love how Rand breaks his shield by the Aes Sedai from Tar Valon.</p>
+<p>We get introduced to the title of Asha'man. I continue to be leary of Mazrim Taim - he gives me the creeps, which I imagine he's supposed to. I didn't like the fact that the Asha'man didn't stop slaughtering the Shaido until <em>he</em> said something. The Shaido are annoying and I'm intrigued by this cube thing that Sevanna, but it makes my hackles rise as well. I love the concept of Rand hopping all over the place with gateways and feel bad for him being bonded by Alanna, only because it was without permission. My favorite pieces of the book are things I can't mention without spoiling some rather significant elements. Nynaeve healing gentling/stilling is awesome. I'm excited for Egwene becoming Amyrlin, and loved Siuan's realization that they didn't get the puppet they were hoping for. Lastly, I love how Rand breaks his shield by the Aes Sedai from Tar Valon.</p>
 <p>Honestly, I don't know why the weather makes as much of a difference as it seems to be making at this point in the series. It's one of those things I never am emotionally invested in, but I know is talked about a bunch.</p></div>
+<ul class="prior_next"><li class="prior">Prior: <a href="/book-reviews/the-fires-of-heaven#2015-07-27">The Fires of Heaven</a></li><li class="next">Next: <a href="/book-reviews/1776#2015-08-13">1776</a></li></ul>
+
 <div class="tags"><h3>Tags</h3>
 <ul>
 	<li class="audio_duration"><a href="/book-reviews/tags/audio">audio</a></li>

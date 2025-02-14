@@ -4,21 +4,163 @@
     <title>Sixth of the Dusk - Longboredsurfer.com</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <style>/* General */
+body {
+    margin: 0;
+    line-height: 1.5em;
+    color: #333333;
+    font-family: helvetica, arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+    line-height: 1.2em;
+    margin-top: 1em;
+}
+
+a:link, a:visited {
+    color: #0000e0;
+    text-decoration: none
+}
+
+a:hover, a:active {
+    color: #0000ff;
+    text-decoration: underline
+}
+
+
+/* Single column layout */
+nav section, header section, main, footer section {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0.5em;
+}
+
+
+/* Navigation panel */
+nav {
+    background: #333333;
+    border-bottom: thin solid #111111;
+    line-height: 3em;
+}
+
+nav a {
+    margin-right: 1em;
+}
+
+nav a:link, nav a:visited {
+    color: #cccccc;
+}
+
+nav a:hover, nav a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+    nav .links {
+        float: right;
+    }
+}
+
+
+/* Footer */
+footer {
+    background: #f0f0f0;
+    border-top: thin solid #e0e0e0;
+    margin-top: 2em;
+    padding: 1em 0;
+    box-shadow: 0 100vh 0 100vh #f0f0f0;
+    text-align: center;
+}
+
+footer section p {
+    font-size: 0.8em;
+}
+
+footer a {
+    margin-right: 1em;
+}
+
+footer a:last-child {
+    margin-right: 0;
+}
+
+
+/* Posts */
+article {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+article h2 a:link, article h2 a:visited,
+article h1 a:link, article h1 a:visited,
+.more:link, .more:visited {
+    color: #333333;
+}
+
+article h2 a:hover, article h2 a:active,
+article h1 a:hover, article h1 a:active,
+.more:hover, .more:active {
+    color: #777777;
+}
+
+p.meta {
+    margin-top: 0;
+    font-size: 0.8em;
+    color: #777777;
+    font-style: italic;
+}
+
+p.summary {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+div .more {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+
+/* RSS */
+.rss {
+    padding: 0.3em 0.35em;
+    border-radius: 0.25em;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+.rss:link, .rss:visited, .rss:hover, .rss:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.rss:link, .rss:visited {
+    background: #ff6600;
+}
+
+.rss:hover, .rss:active {
+    background: #ff8822;
+}
+</style>
 </head>
 <body id="sixth-of-the-dusk">
 <nav>
 <section>
     <span class="home">
         <a href="/">Home</a>
-    </span>
-    <span class="links">
-		<ul id="navigation">
-			<li><a href="/about">About</a></li>
-			<li><a href="/blog">Blog</a></li>
-			<li><a href="/links">Links</a></li>
-			<li><a href="/book-reviews">Book Reviews</a></li>
-		</ul>
+        <a href="/about">About</a>
+        <a href="/blog">Blog</a>
+        <a href="/links">Links</a>
+        <a href="/book-reviews">Book Reviews</a>
+        
     </span>
 </section>
 </nav>
@@ -26,12 +168,13 @@
 <article>
 <h1><a href="/book-reviews/sixth-of-the-dusk">Sixth of the Dusk</a></h1>
 <img src="cover.jpg" height="200" alt="Book cover for Sixth of the Dusk" class="book_cover"/>
-<p class="meta">Read on 2014-10-23</p>
+<p class="meta" id="2014-10-23">Read on 2014-10-23</p>
 <p class="stars">⭐️⭐️⭐️⭐️</p>
-<p class="format">Format: physical ()</p>
-<ul class="previous_next"><li class="previous">Previously: <a href="/book-reviews/david-and-goliath#2014-10-22">David and Goliath</a></li><li class="next">Next: <a href="/book-reviews/jonathan-strange-and-mr-norrell#2014-11-01">Jonathan Strange &amp; Mr Norrell</a></li></ul>
+<p class="format physical">Format: 📖 (66 pages)</p>
 <div class="content"><p>Save yourself from reading my whole review, and just <a href="http://www.amazon.com/gp/product/B00OME9TZC/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00OME9TZC&amp;linkCode=as2&amp;tag=thelongsurf-20&amp;linkId=3VIHDPSE4MW4WD6B">splurge on the $3</a> this ebook will cost you. If you don't like the book, let me know and I'll send you a hand-written apology.</p>
 <p>I read this in a day. I loved it, but can't give it five stars for the simple reason that it was SO short. Fine. I get it. You "don't like fantasy" novels. You like Harry Potter, however. That's fantasy, whether you like to admit it or not. This book isn't the typical epic fantasy style of knights on horses, wielding swords and magic. In fact, these island people don't have any magic, but predators hunt their prey by sensing their minds, and birds bestow talents/abilities on others. This book is done so well, in such a small amount of space.</p></div>
+<ul class="prior_next"><li class="prior">Prior: <a href="/book-reviews/david-and-goliath#2014-10-22">David and Goliath</a></li><li class="next">Next: <a href="/book-reviews/jonathan-strange-and-mr-norrell#2014-11-01">Jonathan Strange &amp; Mr Norrell</a></li></ul>
+
 
 </article>
 </main>

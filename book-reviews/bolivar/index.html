@@ -4,21 +4,163 @@
     <title>Bolivar - Longboredsurfer.com</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <style>/* General */
+body {
+    margin: 0;
+    line-height: 1.5em;
+    color: #333333;
+    font-family: helvetica, arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+    line-height: 1.2em;
+    margin-top: 1em;
+}
+
+a:link, a:visited {
+    color: #0000e0;
+    text-decoration: none
+}
+
+a:hover, a:active {
+    color: #0000ff;
+    text-decoration: underline
+}
+
+
+/* Single column layout */
+nav section, header section, main, footer section {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0.5em;
+}
+
+
+/* Navigation panel */
+nav {
+    background: #333333;
+    border-bottom: thin solid #111111;
+    line-height: 3em;
+}
+
+nav a {
+    margin-right: 1em;
+}
+
+nav a:link, nav a:visited {
+    color: #cccccc;
+}
+
+nav a:hover, nav a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+    nav .links {
+        float: right;
+    }
+}
+
+
+/* Footer */
+footer {
+    background: #f0f0f0;
+    border-top: thin solid #e0e0e0;
+    margin-top: 2em;
+    padding: 1em 0;
+    box-shadow: 0 100vh 0 100vh #f0f0f0;
+    text-align: center;
+}
+
+footer section p {
+    font-size: 0.8em;
+}
+
+footer a {
+    margin-right: 1em;
+}
+
+footer a:last-child {
+    margin-right: 0;
+}
+
+
+/* Posts */
+article {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+article h2 a:link, article h2 a:visited,
+article h1 a:link, article h1 a:visited,
+.more:link, .more:visited {
+    color: #333333;
+}
+
+article h2 a:hover, article h2 a:active,
+article h1 a:hover, article h1 a:active,
+.more:hover, .more:active {
+    color: #777777;
+}
+
+p.meta {
+    margin-top: 0;
+    font-size: 0.8em;
+    color: #777777;
+    font-style: italic;
+}
+
+p.summary {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+div .more {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+
+/* RSS */
+.rss {
+    padding: 0.3em 0.35em;
+    border-radius: 0.25em;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+.rss:link, .rss:visited, .rss:hover, .rss:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.rss:link, .rss:visited {
+    background: #ff6600;
+}
+
+.rss:hover, .rss:active {
+    background: #ff8822;
+}
+</style>
 </head>
 <body id="bolivar">
 <nav>
 <section>
     <span class="home">
         <a href="/">Home</a>
-    </span>
-    <span class="links">
-		<ul id="navigation">
-			<li><a href="/about">About</a></li>
-			<li><a href="/blog">Blog</a></li>
-			<li><a href="/links">Links</a></li>
-			<li><a href="/book-reviews">Book Reviews</a></li>
-		</ul>
+        <a href="/about">About</a>
+        <a href="/blog">Blog</a>
+        <a href="/links">Links</a>
+        <a href="/book-reviews">Book Reviews</a>
+        
     </span>
 </section>
 </nav>
@@ -26,12 +168,13 @@
 <article>
 <h1><a href="/book-reviews/bolivar">Bolivar</a></h1>
 <img src="cover.jpg" height="200" alt="Book cover for Bolivar" class="book_cover"/>
-<p class="meta">Read on 2022-03-14</p>
+<p class="meta" id="2022-03-14">Read on 2022-03-14</p>
 <p class="stars">⭐️⭐️⭐️</p>
-<p class="format">Format: audio (20 hours 11 minutes)</p>
-<ul class="previous_next"><li class="previous">Previously: <a href="/book-reviews/the-wednesday-wars#2022-02-24">The Wednesday Wars</a></li><li class="next">Next: <a href="/book-reviews/the-rosie-effect#2022-03-22">The Rosie Effect</a></li></ul>
+<p class="format audio">Format: 🎧 (20 hours 11 minutes)</p>
 <div class="content"><p>Bolívar seemed like an interesting and determined man, and clearly vital to the liberating of, what are now, several northern countries in South America. It's a shame that more of his vision wasn't grasped while he was alive, and that he wasn't heralded more during his dying years for what he did. It seems even more of a shame that his name is being used in modern times for things in direct contradiction to what The Liberator actually stood for. Regardless, his heroics seem to be truly remarkable, especially with the more complex issues of liberating and attempting to unite the varied peoples of South America.</p>
 <p>As for the book itself, it was a struggle at many points - potentially due to my total unfamiliarity with the players involved, as well as the more detailed geography they discussed at times. Unless you're really looking to dive into South American history, it's not one I would recommend.</p></div>
+<ul class="prior_next"><li class="prior">Prior: <a href="/book-reviews/the-wednesday-wars#2022-02-24">The Wednesday Wars</a></li><li class="next">Next: <a href="/book-reviews/the-rosie-effect#2022-03-22">The Rosie Effect</a></li></ul>
+
 <div class="tags"><h3>Tags</h3>
 <ul>
 	<li class="audio_duration"><a href="/book-reviews/tags/audio">audio</a></li>

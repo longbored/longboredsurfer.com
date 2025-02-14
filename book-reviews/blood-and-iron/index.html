@@ -4,21 +4,163 @@
     <title>Blood and Iron - Longboredsurfer.com</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <style>/* General */
+body {
+    margin: 0;
+    line-height: 1.5em;
+    color: #333333;
+    font-family: helvetica, arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+    line-height: 1.2em;
+    margin-top: 1em;
+}
+
+a:link, a:visited {
+    color: #0000e0;
+    text-decoration: none
+}
+
+a:hover, a:active {
+    color: #0000ff;
+    text-decoration: underline
+}
+
+
+/* Single column layout */
+nav section, header section, main, footer section {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0.5em;
+}
+
+
+/* Navigation panel */
+nav {
+    background: #333333;
+    border-bottom: thin solid #111111;
+    line-height: 3em;
+}
+
+nav a {
+    margin-right: 1em;
+}
+
+nav a:link, nav a:visited {
+    color: #cccccc;
+}
+
+nav a:hover, nav a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+    nav .links {
+        float: right;
+    }
+}
+
+
+/* Footer */
+footer {
+    background: #f0f0f0;
+    border-top: thin solid #e0e0e0;
+    margin-top: 2em;
+    padding: 1em 0;
+    box-shadow: 0 100vh 0 100vh #f0f0f0;
+    text-align: center;
+}
+
+footer section p {
+    font-size: 0.8em;
+}
+
+footer a {
+    margin-right: 1em;
+}
+
+footer a:last-child {
+    margin-right: 0;
+}
+
+
+/* Posts */
+article {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+article h2 a:link, article h2 a:visited,
+article h1 a:link, article h1 a:visited,
+.more:link, .more:visited {
+    color: #333333;
+}
+
+article h2 a:hover, article h2 a:active,
+article h1 a:hover, article h1 a:active,
+.more:hover, .more:active {
+    color: #777777;
+}
+
+p.meta {
+    margin-top: 0;
+    font-size: 0.8em;
+    color: #777777;
+    font-style: italic;
+}
+
+p.summary {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+div .more {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+
+/* RSS */
+.rss {
+    padding: 0.3em 0.35em;
+    border-radius: 0.25em;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+.rss:link, .rss:visited, .rss:hover, .rss:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.rss:link, .rss:visited {
+    background: #ff6600;
+}
+
+.rss:hover, .rss:active {
+    background: #ff8822;
+}
+</style>
 </head>
 <body id="blood-and-iron">
 <nav>
 <section>
     <span class="home">
         <a href="/">Home</a>
-    </span>
-    <span class="links">
-		<ul id="navigation">
-			<li><a href="/about">About</a></li>
-			<li><a href="/blog">Blog</a></li>
-			<li><a href="/links">Links</a></li>
-			<li><a href="/book-reviews">Book Reviews</a></li>
-		</ul>
+        <a href="/about">About</a>
+        <a href="/blog">Blog</a>
+        <a href="/links">Links</a>
+        <a href="/book-reviews">Book Reviews</a>
+        
     </span>
 </section>
 </nav>
@@ -26,11 +168,12 @@
 <article>
 <h1><a href="/book-reviews/blood-and-iron">Blood and Iron</a></h1>
 <img src="cover.jpg" height="200" alt="Book cover for Blood and Iron" class="book_cover"/>
-<p class="meta">Read on 2023-04-05</p>
+<p class="meta" id="2023-04-05">Read on 2023-04-05</p>
 <p class="stars">⭐️⭐️</p>
-<p class="format">Format: audio (8 hours 13 minutes)</p>
-<ul class="previous_next"><li class="previous">Previously: <a href="/book-reviews/the-blade-itself#2023-03-29">The Blade Itself</a></li><li class="next">Next: <a href="/book-reviews/the-frugal-wizards-handbook-for-surviving-medieval-england#2023-04-07">The Frugal Wizard&#39;s Handbook for Surviving Medieval England</a></li></ul>
+<p class="format audio">Format: 🎧 (8 hours 13 minutes)</p>
 <div class="content"><p>I find that I don't care as much about this era of German history as I thought I would. I don't know if that's an indication of how well (or not) the book was written. Despite making it through the entire book, I found I couldn't be made to care very much about the events and participants. I went in hoping for more insight into how Germany as a nation could get to where things were pre-WWII, and I didn't really get that from this book. What was obvious to me was that people got greedy and power hungry, and ruined it for everybody else, no matter how messed up their constitutional monarchy seemed to be. While it's possible the events themselves were boring, I suspect this book simply failed at the job of capturing my attention sufficiently.</p></div>
+<ul class="prior_next"><li class="prior">Prior: <a href="/book-reviews/the-blade-itself#2023-03-29">The Blade Itself</a></li><li class="next">Next: <a href="/book-reviews/the-frugal-wizards-handbook-for-surviving-medieval-england#2023-04-07">The Frugal Wizard&#39;s Handbook for Surviving Medieval England</a></li></ul>
+
 <div class="tags"><h3>Tags</h3>
 <ul>
 	<li class="audio_duration"><a href="/book-reviews/tags/audio">audio</a></li>	<li><a href="/book-reviews/tags/wwii">wwii</a></li>

@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width">
-    <style>/* General */
+    <style>
+		/* General */
 		body {
 			margin: 0;
 			line-height: 1.5em;
 			color: #333333;
 			font-family: helvetica, arial, sans-serif;
+			background-color: #F2F7F9;
 		}
 		img {
 			max-width: 75%;
@@ -22,11 +24,11 @@
 			margin-top: 1em;
 		}
 		a:link, a:visited {
-			color: #0000e0;
+			color: #2B91AD;
 			text-decoration: none
 		}
 		a:hover, a:active {
-			color: #0000ff;
+			color: #1F677A;
 			text-decoration: underline
 		}
 		/* Single column layout */
@@ -38,19 +40,25 @@
 		}
 		/* Navigation panel */
 		nav {
-			background: #333333;
-			border-bottom: thin solid #111111;
+			background: #D3DDEA;
+			border-bottom: thin solid #FFB58A;
 			line-height: 3em;
 		}
 		nav a {
-			margin-right: 1em;
+			padding-left: .5em;
+			padding-right: .5em;
+			display: inline-block;
 		}
 		nav a:link, nav a:visited {
-			color: #cccccc;
+			color: #2B91AD;
 		}
-		nav a:hover, nav a:active {
-			color: #ffffff;
+		nav a:hover, nav a:active, nav a.home:hover, nav a.home:active {
+			color: #1F677A;
+			background-color: #FFB58A;
 			text-decoration: none;
+		}
+		nav a.home {
+			background: #F6C7AC;
 		}
 		@media screen and (min-width: 600px) {
 			nav .links {
@@ -59,11 +67,10 @@
 		}
 		/* Footer */
 		footer {
-			background: #f0f0f0;
-			border-top: thin solid #e0e0e0;
-			margin-top: 2em;
+			background: #CDECEF;
+			border-top: thin solid #FFB58A;
 			padding: 1em 0;
-			box-shadow: 0 100vh 0 100vh #f0f0f0;
+			box-shadow: 0 100vh 0 100vh #F2F7F9;
 			text-align: center;
 		}
 		footer section p {
@@ -77,18 +84,18 @@
 		}
 		/* Posts */
 		article {
-			margin-top: 1em;
-			margin-bottom: 1em;
+			padding: 1em;
+			background-color: #FFFFFF;
 		}
 		article h2 a:link, article h2 a:visited,
 		article h1 a:link, article h1 a:visited,
 		.more:link, .more:visited {
-			color: #333333;
+			color: #1F677A;
 		}
 		article h2 a:hover, article h2 a:active,
 		article h1 a:hover, article h1 a:active,
 		.more:hover, .more:active {
-			color: #777777;
+			color: #FFB58A;
 		}
 		p.meta {
 			margin-top: 0;
@@ -100,9 +107,31 @@
 			margin-top: 0.25em;
 			margin-bottom: 0.25em;
 		}
+		ul.review {
+			list-style-type: none;
+			margin: .5em;
+			padding: .5em;
+			text-align: center;
+			border-top: thin solid #FFB58A;
+		}
+		ul.review li {
+			display: inline-block;
+		}
+		ul li.read-date {
+			float:left;
+		}
+		ul li.format {
+			float:right;
+		}
 		div .more {
 			margin-top: 0;
 			font-weight: bold;
+		}
+		div.review_spacer {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 3em;
 		}
 		ul.prior_next {
 			list-style-type: none;
@@ -145,14 +174,13 @@
 		}
 		.rss:hover, .rss:active {
 			background: #ff8822;
-		}
-		</style>
+		}</style>
 </head>
 <body id="alcatraz-versus-the-evil-librarians">
 <nav>
 <section>
     <span class="home">
-        <a href="/">Home</a>
+        <a href="/" class="home">LongboredSurfer.com</a>
         <a href="/about">About</a>
         <a href="/blog">Blog</a>
         <a href="/links">Links</a>
@@ -165,9 +193,7 @@
 	<article>
 	<h1><a href="/book-reviews/alcatraz-versus-the-evil-librarians">Alcatraz Versus the Evil Librarians</a></h1>
 	<img src="cover.jpg" height="200" alt="Book cover for Alcatraz Versus the Evil Librarians" class="book_cover"/>
-	<p class="meta" id="2011-02-05">Read on 2011-02-05</p>
-	<p class="stars">⭐️⭐️⭐️</p>
-	<p class="format physical">Format: 📖 (308 pages)</p>
+	<ul class="review" id="2011-02-05"><li class="read-date">Read on 2011-02-05</li><li class="stars">Rating: <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='18px' width='21px'><text x='0' y='17' font-size='0.8 em' opacity='1'>⭐️</text></svg>️<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='18px' width='21px'><text x='0' y='17' font-size='0.8 em' opacity='1'>⭐️</text></svg>️<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='18px' width='21px'><text x='0' y='17' font-size='0.8 em' opacity='1'>⭐️</text></svg>️<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='18px' width='21px'><text x='0' y='17' font-size='0.8 em' opacity='0.2'>⭐️</text></svg>️<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='18px' width='21px'><text x='0' y='17' font-size='0.8 em' opacity='0.2'>⭐️</text></svg>️</li><li class="format physical">Format: 📖 (308 pages)</li></ul>
 	<div class="content"><p>I thoroughly enjoyed this book (though my rating wouldn't show it). I liked the playful style and informal feel of the book. I imagine it would be perfect for the target audience (teens), and for that alone, I need to rate it lower for adults. Lots of unknowns and it felt a bit rushed. Despite that, it's a great Sanderson book.</p>
 </div>
 	<ul class="prior_next">
@@ -175,9 +201,7 @@
 		<li class="next">Next: <a href="/book-reviews/dead-or-alive#2011-03-03">Dead or Alive</a></li>
 	</ul>
 	<div class="review_spacer"> </div>
-	<p class="meta" id="2018-09-03">Read on 2018-09-03</p>
-	<p class="stars">⭐️⭐️⭐️⭐️</p>
-	<p class="format audio">Format: 🎧 (6 hours 55 minutes)</p>
+	<ul class="review" id="2018-09-03"><li class="read-date">Read on 2018-09-03</li><li class="stars">Rating: <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='18px' width='21px'><text x='0' y='17' font-size='0.8 em' opacity='1'>⭐️</text></svg>️<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='18px' width='21px'><text x='0' y='17' font-size='0.8 em' opacity='1'>⭐️</text></svg>️<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='18px' width='21px'><text x='0' y='17' font-size='0.8 em' opacity='1'>⭐️</text></svg>️<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='18px' width='21px'><text x='0' y='17' font-size='0.8 em' opacity='1'>⭐️</text></svg>️<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='18px' width='21px'><text x='0' y='17' font-size='0.8 em' opacity='0.2'>⭐️</text></svg>️</li><li class="format audio">Format: 🎧 (6 hours 55 minutes)</li></ul>
 	<div class="content"><h3>Second Review</h3>
 <p>These are fun books - they don't take themselves too seriously... or maybe we're the ones not taking the books seriously enough. This book points out the twisted goal of the librarians in the world, who control the world's information, to suppress the knowledge of additional continents, technology, abilities, and even history. The main character (Alcatraz), along with those in his family, has an interesting super power - the ability to break things. Maybe it's better than his grandfather's ability - that of arriving late. Who knows? Regardless, read on to discover the real story of what's going on... or keep thinking this book is "fantasy".</p>
 <p>Really though, I would have really enjoyed these books as a teenager. As an adult, they're still entertaining. They have a unique writing style (of the autobiographical narrator interacting with the reader), and the narrator has a fun sense of humor.</p></div>

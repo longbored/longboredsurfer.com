@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width">
-    <style>/* General */
+    <style>
+		/* General */
 		body {
 			margin: 0;
 			line-height: 1.5em;
 			color: #333333;
 			font-family: helvetica, arial, sans-serif;
+			background-color: #F2F7F9;
 		}
 		img {
 			max-width: 75%;
@@ -22,11 +24,11 @@
 			margin-top: 1em;
 		}
 		a:link, a:visited {
-			color: #0000e0;
+			color: #2B91AD;
 			text-decoration: none
 		}
 		a:hover, a:active {
-			color: #0000ff;
+			color: #1F677A;
 			text-decoration: underline
 		}
 		/* Single column layout */
@@ -38,19 +40,25 @@
 		}
 		/* Navigation panel */
 		nav {
-			background: #333333;
-			border-bottom: thin solid #111111;
+			background: #D3DDEA;
+			border-bottom: thin solid #FFB58A;
 			line-height: 3em;
 		}
 		nav a {
-			margin-right: 1em;
+			padding-left: .5em;
+			padding-right: .5em;
+			display: inline-block;
 		}
 		nav a:link, nav a:visited {
-			color: #cccccc;
+			color: #2B91AD;
 		}
-		nav a:hover, nav a:active {
-			color: #ffffff;
+		nav a:hover, nav a:active, nav a.home:hover, nav a.home:active {
+			color: #1F677A;
+			background-color: #FFB58A;
 			text-decoration: none;
+		}
+		nav a.home {
+			background: #F6C7AC;
 		}
 		@media screen and (min-width: 600px) {
 			nav .links {
@@ -59,11 +67,10 @@
 		}
 		/* Footer */
 		footer {
-			background: #f0f0f0;
-			border-top: thin solid #e0e0e0;
-			margin-top: 2em;
+			background: #CDECEF;
+			border-top: thin solid #FFB58A;
 			padding: 1em 0;
-			box-shadow: 0 100vh 0 100vh #f0f0f0;
+			box-shadow: 0 100vh 0 100vh #F2F7F9;
 			text-align: center;
 		}
 		footer section p {
@@ -77,18 +84,18 @@
 		}
 		/* Posts */
 		article {
-			margin-top: 1em;
-			margin-bottom: 1em;
+			padding: 1em;
+			background-color: #FFFFFF;
 		}
 		article h2 a:link, article h2 a:visited,
 		article h1 a:link, article h1 a:visited,
 		.more:link, .more:visited {
-			color: #333333;
+			color: #1F677A;
 		}
 		article h2 a:hover, article h2 a:active,
 		article h1 a:hover, article h1 a:active,
 		.more:hover, .more:active {
-			color: #777777;
+			color: #FFB58A;
 		}
 		p.meta {
 			margin-top: 0;
@@ -100,9 +107,31 @@
 			margin-top: 0.25em;
 			margin-bottom: 0.25em;
 		}
+		ul.review {
+			list-style-type: none;
+			margin: .5em;
+			padding: .5em;
+			text-align: center;
+			border-top: thin solid #FFB58A;
+		}
+		ul.review li {
+			display: inline-block;
+		}
+		ul li.read-date {
+			float:left;
+		}
+		ul li.format {
+			float:right;
+		}
 		div .more {
 			margin-top: 0;
 			font-weight: bold;
+		}
+		div.review_spacer {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 3em;
 		}
 		ul.prior_next {
 			list-style-type: none;
@@ -145,14 +174,13 @@
 		}
 		.rss:hover, .rss:active {
 			background: #ff8822;
-		}
-		</style>
+		}</style>
 </head>
 <body id="ready-player-one">
 <nav>
 <section>
     <span class="home">
-        <a href="/">Home</a>
+        <a href="/" class="home">LongboredSurfer.com</a>
         <a href="/about">About</a>
         <a href="/blog">Blog</a>
         <a href="/links">Links</a>
@@ -165,9 +193,7 @@
 	<article>
 	<h1><a href="/book-reviews/ready-player-one">Ready Player One</a></h1>
 	<img src="cover.jpg" height="200" alt="Book cover for Ready Player One" class="book_cover"/>
-	<p class="meta" id="2013-09-09">Read on 2013-09-09</p>
-	<p class="stars">⭐️⭐️⭐️⭐️</p>
-	<p class="format audio">Format: 🎧 (15 hours 40 minutes)</p>
+	<ul class="review" id="2013-09-09"><li class="read-date">Read on 2013-09-09</li><li class="stars">Rating: <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='18px' width='21px'><text x='0' y='17' font-size='0.8 em' opacity='1'>⭐️</text></svg>️<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='18px' width='21px'><text x='0' y='17' font-size='0.8 em' opacity='1'>⭐️</text></svg>️<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='18px' width='21px'><text x='0' y='17' font-size='0.8 em' opacity='1'>⭐️</text></svg>️<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='18px' width='21px'><text x='0' y='17' font-size='0.8 em' opacity='1'>⭐️</text></svg>️<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='18px' width='21px'><text x='0' y='17' font-size='0.8 em' opacity='0.2'>⭐️</text></svg>️</li><li class="format audio">Format: 🎧 (15 hours 40 minutes)</li></ul>
 	<div class="content"><p>I <em>really</em> enjoyed this book. I would have liked it even more if I were an 80's super fan (both pop and tech culture), so I could fully appreciate all of the references. As it is, I'm geeky enough that I could enjoy it. I would think that this book would appeal to anybody who is an 80's fan or a computer fan or a video game fan.</p>
 <p>In 2044 the world has devolved into a world filled with people addicted to a virtual reality world called the OASIS. The creator of said world (now the richest man in the real world) dies, and has no heir. In his last will and testament, he has left his company and money to the winner of a simple contest - find the Easter Egg in his virtual world. A massive hunt ensues, which is only accomplished by being an expert of 80's pop and tech culture (the decade most beloved by the game/world's creator). This book follows the endeavors of Wade/Parzival, one of the Easter Egg Hunters or "gunters".</p>
 </div>
@@ -176,9 +202,7 @@
 		<li class="next">Next: <a href="/book-reviews/steve-jobs#2013-09-17">Steve Jobs</a></li>
 	</ul>
 	<div class="review_spacer"> </div>
-	<p class="meta" id="2018-04-05">Read on 2018-04-05</p>
-	<p class="stars">⭐️⭐️⭐️⭐️</p>
-	<p class="format audio">Format: 🎧 (15 hours 40 minutes)</p>
+	<ul class="review" id="2018-04-05"><li class="read-date">Read on 2018-04-05</li><li class="stars">Rating: <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='18px' width='21px'><text x='0' y='17' font-size='0.8 em' opacity='1'>⭐️</text></svg>️<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='18px' width='21px'><text x='0' y='17' font-size='0.8 em' opacity='1'>⭐️</text></svg>️<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='18px' width='21px'><text x='0' y='17' font-size='0.8 em' opacity='1'>⭐️</text></svg>️<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='18px' width='21px'><text x='0' y='17' font-size='0.8 em' opacity='1'>⭐️</text></svg>️<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='18px' width='21px'><text x='0' y='17' font-size='0.8 em' opacity='0.2'>⭐️</text></svg>️</li><li class="format audio">Format: 🎧 (15 hours 40 minutes)</li></ul>
 	<div class="content"><h3>Second Review</h3>
 <p>I revisited this book in hopes of seeing the movie - not that I expect the two to be similar at all. I continue to enjoy the book. It's flawed, unrealistic, and a grim dystopian view of one of society's potential paths... but it's science fiction. I miss many of the cultural references, but that doesn't get in the way of enjoying the story. I've formed numerous friendships with people online. Although meeting them in person is always a unique experience, many of those friendships easily carry to the real world, and I'm glad that element is represented in this book.</p></div>
 	<ul class="prior_next">

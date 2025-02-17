@@ -191,10 +191,10 @@
 </nav>
 <main>
 	
-<article>
-<h1><a href="/blog/20060201-dynamic-publishing-and-php">Dynamic Publishing and PHP</a></h1>
-<p class="meta">Published on 2006-02-01 by <b>Pedro</b></p>
-<p>Not that anybody will care about this article, except maybe one or two people, I still wanted to document how I got this site working on PHP, and technically able to dynamically run. I'd like to tell you that it was just as easy as SixApart/Movable Type made it out to be, but that's not the case.</p>
+<article class="blog">
+	<h1><a href="/blog/20060201-dynamic-publishing-and-php">Dynamic Publishing and PHP</a></h1>
+	<p class="meta">Published on 2006-02-01 by <b>Pedro</b></p>
+	<p>Not that anybody will care about this article, except maybe one or two people, I still wanted to document how I got this site working on PHP, and technically able to dynamically run. I'd like to tell you that it was just as easy as SixApart/Movable Type made it out to be, but that's not the case.</p>
 <p>Let me compile for you the following list of pages that I originally found, which helped in a round about way to figured out my problems with dynamic publishing, as well as a successful implementation of PHP:</p>
 <ul>
 <li><a href="http://www.movalog.com/archives/dynamic">Movalog - Dynamic Publishing</a></li>
@@ -219,11 +219,16 @@ I did a little Google slueth work, and came up with some files that needed to be
 <p>Smarty Errors. <a href="http://www.movalog.com/archives/dynamic/troubleshooting-smarty-errors">This article</a> helped me out from here. The problem I had was unrecognized tags. Of all things it was telling me that the \&lt;MTBlogURL&gt; tag wasn't recognized. Since my blog is located in this site root, I swapped out that tag to just go to the site root... no special tag required. After that, I was sailing smooth. My index page finally showed up. My articles were showing up. I had some custom templates that I had created that weren't quite up to snuff yet. Come to find out, on those it was doubling up on the file extensions. So it was having story_name.php.php. A little tweak in the publishing settings, and that was fixed. My archives were a little off, but I refreshed their content, and that was all fixed.</p>
 <p>I ended up deciding against dynamic publishing, for the most part. My database was just getting way too hammered and wasn't able to generate the pages nearly as quickly as the static pages could be served up. I didn't really have a problem with the rebuild time that is required for the site as a whole, plus I don't get very many visitors to the site overall. Static publishing works just fine for me.</p>
 <p>So, despite this article, or the simplicity that some of SixAparts make it sound, I tried to make this happen on at 4 separate occasions. Thanks to a bit of spare time on my hands, and immense patience, it ended up working out to my benefit. My thanks to <a href="http://movalog.com/">Movalog</a> for providing the most insight to this 'painless' process.</p>
-
-<ul class="prior_next">
-<li class="prior">Prior: <a href="/blog/manu-es-el-hombre">Manu es el Hombre</a></li>
-<li class="next">Next: <a href="/blog/room-rearrangments">Room Rearrangments</a>
-</ul>
+	
+	<div class="tags"><h3>Tags</h3>
+		<ul>
+			<li><a href="/blog/tags/blogging">blogging</a></li>
+		</ul>
+	</div>
+	<ul class="prior_next">
+		<li class="prior">Prior: <a href="/blog/manu-es-el-hombre">Manu es el Hombre</a></li>
+		<li class="next">Next: <a href="/blog/room-rearrangments">Room Rearrangments</a>
+	</ul>
 </article>
 
 </main>

@@ -148,6 +148,7 @@ ul.prior_next li.prior{
 
 ul.prior_next li.next{
 	float: right;
+	text-align: right;
 }
 
 img.book_cover, article.link img {

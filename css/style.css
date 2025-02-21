@@ -1,11 +1,15 @@
-
 /* General */
+@font-face {
+  font-family: BerkeleyMono;
+  src: url('/css/BerkeleyMono-Regular.woff2') format('woff2'),
+	url('/css/BerkeleyMono-Regular.woff') format('woff');
+}
 body {
 	margin: 0;
 	line-height: 1.5em;
 	color: #333333;
-	font-family: helvetica, arial, sans-serif;
 	background-color: #F2F7F9;
+	font-family: 'BerkeleyMono', monospace;
 }
 img {
 	max-width: 75%;
@@ -119,10 +123,10 @@ ul li.read-date {
 ul li.format {
 	float:right;
 }
-tr.odd {
+tr.even {
 	background-color: #F2F7F9;
 }
-tr.even {
+tr.odd {
 	background-color: #FFFFFF;
 }
 tr.header {

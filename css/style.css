@@ -4,11 +4,25 @@
   src: url('/css/BerkeleyMono-Regular.woff2') format('woff2'),
     url('/css/BerkeleyMono-Regular.woff') format('woff');
 }
+:root {
+	--blue0: #F2F7F9;
+	--blue1: #D3DDEA;
+	--blue2: #CDECEF;
+	--blue3: #2B91AD;
+	--blue4: #1F677A;
+	--orange1: #F6C7AC;
+	--orange2: #FFB58A;
+	--orange3: #ff8822;
+	--orange4: #ff6600;
+	--white: #FFFFFF;
+	--gray1: #777777;
+	--gray2: #333333;
+
+}
 body {
 	margin: 0;
 	line-height: 1.5em;
-	color: #333333;
-	background-color: #F2F7F9;
+	color: var(--gray2);
 	font-family: 'BerkeleyMono', monospace;
 }
 img {
@@ -17,32 +31,32 @@ img {
 }
 h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 0;
-	line-height: 1.2em;
-	margin-top: 1em;
+	line-height: 1em;
+	margin-top: .5em;
 }
 h1 span.subtitle {
 	font-size: 0.75em;
 }
 a:link, a:visited {
-	color: #2B91AD;
+	color: var(--blue3);
 	text-decoration: none
 }
 a:hover, a:active {
-	color: #1F677A;
+	color: var(--blue4);
 	text-decoration: underline
 }
 /* Single column layout */
 nav section, header section, main, footer section {
-	max-width: 40em;
+	max-width: 50em;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 0 0.5em;
+	padding: 0;
 }
 /* Navigation panel */
 nav {
-	background: #D3DDEA;
-	border-bottom: thin solid #FFB58A;
-	line-height: 3em;
+	background: var(--blue1);
+	border-bottom: thin solid var(--orange2);
+	line-height: 2em;
 }
 nav a {
 	padding-left: .5em;
@@ -50,15 +64,15 @@ nav a {
 	display: inline-block;
 }
 nav a:link, nav a:visited, div.tags ul li a:link, div.tags ul li a:visited {
-	color: #2B91AD;
+	color: var(--blue3);
 }
 nav a:hover, nav a:active, nav a.home:hover, nav a.home:active, div.tags ul li a:hover, div.tags ul li a:active {
-	color: #1F677A;
-	background-color: #FFB58A;
+	color: var(--blue4);
+	background-color: var(--orange2);
 	text-decoration: none;
 }
 nav a.home {
-	background: #F6C7AC;
+	background: var(--orange1);
 }
 @media screen and (min-width: 600px) {
 	nav .links {
@@ -67,10 +81,9 @@ nav a.home {
 }
 /* Footer */
 footer {
-	background: #CDECEF;
-	border-top: thin solid #FFB58A;
-	padding: 1em 0;
-	box-shadow: 0 100vh 0 100vh #F2F7F9;
+	background: var(--blue2);
+	border-top: thin solid var(--orange2);
+	padding: .25em 0;
 	text-align: center;
 }
 footer section p {
@@ -85,22 +98,22 @@ footer a:last-child {
 /* Posts */
 article {
 	padding: 1em;
-	background-color: #FFFFFF;
+	background-color: var(--blue0);
 }
 article h2 a:link, article h2 a:visited,
 article h1 a:link, article h1 a:visited,
 .more:link, .more:visited {
-	color: #1F677A;
+	color: var(--blue4);
 }
 article h2 a:hover, article h2 a:active,
 article h1 a:hover, article h1 a:active,
 .more:hover, .more:active {
-	color: #FFB58A;
+	color: var(--orange2);
 }
 p.meta {
 	margin-top: 0;
 	font-size: 0.8em;
-	color: #777777;
+	color: var(--gray1);
 	font-style: italic;
 }
 p.summary {
@@ -112,7 +125,7 @@ ul.review {
 	margin: .5em;
 	padding: .5em;
 	text-align: center;
-	border-top: thin solid #FFB58A;
+	border-top: thin solid var(--orange2);
 }
 ul.review li {
 	display: inline-block;
@@ -124,13 +137,13 @@ ul li.format {
 	float:right;
 }
 tr.even {
-	background-color: #F2F7F9;
+	background-color: var(--blue0);
 }
 tr.odd {
-	background-color: #FFFFFF;
+	background-color: var(--white);
 }
 tr.header {
-	background-color: #D3DDEA;
+	background-color: var(--blue1);
 }
 div .more {
 	margin-top: 0;
@@ -146,13 +159,14 @@ div.tags ul, ul.prior_next {
 
 div.tags ul li {
 	display: inline;
-	background: #F6C7AC;
+	background: var(--orange1);
 	padding: .25em;
 }
 
 ul.prior_next li {
 	display: inline;
 	width: 50%;
+	padding-bottom: 2em;
 }
 
 ul.prior_next li.prior{
@@ -170,6 +184,10 @@ img.book_cover, article.link img {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+img.book_cover {
+	max-height: 400px;
+}
 /* RSS */
 .rss {
 	padding: 0.3em 0.35em;
@@ -178,12 +196,12 @@ img.book_cover, article.link img {
 	font-weight: bold;
 }
 .rss:link, .rss:visited, .rss:hover, .rss:active {
-	color: #ffffff;
+	color: var(--white);
 	text-decoration: none;
 }
 .rss:link, .rss:visited {
-	background: #ff6600;
+	background: var(--orange4);
 }
 .rss:hover, .rss:active {
-	background: #ff8822;
+	background: var(--orange3);
 }

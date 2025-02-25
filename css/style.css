@@ -145,9 +145,10 @@ article.blog img {
 	display: block;
 	margin: auto;
 }
-article.link img {
+article.links img {
 	padding: .2em;
 	border: thin dashed var(--orange2);
+	max-width: 30em;
 }
 p.meta {
 	margin-top: 0;
@@ -271,17 +272,17 @@ article.links img {
 img.book_cover {
 	max-height: 400px;
 }
-article.links img {
-	max-width: 30em;
-}
+
 img[src*="#image_right"] {
 	float: right;
 	margin-left: 1em;
 }
+
 img[src*="#image_left"] {
 	float: left;
 	margin-right: 1em;
 }
+
 /* RSS */
 .rss {
 	padding: 0.3em 0.35em;

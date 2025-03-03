@@ -1,0 +1,84 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<!-- written by hand in python because why not-->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>LongboredSurfer Link Feed</title>
+<link>https://longboredsurfer.com/links/</link>
+<atom:link href="https://longboredsurfer.com/links/atom.xml" rel="self" type="application/rss+xml" />
+<description>The RSS feed for LongboredSurfer.com's link entries.</description>
+<language>en-us</language>
+<pubDate>Tue, 31 Aug 2021 00:00:00 -0600</pubDate>
+<docs>https://longboredsurfer.com/links/atom.xml</docs>
+<generator>https://longboredsurfer.com</generator>
+<item>
+<title>Playdate Pulp</title>
+<link>https://longboredsurfer.com/links/playdate-pulp</link>
+<description>I'm a fan of Panic, and Shaun Inman. I've preordered a Playdate, but have also enjoyed watching this...</description>
+<pubDate>Tue, 31 Aug 2021 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/links/playdate-pulp</guid>
+</item>
+<item>
+<title>Follow Him</title>
+<link>https://longboredsurfer.com/links/follow-him</link>
+<description>This year I'm determined to really dive into Doctrine &amp; Covenants. This podcast has sure helped brin...</description>
+<pubDate>Thu, 04 Feb 2021 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/links/follow-him</guid>
+</item>
+<item>
+<title>Mini Modern House</title>
+<link>https://longboredsurfer.com/links/mini-modern-house</link>
+<description>An incredible mini house, with so many details all over the place. Composed at 1/12 scale. Look thro...</description>
+<pubDate>Mon, 01 Feb 2021 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/links/mini-modern-house</guid>
+</item>
+<item>
+<title>And The Writer Is... Jon Bellion</title>
+<link>https://longboredsurfer.com/links/and-the-writer-is-jon-bellion</link>
+<description>Jon Bellion is relatively new (and unknown) to me. I've enjoyed a number of his songs, and knew noth...</description>
+<pubDate>Thu, 28 Jan 2021 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/links/and-the-writer-is-jon-bellion</guid>
+</item>
+<item>
+<title>The New Sketch Icon</title>
+<link>https://longboredsurfer.com/links/the-new-sketch-icon</link>
+<description>I love the look inside a redesign process like this. Sometimes they're filled with fluff, but I stil...</description>
+<pubDate>Thu, 28 Jan 2021 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/links/the-new-sketch-icon</guid>
+</item>
+<item>
+<title>Red River Clothing Company</title>
+<link>https://longboredsurfer.com/links/red-river-clothing-company</link>
+<description>If you've ever lived in Texas, it feels like the state pride stays with you forever. Yellow roses, s...</description>
+<pubDate>Thu, 28 Jan 2021 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/links/red-river-clothing-company</guid>
+</item>
+<item>
+<title>Simon C. Page</title>
+<link>https://longboredsurfer.com/links/simon-c-page</link>
+<description>Craig Hockenberry shared a screenshot at some point, and I loved the design he had. Turns out it was...</description>
+<pubDate>Wed, 27 Jan 2021 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/links/simon-c-page</guid>
+</item>
+<item>
+<title>33 Things I Stole From People Smarter Than Me</title>
+<link>https://longboredsurfer.com/links/things-i-stole-from-people-smarter-than-me</link>
+<description>It's a great list, with several things I've totally stolen for myself, and lots of links worth click...</description>
+<pubDate>Wed, 27 Jan 2021 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/links/things-i-stole-from-people-smarter-than-me</guid>
+</item>
+<item>
+<title>Distance Gaming Guide</title>
+<link>https://longboredsurfer.com/links/distance-gaming-guide</link>
+<description>Despite the pandemic and encouraged isolation, I've been able to play games with others. BoardGameGe...</description>
+<pubDate>Wed, 27 Jan 2021 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/links/distance-gaming-guide</guid>
+</item>
+<item>
+<title>8 Logical Fallacies that Mess Us All Up</title>
+<link>https://longboredsurfer.com/links/logical-fallacies-that-mess-us-all-up</link>
+<description>I took a "Critical Thinking" course at some point in college, and it felt like the majority of the c...</description>
+<pubDate>Wed, 27 Jan 2021 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/links/logical-fallacies-that-mess-us-all-up</guid>
+</item>
+</channel>
+</rss>

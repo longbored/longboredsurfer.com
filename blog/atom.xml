@@ -1,0 +1,84 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<!-- written by hand in python because why not-->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>LongboredSurfer Blog Feed</title>
+<link>https://longboredsurfer.com/blog/</link>
+<atom:link href="https://longboredsurfer.com/blog/atom.xml" rel="self" type="application/rss+xml" />
+<description>The RSS feed for LongboredSurfer.com's blog entries.</description>
+<language>en-us</language>
+<pubDate>Sat, 09 Mar 2019 00:00:00 -0700</pubDate>
+<docs>https://longboredsurfer.com/blog/atom.xml</docs>
+<generator>https://longboredsurfer.com</generator>
+<item>
+<title>Making a Record for the Fisher Price Record Player</title>
+<link>https://longboredsurfer.com/blog/making-a-record-for-the-fisher-price-record-player</link>
+<description>A while ago I linked to an Instructable on how to create your own Fisher Price record. For Christmas...</description>
+<pubDate>Sat, 09 Mar 2019 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/blog/making-a-record-for-the-fisher-price-record-player</guid>
+</item>
+<item>
+<title>G2 20190214</title>
+<link>https://longboredsurfer.com/blog/g2-20190214</link>
+<description>I made a new G2 album. I'm not going into a full write-up on it, but I still wanted to share.  You c...</description>
+<pubDate>Thu, 14 Feb 2019 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/blog/g2-20190214</guid>
+</item>
+<item>
+<title>Super Mario World Skull Platform Lava Sprites</title>
+<link>https://longboredsurfer.com/blog/super-mario-world-skull-platform-lava-sprites</link>
+<description>I couldn't find the sprites for a certain type of lava from Super Mario World anywhere on the intern...</description>
+<pubDate>Tue, 12 Apr 2016 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/blog/super-mario-world-skull-platform-lava-sprites</guid>
+</item>
+<item>
+<title>Wii Hacking Links</title>
+<link>https://longboredsurfer.com/blog/wii-hacking-links</link>
+<description>Years ago I hacked my Wii, and I was/am thrilled with it. I have no interest in pirating games, but ...</description>
+<pubDate>Sun, 06 Mar 2016 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/blog/wii-hacking-links</guid>
+</item>
+<item>
+<title>I Shure Love These Earphones</title>
+<link>https://longboredsurfer.com/blog/i-shure-love-these-earphones</link>
+<description>The other night I was asked if I had a recommendation for earphones, and after gushing about a pair ...</description>
+<pubDate>Mon, 07 Sep 2015 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/blog/i-shure-love-these-earphones</guid>
+</item>
+<item>
+<title>Zelda Cross Stitch</title>
+<link>https://longboredsurfer.com/blog/zelda-cross-stitch</link>
+<description>Last night I finished cross stitching this. I didn't measure, but I think it took me around five hou...</description>
+<pubDate>Tue, 07 Jan 2014 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/blog/zelda-cross-stitch</guid>
+</item>
+<item>
+<title>G2 20120807</title>
+<link>https://longboredsurfer.com/blog/g2-20120807</link>
+<description>As I barely just talked about, I've created another G2 music mix for Mary, because it's been a while...</description>
+<pubDate>Tue, 07 Aug 2012 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/blog/g2-20120807</guid>
+</item>
+<item>
+<title>(G2) 20111012</title>
+<link>https://longboredsurfer.com/blog/g2-20111012</link>
+<description>I'm obviously really delayed in making this entry, but the following entry will show why I needed to...</description>
+<pubDate>Tue, 07 Aug 2012 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/blog/g2-20111012</guid>
+</item>
+<item>
+<title>20110214</title>
+<link>https://longboredsurfer.com/blog/20110214</link>
+<description>I've been quiet on my blog. I blame Twitter. I'm not sure I've ever waited four months to finally te...</description>
+<pubDate>Fri, 17 Jun 2011 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/blog/20110214</guid>
+</item>
+<item>
+<title>﻿Title: Horror Vacui 2&#39;s Mimeoverse Easter Egg</title>
+<link>https://longboredsurfer.com/blog/horror-vacui-2s-mimeoverse-easter-egg</link>
+<description>Shaun Inman (an immensely brilliant person, who I have nothing to do with (besides buying everything...</description>
+<pubDate>Mon, 20 Dec 2010 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/blog/horror-vacui-2s-mimeoverse-easter-egg</guid>
+</item>
+</channel>
+</rss>

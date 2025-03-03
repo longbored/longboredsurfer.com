@@ -1,0 +1,84 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<!-- written by hand in python because why not-->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>LongboredSurfer Book Review Feed</title>
+<link>https://longboredsurfer.com/book-reviews/</link>
+<atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
+<description>The RSS feed for LongboredSurfer.com's book reviews.</description>
+<language>en-us</language>
+<pubDate>Wed, 12 Feb 2025 00:00:00 -0700</pubDate>
+<docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
+<generator>https://longboredsurfer.com</generator>
+<item>
+<title>Wind and Truth</title>
+<link>https://longboredsurfer.com/book-reviews/wind-and-truth</link>
+<description>You shouldn't read this without reading the rest of the series. This was a long book. I enjoyed it, ...</description>
+<pubDate>Wed, 12 Feb 2025 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/wind-and-truth</guid>
+</item>
+<item>
+<title>The Book of Boundaries</title>
+<link>https://longboredsurfer.com/book-reviews/the-book-of-boundaries</link>
+<description>I lead a book club at work. Consequently, I read a fair number of personal/professional development ...</description>
+<pubDate>Wed, 15 Jan 2025 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/the-book-of-boundaries</guid>
+</item>
+<item>
+<title>Dinner with the President</title>
+<link>https://longboredsurfer.com/book-reviews/dinner-with-the-president</link>
+<description>I'd like to give this 3.5 stars. This was a chronological (though not comprehensive) walk through th...</description>
+<pubDate>Thu, 09 Jan 2025 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/dinner-with-the-president</guid>
+</item>
+<item>
+<title>A Conjuring of Light</title>
+<link>https://longboredsurfer.com/book-reviews/a-conjuring-of-light</link>
+<description>In fear of giving all my books the same rating, this one was at least the conclusion to a series, an...</description>
+<pubDate>Tue, 03 Dec 2024 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/a-conjuring-of-light</guid>
+</item>
+<item>
+<title>The Spy and the Traitor</title>
+<link>https://longboredsurfer.com/book-reviews/the-spy-and-the-traitor</link>
+<description>One of the first types of book that really pulled me into reading were all the books by Tom Clancy. ...</description>
+<pubDate>Mon, 25 Nov 2024 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/the-spy-and-the-traitor</guid>
+</item>
+<item>
+<title>The Gift of Influence</title>
+<link>https://longboredsurfer.com/book-reviews/the-gift-of-influence</link>
+<description>While some of this book could come across as grandstanding and bragging I appreciated the basic prem...</description>
+<pubDate>Tue, 19 Nov 2024 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/the-gift-of-influence</guid>
+</item>
+<item>
+<title>A Gathering of Shadows</title>
+<link>https://longboredsurfer.com/book-reviews/a-gathering-of-shadows</link>
+<description>While I was somewhat disappointed by shifted focus of this book (and it being around a tournament, a...</description>
+<pubDate>Mon, 18 Nov 2024 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/a-gathering-of-shadows</guid>
+</item>
+<item>
+<title>The Lincoln Highway</title>
+<link>https://longboredsurfer.com/book-reviews/the-lincoln-highway</link>
+<description>Still young, fresh out of prison, with a dead father, and a mother that has abandoned them, a young ...</description>
+<pubDate>Thu, 07 Nov 2024 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/the-lincoln-highway</guid>
+</item>
+<item>
+<title>G-Man</title>
+<link>https://longboredsurfer.com/book-reviews/g-man</link>
+<description>Much like the author, "I do not count myself among Hoover's admirers." I've been somewhat aware of h...</description>
+<pubDate>Mon, 28 Oct 2024 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/g-man</guid>
+</item>
+<item>
+<title>A Hero Born</title>
+<link>https://longboredsurfer.com/book-reviews/a-hero-born</link>
+<description>I wanted to enjoy this story more than I did. I admit I found myself being confused by the various n...</description>
+<pubDate>Tue, 15 Oct 2024 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/a-hero-born</guid>
+</item>
+</channel>
+</rss>

@@ -1,5 +1,5 @@
 <!--?xml version="1.0" encoding="utf-8"?-->
-<!-- written by hand in python because why not-->
+<!-- written by hand, with love in python-->
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>LongboredSurfer Book Review Feed</title>
@@ -7,9 +7,23 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Wed, 12 Feb 2025 00:00:00 -0700</pubDate>
+<pubDate>Thu, 06 Mar 2025 00:00:00 -0700</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Ancillary Justice</title>
+<link>https://longboredsurfer.com/book-reviews/ancillary-justice</link>
+<description>In a society with anything from machine to human, and seemingly every combination of the two in betw...</description>
+<pubDate>Thu, 06 Mar 2025 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/ancillary-justice</guid>
+</item>
+<item>
+<title>Deacon King Kong</title>
+<link>https://longboredsurfer.com/book-reviews/deacon-king-kong</link>
+<description>An enjoyable story of... life - life in the relatively small circle of the projects of New York City...</description>
+<pubDate>Wed, 26 Feb 2025 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/deacon-king-kong</guid>
+</item>
 <item>
 <title>Wind and Truth</title>
 <link>https://longboredsurfer.com/book-reviews/wind-and-truth</link>
@@ -65,20 +79,6 @@
 <description>Still young, fresh out of prison, with a dead father, and a mother that has abandoned them, a young ...</description>
 <pubDate>Thu, 07 Nov 2024 00:00:00 -0700</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/the-lincoln-highway</guid>
-</item>
-<item>
-<title>G-Man</title>
-<link>https://longboredsurfer.com/book-reviews/g-man</link>
-<description>Much like the author, "I do not count myself among Hoover's admirers." I've been somewhat aware of h...</description>
-<pubDate>Mon, 28 Oct 2024 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/g-man</guid>
-</item>
-<item>
-<title>A Hero Born</title>
-<link>https://longboredsurfer.com/book-reviews/a-hero-born</link>
-<description>I wanted to enjoy this story more than I did. I admit I found myself being confused by the various n...</description>
-<pubDate>Tue, 15 Oct 2024 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/a-hero-born</guid>
 </item>
 </channel>
 </rss>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blogging, Again - LongboredSurfer.com</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+	<main>
+		<nav>
+			<section>
+				<span class="home">
+					<a href="/" class="home">LongboredSurfer.com</a>
+					<a href="/about">About</a>
+					<a href="/blog">Blog</a>
+					<a href="/links">Links</a>
+					<a href="/book-reviews">Book Reviews</a>
+					<a href="/charts">Charts</a>
+				</span>
+			</section>
+		</nav>
+		
+<article class="blog">
+	<div class="blog"></div>
+	<h1><a href="/blog/blogging-again">Blogging, Again</a></h1>
+	<p class="meta">Published on 2025-03-07</p>
+	<p>Here we are. Years later. You thought I forgot. "Is he still paying for hosting, but not bothering to do anything with that thing?" Yes. Yes I was. But at the same time, I wasn't. I'm still me - and still enjoy computers, and tinkering. So, what's changed? Why start posting things again after all this time? Because I felt like it! Let me share the changes:</p>
+<h2>Site Design</h2>
+<p>It's no secret that I'm not a front-end guy. In the past, I've tried, but I keep gravitating towards the back-end stuff. While the site itself looks different (and uses <a href="https://usgraphics.com/products/berkeley-mono">Berkeley Mono</a> as its typeface), the most exciting difference here is:</p>
+<h3>Back-End (Re)Write</h3>
+<p>I still really like <a href="https://getkirby.com">Kirby</a>, but also felt like some of the newer versions of it have moved it into the "more powerful than I need" (and therefore more complicated than I'm willing to dive into). I'm not great with PHP, which Kirby is written in. I'm much better with Python. I also wanted to get away from dynamically generated sites, and look at a <a href="https://en.wikipedia.org/wiki/Static_site_generator">static site generator</a>. <a href="https://github.com/myles/awesome-static-generators">This list</a> had some great ideas. <a href="https://www.11ty.dev">11ty</a> looks awesome (and active), but is the wrong language. <a href="https://getpelican.com">Pelican</a> was too rigid, and too much. <a href="https://github.com/sunainapai/makesite/">makesite.py</a> was more like it, but I needed something for <em>me</em>. So, I wrote my own. As of this writing, my generator weighs in at 624 lines of code - not <em>super</em> impressive, but not bad. It could be slimmer, but it handles the quirks of my content. I doubt I'll ever share the code for generating my site, but I'm at least willing to share the modules I use for generating the site (essentially what would be in my <code>requirements.txt</code> file):</p>
+<ul>
+<li><a href="https://jinja.palletsprojects.com/en/stable/">Jinja</a> makes it easy for me to take tons of data, and churn out web pages.</li>
+<li><a href="https://python-markdown.github.io">Python-Markdown</a> helps turn all my markdown files into HTML. I also use the <a href="https://python-markdown.github.io/extensions/tables/">table extension</a> to make things easier for me.</li>
+<li><a href="https://pyyaml.org">PyYAML</a> helps working with all the yaml files so easy.</li>
+<li><a href="https://pypi.org/project/pytz/">pytz</a> helps me with generating my RSS/Atom feed dates. Dates can really suck, but this makes them easier.</li>
+<li><a href="https://www.crummy.com/software/BeautifulSoup/">Beautiful Soup</a> also helps with my RSS feeds - I just want the text, and not HTML, or Markdown working its way into the feeds. I've used BeautifulSoup for other projects, and here I'm using it for a <em>fraction</em> of what it can do.</li>
+<li><a href="https://pypi.org/project/markdownify/">markdownify</a> helped convert some of my HTML stuff to markdown (but isn't used by the generator)</li>
+</ul>
+<p>I even rewrote my <a href="https://longboredsurfer.com/unplayed/">Unplayed</a> to be Python-generated instead of <a href="https://longboredsurfer.com/links/unplayed-shauninman">Shaun Inman's OG PHP</a>. No, I didn't actually update the list of games on there. Let's not do <em>too</em> much work, okay. Just be glad I talked myself out of embedding the CSS in every single page.</p>
+<h3>HTML on GitHub</h3>
+<p>With that process, now you can access <a href="https://github.com/longbored/longboredsurfer.com-html">the site's full HTML on GitHub</a> - which makes publishing the site easier for me. Don't bother submitting PRs. My sysadmin skills are underwhelming, and I'm always intimidated by doing that the right way. Now all I have to do is pull the content onto the server, and <em>voila</em>. Plus - that's something that can be automated, which makes it even easier, thus making it more likely that I'll actually post stuff. (And while I was at it, I made my logic, content, and html all separate repos, happily talking via <a href="/links/working-with-submodules">submodules</a>, which were new to me.)</p>
+<h2>Existing Site Content</h2>
+<p>Hopefully this aspect is somewhat seemless to you. Previously, I had my content stored in a mix of text files (with some HTML), relying on the directory names to keep some of the metadata about the entries. Instead of that combination, I've shifted to all of my content being stored as pure <a href="https://daringfireball.net/projects/markdown/">Markdown</a>, with any metadata stored in <a href="https://yaml.org">YAML</a> files next to the content. The YAML files also help my static site generator know what to (and what not to) publish, and how to interact with some quirks about the various types of content. Some other things I've used to make the transition:</p>
+<ul>
+<li><a href="https://macdown.uranusjr.com">MacDown</a> has been a handy editor</li>
+<li><a href="https://www.barebones.com/products/bbedit/">BBEdit</a> also gets lots of use, both with markdown and YAML</li>
+<li><a href="https://github.com/sbarex/QLMarkdown">QLMarkdown</a> to the rescue again</li>
+<li><a href="http://www.sagtau.com/quicklookjson.html">quick look JSON</a> also came in very handy</li>
+</ul>
+<p>One additional thing I did was to move any files I was sharing associated with a specific post/link to live with that post/link (and automatically show at the bottom of the page).</p>
+<h2>Content</h2>
+<p>I'm <em>slowly</em> learning to own my own content. <a href="https://en.wikipedia.org/wiki/Gnolia#January_2009_total_data_loss">Ma.gnolia's total data loss in January 2009</a> stung. It's what caused me to <a href="/blog/just-what-you-wanted---more-posts">move</a> to hosting my own <a href="/links">links</a>. Fortunately, no other site really has burned me like that. But even my own decline in using Flickr and Twitter have pushed me a bit further.</p>
+<p>On Flickr, I came to feel like old-me shared more than later-me was comfortable sharing. Plus, some (but not all) things were tied into my site here, making a tangled mess. On Twitter, people and companies I followed started disappearing leaving the site, thus making my own content lack context, and therefore less valuable - even to me. What photos I referenced from Flickr are now on here instead. And while I haven't yet added my own tweets here, that's near the top of my backlog. Still, I keep thinking about having all the data I care about in one place.</p>
+<h3>Book Reviews</h3>
+<p>I use <a href="https://www.goodreads.com/longbored">Goodreads</a>, but, I use so few of the community features on there. Book consumption is a major thing I do, so I felt like this would be a good thing to start keeping for myself as well. You can read my book reviews <a href="/book-reviews">here</a>. It's okay if you don't agree with my opinion about books. Heck, <em>I</em> don't agree with some of my opinions about older books.</p>
+<h3>More Data</h3>
+<p>I'm not European, but I'm thankful for GDPR - specifically <a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation#Information_and_access">Article 15</a> of it, which gives people the right to access their personal data. Although GDPR is for Europeans, it has made companies enable the functionality - and that means us non-Europeans can take advantage of that funcationality and request our data. I've found some fun/interesting things in my data from companies. I don't know how much of it I'll share on here, but spelunking through it has been fun. The most likely candidate of something I'd share is some Spotify data - I'm a sucker for music.</p>
+<hr />
+<p>I suspect the audience on the interwebs who care about all these details is near zero, but it's been a fun project, and I'm my primary audience.</p>
+<p>It's nice to be back.</p>
+	
+	<div class="tags"><h3>Tags</h3>
+		<ul>
+			<li><a href="/blog/tags/geeking_out">geeking_out</a></li>
+		</ul>
+	</div>
+	<ul class="prior_next">
+		<li class="prior">Prior: <a href="/blog/making-a-record-for-the-fisher-price-record-player">Making a Record for the Fisher Price Record Player</a></li>
+	</ul>
+</article>
+
+		<footer>
+			<section>
+				<p>&copy; 2005-2025 LongboredSurfer.com</p>
+				<p>
+					<a href="https://twitter.com/longbored">Twitter</a>
+					<a href="https://github.com/longbored">GitHub</a>
+					<a href="https://longboredsurfer.com/">LongboredSurfer.com</a>
+				</p>
+				<p>
+					<a href="/privacy">Privacy Policy</a>
+					<a href="http://www.amazon.com/exec/obidos/redirect?tag=thelongsurf-20">Shop at Amazon and support LongboredSurfer.com</a>
+			</section>
+		</footer>
+	</main>
+</body>
+</html>

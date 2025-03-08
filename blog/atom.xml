@@ -1,5 +1,5 @@
 <!--?xml version="1.0" encoding="utf-8"?-->
-<!-- written by hand in python because why not-->
+<!-- written by hand, with love in python-->
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>LongboredSurfer Blog Feed</title>
@@ -7,9 +7,16 @@
 <atom:link href="https://longboredsurfer.com/blog/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's blog entries.</description>
 <language>en-us</language>
-<pubDate>Sat, 09 Mar 2019 00:00:00 -0700</pubDate>
+<pubDate>Fri, 07 Mar 2025 00:00:00 -0700</pubDate>
 <docs>https://longboredsurfer.com/blog/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Blogging, Again</title>
+<link>https://longboredsurfer.com/blog/blogging-again</link>
+<description>Here we are. Years later. You thought I forgot. "Is he still paying for hosting, but not bothering t...</description>
+<pubDate>Fri, 07 Mar 2025 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/blog/blogging-again</guid>
+</item>
 <item>
 <title>Making a Record for the Fisher Price Record Player</title>
 <link>https://longboredsurfer.com/blog/making-a-record-for-the-fisher-price-record-player</link>
@@ -72,13 +79,6 @@
 <description>I've been quiet on my blog. I blame Twitter. I'm not sure I've ever waited four months to finally te...</description>
 <pubDate>Fri, 17 Jun 2011 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/blog/20110214</guid>
-</item>
-<item>
-<title>﻿Title: Horror Vacui 2&#39;s Mimeoverse Easter Egg</title>
-<link>https://longboredsurfer.com/blog/horror-vacui-2s-mimeoverse-easter-egg</link>
-<description>Shaun Inman (an immensely brilliant person, who I have nothing to do with (besides buying everything...</description>
-<pubDate>Mon, 20 Dec 2010 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/blog/horror-vacui-2s-mimeoverse-easter-egg</guid>
 </item>
 </channel>
 </rss>

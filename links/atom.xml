@@ -1,5 +1,5 @@
 <!--?xml version="1.0" encoding="utf-8"?-->
-<!-- written by hand in python because why not-->
+<!-- written by hand, with love in python-->
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>LongboredSurfer Link Feed</title>
@@ -7,9 +7,23 @@
 <atom:link href="https://longboredsurfer.com/links/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's link entries.</description>
 <language>en-us</language>
-<pubDate>Tue, 31 Aug 2021 00:00:00 -0600</pubDate>
+<pubDate>Fri, 07 Mar 2025 00:00:00 -0700</pubDate>
 <docs>https://longboredsurfer.com/links/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>New Text File in Finder</title>
+<link>https://longboredsurfer.com/links/new-text-file-in-finder</link>
+<description>On Windows, I'm a sucker for being able to right-click somewhere in the file system, and creating a ...</description>
+<pubDate>Fri, 07 Mar 2025 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/links/new-text-file-in-finder</guid>
+</item>
+<item>
+<title>Working with Submodule</title>
+<link>https://longboredsurfer.com/links/working-with-submodules</link>
+<description>With my recent site rewrite, I wanted my site to be able to be in one directory, with the raw (markd...</description>
+<pubDate>Fri, 07 Mar 2025 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/links/working-with-submodules</guid>
+</item>
 <item>
 <title>Playdate Pulp</title>
 <link>https://longboredsurfer.com/links/playdate-pulp</link>
@@ -65,20 +79,6 @@
 <description>It's a great list, with several things I've totally stolen for myself, and lots of links worth click...</description>
 <pubDate>Wed, 27 Jan 2021 00:00:00 -0700</pubDate>
 <guid>https://longboredsurfer.com/links/things-i-stole-from-people-smarter-than-me</guid>
-</item>
-<item>
-<title>Distance Gaming Guide</title>
-<link>https://longboredsurfer.com/links/distance-gaming-guide</link>
-<description>Despite the pandemic and encouraged isolation, I've been able to play games with others. BoardGameGe...</description>
-<pubDate>Wed, 27 Jan 2021 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/links/distance-gaming-guide</guid>
-</item>
-<item>
-<title>8 Logical Fallacies that Mess Us All Up</title>
-<link>https://longboredsurfer.com/links/logical-fallacies-that-mess-us-all-up</link>
-<description>I took a "Critical Thinking" course at some point in college, and it felt like the majority of the c...</description>
-<pubDate>Wed, 27 Jan 2021 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/links/logical-fallacies-that-mess-us-all-up</guid>
 </item>
 </channel>
 </rss>

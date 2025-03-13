@@ -141,7 +141,8 @@ article h1 a:active,
 .more:active {
 	color: var(--orange2);
 }
-article.blog img {
+article.blog img,
+article.error img{
 	display: block;
 	margin: auto;
 }

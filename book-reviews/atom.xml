@@ -7,9 +7,16 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Thu, 06 Mar 2025 00:00:00 -0700</pubDate>
+<pubDate>Tue, 18 Mar 2025 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Love + Work</title>
+<link>https://longboredsurfer.com/book-reviews/love-and-work</link>
+<description>Find the things you love. Be specific about them. Make time in your life (and job) to do those thing...</description>
+<pubDate>Tue, 18 Mar 2025 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/love-and-work</guid>
+</item>
 <item>
 <title>Ancillary Justice</title>
 <link>https://longboredsurfer.com/book-reviews/ancillary-justice</link>
@@ -72,13 +79,6 @@
 <description>While I was somewhat disappointed by shifted focus of this book (and it being around a tournament, a...</description>
 <pubDate>Mon, 18 Nov 2024 00:00:00 -0700</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/a-gathering-of-shadows</guid>
-</item>
-<item>
-<title>The Lincoln Highway</title>
-<link>https://longboredsurfer.com/book-reviews/the-lincoln-highway</link>
-<description>Still young, fresh out of prison, with a dead father, and a mother that has abandoned them, a young ...</description>
-<pubDate>Thu, 07 Nov 2024 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/the-lincoln-highway</guid>
 </item>
 </channel>
 </rss>

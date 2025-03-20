@@ -95,9 +95,9 @@ div.tags ul li a:active {
 nav a.home {
 	background: var(--orange1);
 }
-@media screen and (min-width: 600px) {
-	nav .links {
-		float: right;
+@media screen and (max-width: 600px) {
+	img {
+		max-width: 90%;
 	}
 }
 /* Footer */
@@ -149,7 +149,6 @@ article.error img{
 article.links img {
 	padding: .2em;
 	border: thin dashed var(--orange2);
-	max-width: 30em;
 }
 p.meta {
 	margin-top: 0;

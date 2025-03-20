@@ -7,9 +7,23 @@
 <atom:link href="https://longboredsurfer.com/links/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's link entries.</description>
 <language>en-us</language>
-<pubDate>Wed, 19 Mar 2025 00:00:00 -0600</pubDate>
+<pubDate>Thu, 20 Mar 2025 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/links/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Watabou&#39;s Procgen Arcana</title>
+<link>https://longboredsurfer.com/links/watabous-procgen-arcana</link>
+<description>Another of those tabs I've had open forever (at least since 2022). I'm intrigued by procedurally gen...</description>
+<pubDate>Thu, 20 Mar 2025 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/links/watabous-procgen-arcana</guid>
+</item>
+<item>
+<title>The Banality of Genius</title>
+<link>https://longboredsurfer.com/links/the-banality-of-genius</link>
+<description>Just to help illustrate how far behind I am on sharing things, I want you to notice the date on the ...</description>
+<pubDate>Thu, 20 Mar 2025 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/links/the-banality-of-genius</guid>
+</item>
 <item>
 <title>Logseq</title>
 <link>https://longboredsurfer.com/links/logseq</link>
@@ -65,20 +79,6 @@
 <description>With my recent site rewrite, I wanted my site to be able to be in one directory, with the raw (markd...</description>
 <pubDate>Fri, 07 Mar 2025 00:00:00 -0700</pubDate>
 <guid>https://longboredsurfer.com/links/working-with-submodules</guid>
-</item>
-<item>
-<title>Playdate Pulp</title>
-<link>https://longboredsurfer.com/links/playdate-pulp</link>
-<description>I'm a fan of Panic, and Shaun Inman. I've preordered a Playdate, but have also enjoyed watching this...</description>
-<pubDate>Tue, 31 Aug 2021 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/links/playdate-pulp</guid>
-</item>
-<item>
-<title>Follow Him</title>
-<link>https://longboredsurfer.com/links/follow-him</link>
-<description>This year I'm determined to really dive into Doctrine &amp; Covenants. This podcast has sure helped brin...</description>
-<pubDate>Thu, 04 Feb 2021 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/links/follow-him</guid>
 </item>
 </channel>
 </rss>

@@ -34,12 +34,6 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1em;
 	margin-top: .5em;
 }
-article.book-reviews h1,
-article.blog h1,
-article.links h1,
-article.charts h1 {
-	padding-right: 10em;
-}
 table {
 	width: 100%;
 	border: thin dashed var(--orange2);
@@ -96,8 +90,51 @@ nav a.home {
 	background: var(--orange1);
 }
 @media screen and (max-width: 600px) {
+	div.home-blog,
+	article.blog,
+	div.home-links,
+	article.links,
+	div.home-book-reviews,
+	article.book-reviews,
+	div.home-charts,
+	article.charts {
+		padding-top: 0.01em;
+	}
 	img {
 		max-width: 90%;
+	}
+	article.book-reviews,
+	article.links {
+		background-size: 3em 3em;
+	}
+	article.book-reviews div.book-reviews,
+	article.blog div.blog,
+	article.links div.links,
+	article.charts div.charts {
+	height: 3em;
+	width: 3em;
+	}
+}
+nav a.home {
+	background: var(--orange1);
+}
+@media screen and (min-width: 601px) {
+	article.book-reviews h1,
+	article.blog h1,
+	article.links h1,
+	article.charts h1 {
+		padding-right: 10em;
+	}
+	article.book-reviews,
+	article.links {
+		background-size: 10em 10em;
+	}
+	article.book-reviews div.book-reviews,
+	article.blog div.blog,
+	article.links div.links,
+	article.charts div.charts {
+	height: 10em;
+	width: 10em;
 	}
 }
 /* Footer */
@@ -233,19 +270,12 @@ article.charts div.charts {
 	background-image: url("/img/charts.svg");
 }
 
-article.book-reviews,
-article.links {
-	background-size: 10em 10em;
-}
-
 article.book-reviews div.book-reviews,
 article.blog div.blog,
 article.links div.links,
 article.charts div.charts {
 	display: block;
 	float: right;
-	height: 10em;
-	width: 10em;
 }
 ul.prior_next li {
 	display: inline;

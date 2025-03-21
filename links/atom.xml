@@ -11,6 +11,13 @@
 <docs>https://longboredsurfer.com/links/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
 <item>
+<title>Johnny.Decimal</title>
+<link>https://longboredsurfer.com/links/johnny.decimal</link>
+<description>I bought this a while ago, and was deeply impressed. While I didn't end up adopting the Johnny.Decim...</description>
+<pubDate>Thu, 20 Mar 2025 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/links/johnny.decimal</guid>
+</item>
+<item>
 <title>Watabou&#39;s Procgen Arcana</title>
 <link>https://longboredsurfer.com/links/watabous-procgen-arcana</link>
 <description>Another of those tabs I've had open forever (at least since 2022). I'm intrigued by procedurally gen...</description>
@@ -72,13 +79,6 @@
 <description>On Windows, I'm a sucker for being able to right-click somewhere in the file system, and creating a ...</description>
 <pubDate>Fri, 07 Mar 2025 00:00:00 -0700</pubDate>
 <guid>https://longboredsurfer.com/links/new-text-file-in-finder</guid>
-</item>
-<item>
-<title>Working with Submodules</title>
-<link>https://longboredsurfer.com/links/working-with-submodules</link>
-<description>With my recent site rewrite, I wanted my site to be able to be in one directory, with the raw (markd...</description>
-<pubDate>Fri, 07 Mar 2025 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/links/working-with-submodules</guid>
 </item>
 </channel>
 </rss>

@@ -7,78 +7,78 @@
 <atom:link href="https://longboredsurfer.com/links/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's link entries.</description>
 <language>en-us</language>
-<pubDate>Thu, 20 Mar 2025 00:00:00 -0600</pubDate>
+<pubDate>Fri, 21 Mar 2025 10:52:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/links/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Lynn Fisher</title>
+<link>https://longboredsurfer.com/links/lynn-fisher</link>
+<description>Lynn Fisher is a treasure. She is supremely talented, and shares that talent with all of us. This is...</description>
+<pubDate>Fri, 21 Mar 2025 10:52:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/links/lynn-fisher</guid>
+</item>
 <item>
 <title>Johnny.Decimal</title>
 <link>https://longboredsurfer.com/links/johnny-decimal</link>
 <description>I bought this a while ago, and was deeply impressed. While I didn't end up adopting the Johnny.Decim...</description>
-<pubDate>Thu, 20 Mar 2025 00:00:00 -0600</pubDate>
+<pubDate>Thu, 20 Mar 2025 20:21:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/links/johnny-decimal</guid>
 </item>
 <item>
 <title>Watabou&#39;s Procgen Arcana</title>
 <link>https://longboredsurfer.com/links/watabous-procgen-arcana</link>
 <description>Another of those tabs I've had open forever (at least since 2022). I'm intrigued by procedurally gen...</description>
-<pubDate>Thu, 20 Mar 2025 00:00:00 -0600</pubDate>
+<pubDate>Thu, 20 Mar 2025 14:22:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/links/watabous-procgen-arcana</guid>
 </item>
 <item>
 <title>The Banality of Genius</title>
 <link>https://longboredsurfer.com/links/the-banality-of-genius</link>
 <description>Just to help illustrate how far behind I am on sharing things, I want you to notice the date on the ...</description>
-<pubDate>Thu, 20 Mar 2025 00:00:00 -0600</pubDate>
+<pubDate>Thu, 20 Mar 2025 14:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/links/the-banality-of-genius</guid>
 </item>
 <item>
 <title>Logseq</title>
 <link>https://longboredsurfer.com/links/logseq</link>
 <description>I'm super intrigued by knowledge management systems. I felt like I watched a ton of videos about Obs...</description>
-<pubDate>Wed, 19 Mar 2025 00:00:00 -0600</pubDate>
+<pubDate>Wed, 19 Mar 2025 22:20:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/links/logseq</guid>
 </item>
 <item>
 <title>HTMLForPeople.com</title>
 <link>https://longboredsurfer.com/links/htmlforpeople</link>
 <description>Blake Watson has done a great job here helping make HTML more accessible to us humans. Sure, I'm a c...</description>
-<pubDate>Wed, 19 Mar 2025 00:00:00 -0600</pubDate>
+<pubDate>Wed, 19 Mar 2025 21:52:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/links/htmlforpeople</guid>
 </item>
 <item>
 <title>Cabel.com - The Snacks &amp; Cereals of 2024</title>
 <link>https://longboredsurfer.com/links/the-snacks-&amp;-cereals-of-2024</link>
 <description>I love Cabel. He seems true to himself - and part of that is his affection for snacks and cereals. O...</description>
-<pubDate>Wed, 19 Mar 2025 00:00:00 -0600</pubDate>
+<pubDate>Wed, 19 Mar 2025 21:47:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/links/the-snacks-&amp;-cereals-of-2024</guid>
 </item>
 <item>
 <title>RandomA11y</title>
 <link>https://longboredsurfer.com/links/randoma11y</link>
 <description>Although the bot seems to have gone inactive, I've followed this seemingly random bot on Mastodon fo...</description>
-<pubDate>Wed, 19 Mar 2025 00:00:00 -0600</pubDate>
+<pubDate>Wed, 19 Mar 2025 21:34:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/links/randoma11y</guid>
 </item>
 <item>
 <title>The hardest working font in Manhattan</title>
 <link>https://longboredsurfer.com/links/the-hardest-working-font-in-manhattan</link>
 <description>This is totally worth the 6,100 words in the article. I have so many tabs open because of this artic...</description>
-<pubDate>Wed, 19 Mar 2025 00:00:00 -0600</pubDate>
+<pubDate>Wed, 19 Mar 2025 21:14:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/links/the-hardest-working-font-in-manhattan</guid>
 </item>
 <item>
 <title>OpenSCAD Cheatsheet</title>
 <link>https://longboredsurfer.com/links/openscad-cheatsheet</link>
 <description>This thing is so easily and readily accessible, I feel silly linking to it, but I use it all the tim...</description>
-<pubDate>Wed, 19 Mar 2025 00:00:00 -0600</pubDate>
+<pubDate>Wed, 19 Mar 2025 21:03:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/links/openscad-cheatsheet</guid>
-</item>
-<item>
-<title>New Text File in Finder</title>
-<link>https://longboredsurfer.com/links/new-text-file-in-finder</link>
-<description>On Windows, I'm a sucker for being able to right-click somewhere in the file system, and creating a ...</description>
-<pubDate>Fri, 07 Mar 2025 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/links/new-text-file-in-finder</guid>
 </item>
 </channel>
 </rss>

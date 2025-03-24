@@ -7,9 +7,16 @@
 <atom:link href="https://longboredsurfer.com/links/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's link entries.</description>
 <language>en-us</language>
-<pubDate>Sat, 22 Mar 2025 23:30:00 -0600</pubDate>
+<pubDate>Mon, 24 Mar 2025 10:39:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/links/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Five Geek Social Fallacies</title>
+<link>https://longboredsurfer.com/links/five-geek-social-fallacies</link>
+<description>I'm so on top of things, that this post from 2003 is just now crossing my path. I know I've guilty o...</description>
+<pubDate>Mon, 24 Mar 2025 10:39:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/links/five-geek-social-fallacies</guid>
+</item>
 <item>
 <title>Building the Listening Room</title>
 <link>https://longboredsurfer.com/links/building-the-listening-room</link>
@@ -72,13 +79,6 @@
 <description>Although the bot seems to have gone inactive, I've followed this seemingly random bot on Mastodon fo...</description>
 <pubDate>Wed, 19 Mar 2025 21:34:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/links/randoma11y</guid>
-</item>
-<item>
-<title>The hardest working font in Manhattan</title>
-<link>https://longboredsurfer.com/links/the-hardest-working-font-in-manhattan</link>
-<description>This is totally worth the 6,100 words in the article. I have so many tabs open because of this artic...</description>
-<pubDate>Wed, 19 Mar 2025 21:14:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/links/the-hardest-working-font-in-manhattan</guid>
 </item>
 </channel>
 </rss>

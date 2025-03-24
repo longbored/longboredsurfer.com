@@ -1,6 +1,7 @@
 /* General */
 @font-face {
   font-family: BerkeleyMono;
+  font-display: swap;
   src: url('/css/BerkeleyMono-Regular.woff2') format('woff2'),
     url('/css/BerkeleyMono-Regular.woff') format('woff');
 }

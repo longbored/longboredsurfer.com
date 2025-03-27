@@ -7,9 +7,16 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Tue, 18 Mar 2025 00:00:00 -0600</pubDate>
+<pubDate>Thu, 27 Mar 2025 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Ancillary Sword</title>
+<link>https://longboredsurfer.com/book-reviews/ancillary-sword</link>
+<description>I enjoyed the first book in this series quite a bit, so I was looking forward to this next installme...</description>
+<pubDate>Thu, 27 Mar 2025 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/ancillary-sword</guid>
+</item>
 <item>
 <title>Love + Work</title>
 <link>https://longboredsurfer.com/book-reviews/love+work</link>
@@ -72,13 +79,6 @@
 <description>While some of this book could come across as grandstanding and bragging I appreciated the basic prem...</description>
 <pubDate>Tue, 19 Nov 2024 00:00:00 -0700</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/the-gift-of-influence</guid>
-</item>
-<item>
-<title>A Gathering of Shadows</title>
-<link>https://longboredsurfer.com/book-reviews/a-gathering-of-shadows</link>
-<description>While I was somewhat disappointed by shifted focus of this book (and it being around a tournament, a...</description>
-<pubDate>Mon, 18 Nov 2024 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/a-gathering-of-shadows</guid>
 </item>
 </channel>
 </rss>

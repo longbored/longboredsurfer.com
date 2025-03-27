@@ -11,6 +11,9 @@ jobs:
     - name: Get latest code
       uses: actions/checkout@v4
 
+    - name: Print current user
+      run: whoami
+
     - name: Build Project
       run: |
         # Add steps here to build you website

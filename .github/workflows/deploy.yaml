@@ -17,7 +17,7 @@ jobs:
         # npm install
         # npm run build
         mkdir ./public
-        rsync -av --progress --exclude=public ./ ./public
+        rsync -av --progress --exclude=public --exclude='.git*' ./ ./public
 
     - name: Rsync
       uses: burnett01/rsync-deployments@7.0.1

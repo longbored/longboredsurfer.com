@@ -7,9 +7,16 @@
 <atom:link href="https://longboredsurfer.com/blog/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's blog entries.</description>
 <language>en-us</language>
-<pubDate>Fri, 07 Mar 2025 00:00:00 -0700</pubDate>
+<pubDate>Tue, 01 Apr 2025 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/blog/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>What a Ride</title>
+<link>https://longboredsurfer.com/blog/what-a-ride</link>
+<description>After the surgery, my cardiologist said, "Well, I've done the easy part." Sure - genetics had someth...</description>
+<pubDate>Tue, 01 Apr 2025 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/blog/what-a-ride</guid>
+</item>
 <item>
 <title>Blogging, Again</title>
 <link>https://longboredsurfer.com/blog/blogging-again</link>
@@ -72,13 +79,6 @@
 <description>I'm obviously really delayed in making this entry, but the following entry will show why I needed to...</description>
 <pubDate>Tue, 07 Aug 2012 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/blog/g2-20111012</guid>
-</item>
-<item>
-<title>20110214</title>
-<link>https://longboredsurfer.com/blog/20110214</link>
-<description>I've been quiet on my blog. I blame Twitter. I'm not sure I've ever waited four months to finally te...</description>
-<pubDate>Fri, 17 Jun 2011 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/blog/20110214</guid>
 </item>
 </channel>
 </rss>

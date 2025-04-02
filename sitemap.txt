@@ -225,6 +225,7 @@ https://longboredsurfer.com/blog/t-sql-ascii-text-art-generator
 https://longboredsurfer.com/blog/tags/blogging
 https://longboredsurfer.com/blog/tags/computers
 https://longboredsurfer.com/blog/tags/creative
+https://longboredsurfer.com/blog/tags/cycling
 https://longboredsurfer.com/blog/tags/entertainment
 https://longboredsurfer.com/blog/tags/food
 https://longboredsurfer.com/blog/tags/g2
@@ -294,6 +295,7 @@ https://longboredsurfer.com/blog/weatherman-hair
 https://longboredsurfer.com/blog/welcome-back-self
 https://longboredsurfer.com/blog/wendys-spoons
 https://longboredsurfer.com/blog/whachu-talkin-bout-willis-maria-style
+https://longboredsurfer.com/blog/what-a-ride
 https://longboredsurfer.com/blog/what-im-doing
 https://longboredsurfer.com/blog/where-it-counts
 https://longboredsurfer.com/blog/why-blog-when-you-can-tweet

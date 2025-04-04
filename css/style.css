@@ -180,10 +180,12 @@ article h1 a:active,
 	color: var(--orange2);
 }
 article.blog img,
-article.error img{
+article.error img,
+article.tweets img{
 	display: block;
 	margin: auto;
 }
+article.tweets img,
 article.links img {
 	padding: .2em;
 	border: thin dashed var(--orange2);
@@ -335,4 +337,34 @@ img[src*="#image_left"] {
 .rss:hover,
 .rss:active {
 	background: var(--orange3);
+}
+
+article.tweets span.header {
+	background-image: url(https://longboredsurfer.com/img/avatar_kid_90x90.jpg);
+	background-size: 4em 4em;
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 4em;
+	height: 4em;
+	border-radius: 2em;
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	display: block;
+}
+article.tweets span.header span {
+	padding-left: 5em;
+	padding-top: .25em;
+	display: inline-block;
+}
+article.tweets span.header span.author{
+	font-weight: bolder;
+}
+article.tweets span.footer {
+	display: block;
+	padding-bottom: .5em;
+	border-bottom: 1px solid var(--blue3);
+}
+article.tweets span.maybe {
+	padding-left: 1em;
+	font-size: small;
 }

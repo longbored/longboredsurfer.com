@@ -7,9 +7,16 @@
 <atom:link href="https://longboredsurfer.com/links/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's link entries.</description>
 <language>en-us</language>
-<pubDate>Mon, 24 Mar 2025 18:54:00 -0600</pubDate>
+<pubDate>Sun, 13 Apr 2025 16:11:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/links/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>How to deploy a static website to DigitalOcean</title>
+<link>https://longboredsurfer.com/links/how-to-deploy-a-static-website-to-digitalocean</link>
+<description>I've now referenced this article multiple times in my own recent efforts. The steps are rather strai...</description>
+<pubDate>Sun, 13 Apr 2025 16:11:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/links/how-to-deploy-a-static-website-to-digitalocean</guid>
+</item>
 <item>
 <title>We Are Living in a Golden Age of Apples</title>
 <link>https://longboredsurfer.com/links/we-are-living-in-a-golden-age-of-apples</link>
@@ -72,13 +79,6 @@
 <description>This thing is so easily and readily accessible, I feel silly linking to it, but I use it all the tim...</description>
 <pubDate>Wed, 19 Mar 2025 21:03:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/links/openscad-cheatsheet</guid>
-</item>
-<item>
-<title>Logseq</title>
-<link>https://longboredsurfer.com/links/logseq</link>
-<description>I'm super intrigued by knowledge management systems. I felt like I watched a ton of videos about Obs...</description>
-<pubDate>Wed, 19 Mar 2025 22:20:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/links/logseq</guid>
 </item>
 </channel>
 </rss>

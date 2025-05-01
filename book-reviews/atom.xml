@@ -7,9 +7,16 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Thu, 24 Apr 2025 00:00:00 -0600</pubDate>
+<pubDate>Wed, 30 Apr 2025 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Why Are All The Black Kids Sitting Together in the Cafeteria?</title>
+<link>https://longboredsurfer.com/book-reviews/why-are-all-the-black-kids-sitting-together-in-the-cafeteria</link>
+<description>My inadequate attempt to answer the title's question, based on what I learned or was reminded of by ...</description>
+<pubDate>Wed, 30 Apr 2025 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/why-are-all-the-black-kids-sitting-together-in-the-cafeteria</guid>
+</item>
 <item>
 <title>The Code Breaker</title>
 <link>https://longboredsurfer.com/book-reviews/the-code-breaker</link>
@@ -72,13 +79,6 @@
 <description>You shouldn't read this without reading the rest of the series. This was a long book. I enjoyed it, ...</description>
 <pubDate>Wed, 12 Feb 2025 00:00:00 -0700</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/wind-and-truth</guid>
-</item>
-<item>
-<title>The Book of Boundaries</title>
-<link>https://longboredsurfer.com/book-reviews/the-book-of-boundaries</link>
-<description>I lead a book club at work. Consequently, I read a fair number of personal/professional development ...</description>
-<pubDate>Wed, 15 Jan 2025 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/the-book-of-boundaries</guid>
 </item>
 </channel>
 </rss>

@@ -7,9 +7,16 @@
 <atom:link href="https://longboredsurfer.com/links/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's link entries.</description>
 <language>en-us</language>
-<pubDate>Sun, 13 Apr 2025 16:11:00 -0600</pubDate>
+<pubDate>Fri, 02 May 2025 17:09:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/links/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Typst</title>
+<link>https://longboredsurfer.com/links/typst</link>
+<description>I'm a fan of Markdown. I use it all the time for things. I recently was introduced to Typst as an al...</description>
+<pubDate>Fri, 02 May 2025 17:09:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/links/typst</guid>
+</item>
 <item>
 <title>How to deploy a static website to DigitalOcean</title>
 <link>https://longboredsurfer.com/links/how-to-deploy-a-static-website-to-digitalocean</link>
@@ -72,13 +79,6 @@
 <description>Just to help illustrate how far behind I am on sharing things, I want you to notice the date on the ...</description>
 <pubDate>Thu, 20 Mar 2025 14:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/links/the-banality-of-genius</guid>
-</item>
-<item>
-<title>OpenSCAD Cheatsheet</title>
-<link>https://longboredsurfer.com/links/openscad-cheatsheet</link>
-<description>This thing is so easily and readily accessible, I feel silly linking to it, but I use it all the tim...</description>
-<pubDate>Wed, 19 Mar 2025 21:03:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/links/openscad-cheatsheet</guid>
 </item>
 </channel>
 </rss>

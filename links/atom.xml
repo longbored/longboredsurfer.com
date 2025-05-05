@@ -7,9 +7,16 @@
 <atom:link href="https://longboredsurfer.com/links/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's link entries.</description>
 <language>en-us</language>
-<pubDate>Fri, 02 May 2025 17:09:00 -0600</pubDate>
+<pubDate>Mon, 05 May 2025 17:42:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/links/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Indiground - Drew Struzan: The Man Behind Your Favorite Childhood Movie Posters</title>
+<link>https://longboredsurfer.com/links/drew-struzan--the-man-behind-your-favorite-childhood-movie-posters</link>
+<description>I don't want to spoil the whole list of things that are likely familiar to you, but even a partial l...</description>
+<pubDate>Mon, 05 May 2025 17:42:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/links/drew-struzan--the-man-behind-your-favorite-childhood-movie-posters</guid>
+</item>
 <item>
 <title>Typst</title>
 <link>https://longboredsurfer.com/links/typst</link>
@@ -72,13 +79,6 @@
 <description>Another of those tabs I've had open forever (at least since 2022). I'm intrigued by procedurally gen...</description>
 <pubDate>Thu, 20 Mar 2025 14:22:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/links/watabous-procgen-arcana</guid>
-</item>
-<item>
-<title>The Banality of Genius</title>
-<link>https://longboredsurfer.com/links/the-banality-of-genius</link>
-<description>Just to help illustrate how far behind I am on sharing things, I want you to notice the date on the ...</description>
-<pubDate>Thu, 20 Mar 2025 14:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/links/the-banality-of-genius</guid>
 </item>
 </channel>
 </rss>

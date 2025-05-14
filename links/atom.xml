@@ -7,9 +7,16 @@
 <atom:link href="https://longboredsurfer.com/links/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's link entries.</description>
 <language>en-us</language>
-<pubDate>Mon, 05 May 2025 17:42:00 -0600</pubDate>
+<pubDate>Tue, 13 May 2025 20:04:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/links/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>gt standard</title>
+<link>https://longboredsurfer.com/links/gt-standard</link>
+<description>Whoa. This has at least two major things going for it: the incredible detail around the font family,...</description>
+<pubDate>Tue, 13 May 2025 20:04:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/links/gt-standard</guid>
+</item>
 <item>
 <title>Indiground - Drew Struzan: The Man Behind Your Favorite Childhood Movie Posters</title>
 <link>https://longboredsurfer.com/links/drew-struzan--the-man-behind-your-favorite-childhood-movie-posters</link>
@@ -72,13 +79,6 @@
 <description>I bought this a while ago, and was deeply impressed. While I didn't end up adopting the Johnny.Decim...</description>
 <pubDate>Thu, 20 Mar 2025 20:21:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/links/johnny-decimal</guid>
-</item>
-<item>
-<title>Watabou&#39;s Procgen Arcana</title>
-<link>https://longboredsurfer.com/links/watabous-procgen-arcana</link>
-<description>Another of those tabs I've had open forever (at least since 2022). I'm intrigued by procedurally gen...</description>
-<pubDate>Thu, 20 Mar 2025 14:22:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/links/watabous-procgen-arcana</guid>
 </item>
 </channel>
 </rss>

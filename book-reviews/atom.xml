@@ -7,9 +7,16 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Thu, 22 May 2025 00:00:00 -0600</pubDate>
+<pubDate>Thu, 26 Jun 2025 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Inspired</title>
+<link>https://longboredsurfer.com/book-reviews/inspired</link>
+<description>I read this for work. I liked the first half of this book. It did a great job of enlightening me to ...</description>
+<pubDate>Thu, 26 Jun 2025 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/inspired</guid>
+</item>
 <item>
 <title>The Mercy of Gods</title>
 <link>https://longboredsurfer.com/book-reviews/the-mercy-of-gods</link>
@@ -72,13 +79,6 @@
 <description>I enjoyed the first book in this series quite a bit, so I was looking forward to this next installme...</description>
 <pubDate>Thu, 27 Mar 2025 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/ancillary-sword</guid>
-</item>
-<item>
-<title>Love + Work</title>
-<link>https://longboredsurfer.com/book-reviews/love+work</link>
-<description>Find the things you love. Be specific about them. Make time in your life (and job) to do those thing...</description>
-<pubDate>Tue, 18 Mar 2025 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/love+work</guid>
 </item>
 </channel>
 </rss>

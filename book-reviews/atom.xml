@@ -7,9 +7,16 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Wed, 09 Jul 2025 00:00:00 -0600</pubDate>
+<pubDate>Thu, 10 Jul 2025 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Harry Potter and the Philosopher&#39;s Stone</title>
+<link>https://longboredsurfer.com/book-reviews/harry-potter-and-the-philosophers-stone</link>
+<description>I remember reading this for the first time in 2001. It blew my mind. I couldn't read it fast enough....</description>
+<pubDate>Thu, 10 Jul 2025 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/harry-potter-and-the-philosophers-stone</guid>
+</item>
 <item>
 <title>The Collapse of the Third Republic</title>
 <link>https://longboredsurfer.com/book-reviews/the-collapse-of-the-third-republic</link>
@@ -72,13 +79,6 @@
 <description>I read too many personal development books, due in part to some obligations at work. Most of these b...</description>
 <pubDate>Mon, 07 Apr 2025 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/supercommunicators</guid>
-</item>
-<item>
-<title>Ancillary Mercy</title>
-<link>https://longboredsurfer.com/book-reviews/ancillary-mercy</link>
-<description>This was better than the second book in this series, but not as good as the first book. The series s...</description>
-<pubDate>Thu, 03 Apr 2025 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/ancillary-mercy</guid>
 </item>
 </channel>
 </rss>

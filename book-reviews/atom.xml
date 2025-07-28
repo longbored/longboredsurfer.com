@@ -7,9 +7,23 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Wed, 16 Jul 2025 00:00:00 -0600</pubDate>
+<pubDate>Sat, 26 Jul 2025 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Co-Intelligence</title>
+<link>https://longboredsurfer.com/book-reviews/co-intelligence</link>
+<description>This was a really quick read. If you're unfamiliar with AI, it's likely worth the read/listen. I lis...</description>
+<pubDate>Sat, 26 Jul 2025 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/co-intelligence</guid>
+</item>
+<item>
+<title>Crazy Horse and Custer</title>
+<link>https://longboredsurfer.com/book-reviews/crazy-horse-and-custer</link>
+<description>The author's respect and admiration for Native Americans was obvious, and I applaud him for that. I ...</description>
+<pubDate>Fri, 25 Jul 2025 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/crazy-horse-and-custer</guid>
+</item>
 <item>
 <title>Slow Horses</title>
 <link>https://longboredsurfer.com/book-reviews/slow-horses</link>
@@ -65,20 +79,6 @@
 <description>My inadequate attempt to answer the title's question, based on what I learned or was reminded of by ...</description>
 <pubDate>Wed, 30 Apr 2025 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/why-are-all-the-black-kids-sitting-together-in-the-cafeteria</guid>
-</item>
-<item>
-<title>The Code Breaker</title>
-<link>https://longboredsurfer.com/book-reviews/the-code-breaker</link>
-<description>This is an interesting view into CRISPR, and how the discovery of it, and the associated subsequent ...</description>
-<pubDate>Thu, 24 Apr 2025 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/the-code-breaker</guid>
-</item>
-<item>
-<title>Romney</title>
-<link>https://longboredsurfer.com/book-reviews/romney</link>
-<description>Interesting insight into Mitt Romney. I don't agree with him on everything, but I definitely agree w...</description>
-<pubDate>Fri, 11 Apr 2025 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/romney</guid>
 </item>
 </channel>
 </rss>

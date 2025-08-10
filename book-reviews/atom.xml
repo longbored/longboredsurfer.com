@@ -7,9 +7,16 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Sat, 26 Jul 2025 00:00:00 -0600</pubDate>
+<pubDate>Sat, 09 Aug 2025 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Custer&#39;s Trials</title>
+<link>https://longboredsurfer.com/book-reviews/custers-trials</link>
+<description>This book was very well written. But reading this book now completely satisfies me knowing anything ...</description>
+<pubDate>Sat, 09 Aug 2025 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/custers-trials</guid>
+</item>
 <item>
 <title>Co-Intelligence</title>
 <link>https://longboredsurfer.com/book-reviews/co-intelligence</link>
@@ -72,13 +79,6 @@
 <description>This book makes partial use of newer declassified documents of the politburo and Russia in general. ...</description>
 <pubDate>Tue, 06 May 2025 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/bloodlands</guid>
-</item>
-<item>
-<title>Why Are All The Black Kids Sitting Together in the Cafeteria?</title>
-<link>https://longboredsurfer.com/book-reviews/why-are-all-the-black-kids-sitting-together-in-the-cafeteria</link>
-<description>My inadequate attempt to answer the title's question, based on what I learned or was reminded of by ...</description>
-<pubDate>Wed, 30 Apr 2025 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/why-are-all-the-black-kids-sitting-together-in-the-cafeteria</guid>
 </item>
 </channel>
 </rss>

@@ -7,9 +7,16 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Sat, 09 Aug 2025 00:00:00 -0600</pubDate>
+<pubDate>Wed, 20 Aug 2025 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Empire of the Summer Moon</title>
+<link>https://longboredsurfer.com/book-reviews/empire-of-the-summer-moon</link>
+<description>I continue to lament the relations between the Native Americans and the European settlers. Simply pu...</description>
+<pubDate>Wed, 20 Aug 2025 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/empire-of-the-summer-moon</guid>
+</item>
 <item>
 <title>Custer&#39;s Trials</title>
 <link>https://longboredsurfer.com/book-reviews/custers-trials</link>
@@ -72,13 +79,6 @@
 <description>Yes - from at least one perspective, Russia was the biggest winner of the worst war this world has e...</description>
 <pubDate>Sat, 17 May 2025 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/stalins-war</guid>
-</item>
-<item>
-<title>Bloodlands</title>
-<link>https://longboredsurfer.com/book-reviews/bloodlands</link>
-<description>This book makes partial use of newer declassified documents of the politburo and Russia in general. ...</description>
-<pubDate>Tue, 06 May 2025 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/bloodlands</guid>
 </item>
 </channel>
 </rss>

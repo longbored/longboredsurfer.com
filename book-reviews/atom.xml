@@ -7,9 +7,16 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Wed, 20 Aug 2025 00:00:00 -0600</pubDate>
+<pubDate>Wed, 27 Aug 2025 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>And There Was Light</title>
+<link>https://longboredsurfer.com/book-reviews/and-there-was-light</link>
+<description>Honestly, I don't know if the book is a 5-star book, but Lincoln was a 5-star individual. I loved th...</description>
+<pubDate>Wed, 27 Aug 2025 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/and-there-was-light</guid>
+</item>
 <item>
 <title>Empire of the Summer Moon</title>
 <link>https://longboredsurfer.com/book-reviews/empire-of-the-summer-moon</link>
@@ -72,13 +79,6 @@
 <description>Cheap and easy sci-fi. There's so much world-building going on here that it can be a little daunting...</description>
 <pubDate>Thu, 22 May 2025 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/the-mercy-of-gods</guid>
-</item>
-<item>
-<title>Stalin&#39;s War</title>
-<link>https://longboredsurfer.com/book-reviews/stalins-war</link>
-<description>Yes - from at least one perspective, Russia was the biggest winner of the worst war this world has e...</description>
-<pubDate>Sat, 17 May 2025 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/stalins-war</guid>
 </item>
 </channel>
 </rss>

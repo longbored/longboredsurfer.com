@@ -7,9 +7,16 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Fri, 05 Sep 2025 00:00:00 -0600</pubDate>
+<pubDate>Wed, 10 Sep 2025 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Factfulness</title>
+<link>https://longboredsurfer.com/book-reviews/factfulness</link>
+<description>While the book's subtitle is a central premise of the book, to me it felt like the book was far more...</description>
+<pubDate>Wed, 10 Sep 2025 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/factfulness</guid>
+</item>
 <item>
 <title>Congo</title>
 <link>https://longboredsurfer.com/book-reviews/congo</link>
@@ -72,13 +79,6 @@
 <description>I had no clue what this book was about before I started it. It's a book involving espionage, and wou...</description>
 <pubDate>Wed, 16 Jul 2025 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/slow-horses</guid>
-</item>
-<item>
-<title>Harry Potter and the Philosopher&#39;s Stone</title>
-<link>https://longboredsurfer.com/book-reviews/harry-potter-and-the-philosophers-stone</link>
-<description>I remember reading this for the first time in 2001. It blew my mind. I couldn't read it fast enough....</description>
-<pubDate>Thu, 10 Jul 2025 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/harry-potter-and-the-philosophers-stone</guid>
 </item>
 </channel>
 </rss>

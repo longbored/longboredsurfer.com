@@ -7,9 +7,30 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Mon, 15 Sep 2025 00:00:00 -0600</pubDate>
+<pubDate>Fri, 26 Sep 2025 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>All the Colors of the Dark</title>
+<link>https://longboredsurfer.com/book-reviews/all-the-colors-of-the-dark</link>
+<description>I don't enjoy stories that have bad things happening to kids. The book is not focused on the worst o...</description>
+<pubDate>Fri, 26 Sep 2025 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/all-the-colors-of-the-dark</guid>
+</item>
+<item>
+<title>The Let Them Theory</title>
+<link>https://longboredsurfer.com/book-reviews/the-let-them-theory</link>
+<description>(I listened to this for a book club at work.) Last weekend I was sick, and listened to this entire b...</description>
+<pubDate>Sun, 21 Sep 2025 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/the-let-them-theory</guid>
+</item>
+<item>
+<title>All Quiet on the Western Front</title>
+<link>https://longboredsurfer.com/book-reviews/all-quiet-on-the-western-front</link>
+<description>I cheated on a book report for this in the 9th(?) grade and used Cliffs Notes instead. Decades later...</description>
+<pubDate>Fri, 19 Sep 2025 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/all-quiet-on-the-western-front</guid>
+</item>
 <item>
 <title>The Anxious Generation</title>
 <link>https://longboredsurfer.com/book-reviews/the-anxious-generation</link>
@@ -58,27 +79,6 @@
 <description>I continue to lament the relations between the Native Americans and the European settlers. Simply pu...</description>
 <pubDate>Wed, 20 Aug 2025 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/empire-of-the-summer-moon</guid>
-</item>
-<item>
-<title>Custer&#39;s Trials</title>
-<link>https://longboredsurfer.com/book-reviews/custers-trials</link>
-<description>This book was very well written. But reading this book now completely satisfies me knowing anything ...</description>
-<pubDate>Sat, 09 Aug 2025 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/custers-trials</guid>
-</item>
-<item>
-<title>Co-Intelligence</title>
-<link>https://longboredsurfer.com/book-reviews/co-intelligence</link>
-<description>This was a really quick read. If you're unfamiliar with AI, it's likely worth the read/listen. I lis...</description>
-<pubDate>Sat, 26 Jul 2025 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/co-intelligence</guid>
-</item>
-<item>
-<title>Crazy Horse and Custer</title>
-<link>https://longboredsurfer.com/book-reviews/crazy-horse-and-custer</link>
-<description>The author's respect and admiration for Native Americans was obvious, and I applaud him for that. I ...</description>
-<pubDate>Fri, 25 Jul 2025 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/crazy-horse-and-custer</guid>
 </item>
 </channel>
 </rss>

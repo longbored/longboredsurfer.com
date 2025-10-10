@@ -7,9 +7,16 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Wed, 01 Oct 2025 00:00:00 -0600</pubDate>
+<pubDate>Thu, 09 Oct 2025 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>The Canceling of the American Mind</title>
+<link>https://longboredsurfer.com/book-reviews/the-canceling-of-the-american-mind</link>
+<description>This was an interesting book from, in part, one of the authors of another book I really liked ("The ...</description>
+<pubDate>Thu, 09 Oct 2025 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/the-canceling-of-the-american-mind</guid>
+</item>
 <item>
 <title>One Day in the Life of Ivan Denisovich</title>
 <link>https://longboredsurfer.com/book-reviews/one-day-in-the-life-of-ivan-denisovich</link>
@@ -72,13 +79,6 @@
 <description>I really enjoyed Sixth of the Dusk, but it was WAY too short for the rich, new world in it. I've rea...</description>
 <pubDate>Sat, 30 Aug 2025 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/isles-of-the-emberdark</guid>
-</item>
-<item>
-<title>And There Was Light</title>
-<link>https://longboredsurfer.com/book-reviews/and-there-was-light</link>
-<description>Honestly, I don't know if the book is a 5-star book, but Lincoln was a 5-star individual. I loved th...</description>
-<pubDate>Wed, 27 Aug 2025 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/and-there-was-light</guid>
 </item>
 </channel>
 </rss>

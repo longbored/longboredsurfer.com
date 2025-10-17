@@ -7,9 +7,23 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Sat, 11 Oct 2025 00:00:00 -0600</pubDate>
+<pubDate>Thu, 16 Oct 2025 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>The Holy Temple</title>
+<link>https://longboredsurfer.com/book-reviews/the-holy-temple</link>
+<description>I wish I had read this book prior to my first visit to the temple. It's fantastic (if a little dated...</description>
+<pubDate>Thu, 16 Oct 2025 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/the-holy-temple</guid>
+</item>
+<item>
+<title>Harry Potter and the Chamber of Secrets</title>
+<link>https://longboredsurfer.com/book-reviews/harry-potter-and-the-chamber-of-secrets</link>
+<description>I don't know how many times I've read or listened to this book. I'm not going to review it properly....</description>
+<pubDate>Wed, 15 Oct 2025 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/harry-potter-and-the-chamber-of-secrets</guid>
+</item>
 <item>
 <title>The Next Conversation</title>
 <link>https://longboredsurfer.com/book-reviews/the-next-conversation</link>
@@ -65,20 +79,6 @@
 <description>While the book's subtitle is a central premise of the book, to me it felt like the book was far more...</description>
 <pubDate>Wed, 10 Sep 2025 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/factfulness</guid>
-</item>
-<item>
-<title>Congo</title>
-<link>https://longboredsurfer.com/book-reviews/congo</link>
-<description>I miss Michael Crichton. Congo helps show part of the reason why. Crichton had a gift for bringing m...</description>
-<pubDate>Fri, 05 Sep 2025 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/congo</guid>
-</item>
-<item>
-<title>Old Man&#39;s War</title>
-<link>https://longboredsurfer.com/book-reviews/old-mans-war</link>
-<description>I love the introduction to new science fiction books. They're clever, imaginative, and help introduc...</description>
-<pubDate>Wed, 03 Sep 2025 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/old-mans-war</guid>
 </item>
 </channel>
 </rss>

@@ -7,9 +7,16 @@
 <atom:link href="https://longboredsurfer.com/links/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's link entries.</description>
 <language>en-us</language>
-<pubDate>Fri, 31 Oct 2025 13:22:00 -0600</pubDate>
+<pubDate>Tue, 11 Nov 2025 16:37:00 -0700</pubDate>
 <docs>https://longboredsurfer.com/links/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Savate</title>
+<link>https://longboredsurfer.com/links/savate</link>
+<description>For me, the real star here is the site showcasing this font from Plomb Type. Those 3D/rotating photo...</description>
+<pubDate>Tue, 11 Nov 2025 16:37:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/links/savate</guid>
+</item>
 <item>
 <title>The Pen Addict - Top 5 Pens</title>
 <link>https://longboredsurfer.com/links/the-pen-addict--top-5-pens</link>
@@ -72,13 +79,6 @@
 <description>I've now referenced this article multiple times in my own recent efforts. The steps are rather strai...</description>
 <pubDate>Sun, 13 Apr 2025 16:11:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/links/how-to-deploy-a-static-website-to-digitalocean</guid>
-</item>
-<item>
-<title>We Are Living in a Golden Age of Apples</title>
-<link>https://longboredsurfer.com/links/we-are-living-in-a-golden-age-of-apples</link>
-<description>I'm loving this "golden age of apples". I hated apples for a long time, because Red Delicious apples...</description>
-<pubDate>Mon, 24 Mar 2025 18:54:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/links/we-are-living-in-a-golden-age-of-apples</guid>
 </item>
 </channel>
 </rss>

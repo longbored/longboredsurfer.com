@@ -7,9 +7,16 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Thu, 16 Oct 2025 00:00:00 -0600</pubDate>
+<pubDate>Fri, 07 Nov 2025 00:00:00 -0700</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Wild</title>
+<link>https://longboredsurfer.com/book-reviews/wild</link>
+<description>I read this for a book club. I liked the description given by somebody else in the club - people han...</description>
+<pubDate>Fri, 07 Nov 2025 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/wild</guid>
+</item>
 <item>
 <title>The Holy Temple</title>
 <link>https://longboredsurfer.com/book-reviews/the-holy-temple</link>
@@ -72,13 +79,6 @@
 <description>We were oblivious to the impact of smartphones (and social media) on our lives. Little did we know h...</description>
 <pubDate>Mon, 15 Sep 2025 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/the-anxious-generation</guid>
-</item>
-<item>
-<title>Factfulness</title>
-<link>https://longboredsurfer.com/book-reviews/factfulness</link>
-<description>While the book's subtitle is a central premise of the book, to me it felt like the book was far more...</description>
-<pubDate>Wed, 10 Sep 2025 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/factfulness</guid>
 </item>
 </channel>
 </rss>

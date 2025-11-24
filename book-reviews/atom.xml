@@ -7,9 +7,23 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Fri, 07 Nov 2025 00:00:00 -0700</pubDate>
+<pubDate>Sat, 15 Nov 2025 00:00:00 -0700</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Dopamine Nation</title>
+<link>https://longboredsurfer.com/book-reviews/dopamine-nation</link>
+<description>I liked a few aspects of this book, and thoroughly disliked one aspect of this book. Like #1: a chap...</description>
+<pubDate>Sat, 15 Nov 2025 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/dopamine-nation</guid>
+</item>
+<item>
+<title>The Color Purple</title>
+<link>https://longboredsurfer.com/book-reviews/the-color-purple</link>
+<description>Wow. I don't know the last time I read a book that felt as open as this. Alice Walker's novel is an ...</description>
+<pubDate>Thu, 13 Nov 2025 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/the-color-purple</guid>
+</item>
 <item>
 <title>Wild</title>
 <link>https://longboredsurfer.com/book-reviews/wild</link>
@@ -65,20 +79,6 @@
 <description>(I listened to this for a book club at work.) Last weekend I was sick, and listened to this entire b...</description>
 <pubDate>Sun, 21 Sep 2025 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/the-let-them-theory</guid>
-</item>
-<item>
-<title>All Quiet on the Western Front</title>
-<link>https://longboredsurfer.com/book-reviews/all-quiet-on-the-western-front</link>
-<description>I cheated on a book report for this in the 9th(?) grade and used Cliffs Notes instead. Decades later...</description>
-<pubDate>Fri, 19 Sep 2025 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/all-quiet-on-the-western-front</guid>
-</item>
-<item>
-<title>The Anxious Generation</title>
-<link>https://longboredsurfer.com/book-reviews/the-anxious-generation</link>
-<description>We were oblivious to the impact of smartphones (and social media) on our lives. Little did we know h...</description>
-<pubDate>Mon, 15 Sep 2025 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/the-anxious-generation</guid>
 </item>
 </channel>
 </rss>

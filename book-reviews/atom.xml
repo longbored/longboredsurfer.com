@@ -7,9 +7,23 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Wed, 26 Nov 2025 00:00:00 -0700</pubDate>
+<pubDate>Fri, 05 Dec 2025 00:00:00 -0700</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Lincoln in the Bardo</title>
+<link>https://longboredsurfer.com/book-reviews/lincoln-in-the-bardo</link>
+<description>This book wasn't for me. I'd like to think it is simply written for a different audience than me - t...</description>
+<pubDate>Fri, 05 Dec 2025 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/lincoln-in-the-bardo</guid>
+</item>
+<item>
+<title>Mormons at the Missouri, 1846-1852</title>
+<link>https://longboredsurfer.com/book-reviews/mormons-at-the-missouri-1846-1852</link>
+<description>This covers more history of a time period that is usually only briefly mentioned in classes in churc...</description>
+<pubDate>Sat, 29 Nov 2025 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/mormons-at-the-missouri-1846-1852</guid>
+</item>
 <item>
 <title>Harry Potter and the Prisoner of Azkaban</title>
 <link>https://longboredsurfer.com/book-reviews/harry-potter-and-the-prisoner-of-azkaban</link>
@@ -65,20 +79,6 @@
 <description>This was an interesting book from, in part, one of the authors of another book I really liked ("The ...</description>
 <pubDate>Thu, 09 Oct 2025 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/the-canceling-of-the-american-mind</guid>
-</item>
-<item>
-<title>One Day in the Life of Ivan Denisovich</title>
-<link>https://longboredsurfer.com/book-reviews/one-day-in-the-life-of-ivan-denisovich</link>
-<description>I'm cautious to share an opinion of Aleksandr Solzhenitsyn and his writing. I feel like a nobody, an...</description>
-<pubDate>Wed, 01 Oct 2025 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/one-day-in-the-life-of-ivan-denisovich</guid>
-</item>
-<item>
-<title>All the Colors of the Dark</title>
-<link>https://longboredsurfer.com/book-reviews/all-the-colors-of-the-dark</link>
-<description>I don't enjoy stories that have bad things happening to kids. The book is not focused on the worst o...</description>
-<pubDate>Fri, 26 Sep 2025 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/all-the-colors-of-the-dark</guid>
 </item>
 </channel>
 </rss>

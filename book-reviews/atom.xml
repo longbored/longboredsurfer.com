@@ -7,9 +7,23 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Tue, 30 Dec 2025 00:00:00 -0700</pubDate>
+<pubDate>Tue, 13 Jan 2026 00:00:00 -0700</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Isaac&#39;s Storm</title>
+<link>https://longboredsurfer.com/book-reviews/isaacs-storm</link>
+<description>This is the story of when weather forecasting wasn't like it is today, and thousands of people died ...</description>
+<pubDate>Tue, 13 Jan 2026 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/isaacs-storm</guid>
+</item>
+<item>
+<title>Managing Up</title>
+<link>https://longboredsurfer.com/book-reviews/managing-up</link>
+<description>This book feels like it will easily work its way into my shelf of books I'm likely to reference agai...</description>
+<pubDate>Sat, 10 Jan 2026 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/managing-up</guid>
+</item>
 <item>
 <title>The Fiery Trial</title>
 <link>https://longboredsurfer.com/book-reviews/the-fiery-trial</link>
@@ -65,20 +79,6 @@
 <description>I liked a few aspects of this book, and thoroughly disliked one aspect of this book. Like #1: a chap...</description>
 <pubDate>Sat, 15 Nov 2025 00:00:00 -0700</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/dopamine-nation</guid>
-</item>
-<item>
-<title>The Color Purple</title>
-<link>https://longboredsurfer.com/book-reviews/the-color-purple</link>
-<description>Wow. I don't know the last time I read a book that felt as open as this. Alice Walker's novel is an ...</description>
-<pubDate>Thu, 13 Nov 2025 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/the-color-purple</guid>
-</item>
-<item>
-<title>Wild</title>
-<link>https://longboredsurfer.com/book-reviews/wild</link>
-<description>I read this for a book club. I liked the description given by somebody else in the club - people han...</description>
-<pubDate>Fri, 07 Nov 2025 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/wild</guid>
 </item>
 </channel>
 </rss>

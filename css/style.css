@@ -368,3 +368,32 @@ article.tweets span.maybe {
 	padding-left: 1em;
 	font-size: small;
 }
+
+/* Affiliate Links */
+div.affiliate-links {
+	margin-top: 1.5em;
+}
+div.affiliate-links p.disclosure {
+	margin: 0 0 0.5em 0;
+	font-size: 0.75em;
+	color: var(--gray1);
+}
+div.affiliate-links ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	gap: 1em;
+	flex-wrap: wrap;
+}
+div.affiliate-links ul li a {
+	display: inline-block;
+	padding: 0.4em 0.8em;
+	background: var(--orange1);
+	border-radius: 0.25em;
+	font-size: 0.85em;
+}
+div.affiliate-links ul li a:hover {
+	background: var(--orange2);
+	text-decoration: none;
+}

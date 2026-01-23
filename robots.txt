@@ -42,6 +42,9 @@ Disallow: /
 User-agent: ClaudeBot
 Disallow: /
 
+User-agent: Googlebot
+Allow: /
+
 User-agent: Google-Extended
 Disallow: /
 
@@ -50,9 +53,6 @@ Disallow: /
 
 User-agent: meta-externalagent
 Disallow: /
-
-User-agent: *
-Disallow:
 
 # Sitemap
 Sitemap: https://longboredsurfer.com/sitemap.txt

@@ -1,47 +1,71 @@
-# Allow major search engines
-User-Agent: Googlebot
-User-Agent: Bingbot
-User-Agent: DuckDuckBot
-User-Agent: Slurp
-User-Agent: Applebot
+# Default: allow all crawlers
+User-Agent: *
 Allow: /
 
 # Block AI training crawlers
 User-Agent: GPTBot
+Disallow: /
+
 User-Agent: ChatGPT-User
+Disallow: /
+
 User-Agent: OAI-SearchBot
+Disallow: /
+
 User-Agent: ClaudeBot
+Disallow: /
+
 User-Agent: Claude-Web
+Disallow: /
+
 User-Agent: CCBot
+Disallow: /
+
 User-Agent: anthropic-ai
+Disallow: /
+
 User-Agent: cohere-ai
-User-Agent: cohere-training-data-crawler
+Disallow: /
+
 User-Agent: PerplexityBot
+Disallow: /
+
 User-Agent: Meta-ExternalAgent
-User-Agent: Meta-ExternalFetcher
+Disallow: /
+
 User-Agent: Facebookbot
+Disallow: /
+
 User-Agent: Bytespider
-User-Agent: Amazonbot
-User-Agent: Google-CloudVertexBot
+Disallow: /
+
 User-Agent: Google-Extended
+Disallow: /
+
 User-Agent: Diffbot
+Disallow: /
+
 User-Agent: Omgilibot
-User-Agent: YouBot
 Disallow: /
 
 # Block SEO/scraping bots
 User-Agent: SemrushBot
+Disallow: /
+
 User-Agent: AhrefsBot
+Disallow: /
+
 User-Agent: MJ12bot
+Disallow: /
+
 User-Agent: DotBot
+Disallow: /
+
 User-Agent: PetalBot
+Disallow: /
+
 User-Agent: DataForSeoBot
 Disallow: /
 
-# Default: allow everything else
-# (includes legitimate crawlers not listed above)
-User-Agent: *
-Allow: /
-
-# Sitemap location
+# Sitemap
 Sitemap: https://longboredsurfer.com/sitemap.xml

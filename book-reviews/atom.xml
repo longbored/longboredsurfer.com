@@ -7,9 +7,30 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Sat, 17 Jan 2026 00:00:00 -0700</pubDate>
+<pubDate>Wed, 04 Feb 2026 00:00:00 -0700</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>This Tender Land</title>
+<link>https://longboredsurfer.com/book-reviews/this-tender-land</link>
+<description>The tale of Odie, Albert, Mose and Emmy as they flee a bad situation after a series of bad events. I...</description>
+<pubDate>Wed, 04 Feb 2026 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/this-tender-land</guid>
+</item>
+<item>
+<title>I See You&#39;ve Called in Dead</title>
+<link>https://longboredsurfer.com/book-reviews/i-see-youve-called-in-dead</link>
+<description>On the heels of a book about death, this was a humorous novel about a guy who accidentally posts his...</description>
+<pubDate>Fri, 30 Jan 2026 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/i-see-youve-called-in-dead</guid>
+</item>
+<item>
+<title>This Republic of Suffering</title>
+<link>https://longboredsurfer.com/book-reviews/this-republic-of-suffering</link>
+<description>The amount of death in the Civil War made a significant impact on the nation. This book details that...</description>
+<pubDate>Tue, 27 Jan 2026 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/this-republic-of-suffering</guid>
+</item>
 <item>
 <title>Tried by War</title>
 <link>https://longboredsurfer.com/book-reviews/tried-by-war</link>
@@ -58,27 +79,6 @@
 <description>I'm tempted to take a star off for a lack of overall narrative. I'm tempted to take a second star of...</description>
 <pubDate>Wed, 10 Dec 2025 00:00:00 -0700</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/the-doctrine-and-covenants-of-the-church-of-jesus-christ-of-latter-day-saints</guid>
-</item>
-<item>
-<title>Lincoln in the Bardo</title>
-<link>https://longboredsurfer.com/book-reviews/lincoln-in-the-bardo</link>
-<description>This book wasn't for me. I'd like to think it is simply written for a different audience than me - t...</description>
-<pubDate>Fri, 05 Dec 2025 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/lincoln-in-the-bardo</guid>
-</item>
-<item>
-<title>Mormons at the Missouri, 1846-1852</title>
-<link>https://longboredsurfer.com/book-reviews/mormons-at-the-missouri-1846-1852</link>
-<description>This covers more history of a time period that is usually only briefly mentioned in classes in churc...</description>
-<pubDate>Sat, 29 Nov 2025 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/mormons-at-the-missouri-1846-1852</guid>
-</item>
-<item>
-<title>Harry Potter and the Prisoner of Azkaban</title>
-<link>https://longboredsurfer.com/book-reviews/harry-potter-and-the-prisoner-of-azkaban</link>
-<description>This reading was with/to my youngest. He's an active kid, and shifts positions around the room throu...</description>
-<pubDate>Wed, 26 Nov 2025 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/harry-potter-and-the-prisoner-of-azkaban</guid>
 </item>
 </channel>
 </rss>

@@ -7,9 +7,44 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Wed, 04 Feb 2026 00:00:00 -0700</pubDate>
+<pubDate>Fri, 06 Mar 2026 00:00:00 -0700</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Essentialism</title>
+<link>https://longboredsurfer.com/book-reviews/essentialism</link>
+<description>I really liked this one. Essentialism is a mindset that shifts us from being acted upon by endless d...</description>
+<pubDate>Fri, 06 Mar 2026 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/essentialism</guid>
+</item>
+<item>
+<title>Lincoln and His Admirals</title>
+<link>https://longboredsurfer.com/book-reviews/lincoln-and-his-admirals</link>
+<description>The US Civil War was not a naval war. The naval aspects largely weren't flashy. If you had to name p...</description>
+<pubDate>Tue, 03 Mar 2026 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/lincoln-and-his-admirals</guid>
+</item>
+<item>
+<title>For Cause and Comrades</title>
+<link>https://longboredsurfer.com/book-reviews/for-cause-and-comrades</link>
+<description>As the sub-title clearly informs you - this is a book focused on why men fought in the Civil War. It...</description>
+<pubDate>Tue, 24 Feb 2026 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/for-cause-and-comrades</guid>
+</item>
+<item>
+<title>Vicksburg</title>
+<link>https://longboredsurfer.com/book-reviews/vicksburg</link>
+<description>It's easy to say that the 1-2 combo of the Union's victory at Gettysburg (on July 3rd) and Grant tak...</description>
+<pubDate>Fri, 13 Feb 2026 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/vicksburg</guid>
+</item>
+<item>
+<title>Harry Potter and the Goblet of Fire</title>
+<link>https://longboredsurfer.com/book-reviews/harry-potter-and-the-goblet-of-fire</link>
+<description>This reading was with my youngest. For a long time this was my favorite book of the series. Part of ...</description>
+<pubDate>Wed, 04 Feb 2026 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/harry-potter-and-the-goblet-of-fire</guid>
+</item>
 <item>
 <title>This Tender Land</title>
 <link>https://longboredsurfer.com/book-reviews/this-tender-land</link>
@@ -44,41 +79,6 @@
 <description>This is the story of when weather forecasting wasn't like it is today, and thousands of people died ...</description>
 <pubDate>Tue, 13 Jan 2026 00:00:00 -0700</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/isaacs-storm</guid>
-</item>
-<item>
-<title>Managing Up</title>
-<link>https://longboredsurfer.com/book-reviews/managing-up</link>
-<description>This book feels like it will easily work its way into my shelf of books I'm likely to reference agai...</description>
-<pubDate>Sat, 10 Jan 2026 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/managing-up</guid>
-</item>
-<item>
-<title>The Fiery Trial</title>
-<link>https://longboredsurfer.com/book-reviews/the-fiery-trial</link>
-<description>I read this with the goal of trying to understand the development of Lincoln's character. What I fin...</description>
-<pubDate>Tue, 30 Dec 2025 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/the-fiery-trial</guid>
-</item>
-<item>
-<title>Harry Potter and the Sorcerer&#39;s Stone (Full-Cast Edition)</title>
-<link>https://longboredsurfer.com/book-reviews/harry-potter-and-the-sorcerers-stone-full-cast-edition</link>
-<description>This time we listened to the full-cast audio edition from Audible. We really enjoyed it. The voice a...</description>
-<pubDate>Tue, 30 Dec 2025 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/harry-potter-and-the-sorcerers-stone-full-cast-edition</guid>
-</item>
-<item>
-<title>The 1619 Project</title>
-<link>https://longboredsurfer.com/book-reviews/the-1619-project</link>
-<description>This collection of writings presents a thought-provoking perspective, and might be new to (and uncom...</description>
-<pubDate>Wed, 17 Dec 2025 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/the-1619-project</guid>
-</item>
-<item>
-<title>The Doctrine and Covenants of the Church of Jesus Christ of Latter-Day Saints</title>
-<link>https://longboredsurfer.com/book-reviews/the-doctrine-and-covenants-of-the-church-of-jesus-christ-of-latter-day-saints</link>
-<description>I'm tempted to take a star off for a lack of overall narrative. I'm tempted to take a second star of...</description>
-<pubDate>Wed, 10 Dec 2025 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/the-doctrine-and-covenants-of-the-church-of-jesus-christ-of-latter-day-saints</guid>
 </item>
 </channel>
 </rss>

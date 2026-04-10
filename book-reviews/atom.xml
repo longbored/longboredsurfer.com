@@ -7,9 +7,30 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Wed, 11 Mar 2026 00:00:00 -0600</pubDate>
+<pubDate>Thu, 09 Apr 2026 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Mark Twain</title>
+<link>https://longboredsurfer.com/book-reviews/mark-twain</link>
+<description>I enjoy Ron Chernow's writing as a biographer. He's thorough, yet keeps the subject and timeline mov...</description>
+<pubDate>Thu, 09 Apr 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/mark-twain</guid>
+</item>
+<item>
+<title>Harry Potter and the Prisoner of Azkaban (Full-Cast Edition)</title>
+<link>https://longboredsurfer.com/book-reviews/harry-potter-and-the-prisoner-of-azkaban-full-cast-edition</link>
+<description>Another easy win for the full-cast audio editions from Audible. Fun new sound effects. Same rapt aud...</description>
+<pubDate>Thu, 02 Apr 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/harry-potter-and-the-prisoner-of-azkaban-full-cast-edition</guid>
+</item>
+<item>
+<title>Murder Your Employer</title>
+<link>https://longboredsurfer.com/book-reviews/murder-your-employer</link>
+<description>This was a humorously shared story of people being trained in a sophisticated way to become "delete-...</description>
+<pubDate>Fri, 27 Mar 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/murder-your-employer</guid>
+</item>
 <item>
 <title>James</title>
 <link>https://longboredsurfer.com/book-reviews/james</link>
@@ -46,39 +67,18 @@
 <guid>https://longboredsurfer.com/book-reviews/vicksburg</guid>
 </item>
 <item>
+<title>Harry Potter and the Chamber of Secrets (Full-Cast Edition)</title>
+<link>https://longboredsurfer.com/book-reviews/harry-potter-and-the-chamber-of-secrets-full-cast-edition</link>
+<description>This is for the full-cast audio edition from Audible. I'm glad that they've carried on with the same...</description>
+<pubDate>Tue, 10 Feb 2026 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/harry-potter-and-the-chamber-of-secrets-full-cast-edition</guid>
+</item>
+<item>
 <title>Harry Potter and the Goblet of Fire</title>
 <link>https://longboredsurfer.com/book-reviews/harry-potter-and-the-goblet-of-fire</link>
 <description>This reading was with my youngest. For a long time this was my favorite book of the series. Part of ...</description>
 <pubDate>Wed, 04 Feb 2026 00:00:00 -0700</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/harry-potter-and-the-goblet-of-fire</guid>
-</item>
-<item>
-<title>This Tender Land</title>
-<link>https://longboredsurfer.com/book-reviews/this-tender-land</link>
-<description>The tale of Odie, Albert, Mose and Emmy as they flee a bad situation after a series of bad events. I...</description>
-<pubDate>Wed, 04 Feb 2026 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/this-tender-land</guid>
-</item>
-<item>
-<title>I See You&#39;ve Called in Dead</title>
-<link>https://longboredsurfer.com/book-reviews/i-see-youve-called-in-dead</link>
-<description>On the heels of a book about death, this was a humorous novel about a guy who accidentally posts his...</description>
-<pubDate>Fri, 30 Jan 2026 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/i-see-youve-called-in-dead</guid>
-</item>
-<item>
-<title>This Republic of Suffering</title>
-<link>https://longboredsurfer.com/book-reviews/this-republic-of-suffering</link>
-<description>The amount of death in the Civil War made a significant impact on the nation. This book details that...</description>
-<pubDate>Tue, 27 Jan 2026 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/this-republic-of-suffering</guid>
-</item>
-<item>
-<title>Tried by War</title>
-<link>https://longboredsurfer.com/book-reviews/tried-by-war</link>
-<description>I'll repeat something I've told others: if you think you can only stomach a single book about the Am...</description>
-<pubDate>Sat, 17 Jan 2026 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/tried-by-war</guid>
 </item>
 </channel>
 </rss>

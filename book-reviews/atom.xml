@@ -7,9 +7,23 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Thu, 09 Apr 2026 00:00:00 -0600</pubDate>
+<pubDate>Sat, 18 Apr 2026 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>The Underground Railroad</title>
+<link>https://longboredsurfer.com/book-reviews/the-underground-railroad</link>
+<description>I'll be honest: I finished this book confused. The narrative shifts in ways that defy easy explanati...</description>
+<pubDate>Sat, 18 Apr 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/the-underground-railroad</guid>
+</item>
+<item>
+<title>Code Name Verity</title>
+<link>https://longboredsurfer.com/book-reviews/code-name-verity</link>
+<description>This is a fun, quick read. The imagery of the stories told by these two best friends in WWII is top ...</description>
+<pubDate>Tue, 14 Apr 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/code-name-verity</guid>
+</item>
 <item>
 <title>Mark Twain</title>
 <link>https://longboredsurfer.com/book-reviews/mark-twain</link>
@@ -65,20 +79,6 @@
 <description>It's easy to say that the 1-2 combo of the Union's victory at Gettysburg (on July 3rd) and Grant tak...</description>
 <pubDate>Fri, 13 Feb 2026 00:00:00 -0700</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/vicksburg</guid>
-</item>
-<item>
-<title>Harry Potter and the Chamber of Secrets (Full-Cast Edition)</title>
-<link>https://longboredsurfer.com/book-reviews/harry-potter-and-the-chamber-of-secrets-full-cast-edition</link>
-<description>This is for the full-cast audio edition from Audible. I'm glad that they've carried on with the same...</description>
-<pubDate>Tue, 10 Feb 2026 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/harry-potter-and-the-chamber-of-secrets-full-cast-edition</guid>
-</item>
-<item>
-<title>Harry Potter and the Goblet of Fire</title>
-<link>https://longboredsurfer.com/book-reviews/harry-potter-and-the-goblet-of-fire</link>
-<description>This reading was with my youngest. For a long time this was my favorite book of the series. Part of ...</description>
-<pubDate>Wed, 04 Feb 2026 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/harry-potter-and-the-goblet-of-fire</guid>
 </item>
 </channel>
 </rss>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Voronoi Art Generator - LongboredSurfer.com</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+	<main>
+		<nav>
+			<section>
+				<span class="home">
+					<a href="/" class="home">LongboredSurfer.com</a>
+					<a href="/about">About</a>
+					<a href="/blog">Blog</a>
+					<a href="/links">Links</a>
+					<a href="/book-reviews">Book Reviews</a>
+					<a href="/charts">Charts</a>
+				</span>
+			</section>
+		</nav>
+		
+<article class="blog">
+	<div class="blog"></div>
+	<h1><a href="/blog/voronoi-art-generator">Voronoi Art Generator</a></h1>
+	<p class="meta">Published on 2026-04-19</p>
+	<p>Years ago I wrote about trying to build a <a href="https://longboredsurfer.com/blog/color-palette-generator/">color palette generator</a> and mostly failing. This is a little bit of a spiritual sequel to that, in the sense that it involves colors, and I actually finished it.</p>
+<p>I've been curious about <a href="https://en.wikipedia.org/wiki/Voronoi_diagram">Voronoi diagrams</a> for a while. The basic idea is simpler than I used to think: scatter a bunch of points across a plane, and for every location in that plane, ask which point is closest. The answer carves the plane into regions, one per point, with no gaps or overlaps. Those regions are the Voronoi cells. What I find interesting is that the result looks organic even when the points are placed randomly, because every boundary is always the exact midpoint between two neighboring points. Nudge one point and its cell shifts; the whole diagram adjusts. That behavior shows up all over nature (giraffe patterns, dried mud cracks, leaf cell structures), and I wanted to see it in action.</p>
+<p>So I built a small Python tool to generate Voronoi art as SVG files. You give it a canvas size, a number of seed points, a color palette, and a handful of other options, and it spits out a diagram with each cell filled in using a graph-coloring algorithm (so no two neighboring cells share a color). You can also toggle on the <a href="https://en.wikipedia.org/wiki/Delaunay_triangulation">Delaunay triangulation</a> as an overlay, which is the mathematical buddy of the Voronoi diagram, and makes the underlying geometry visible in a way I find satisfying.</p>
+<p>A few things I'm pleased with:</p>
+<ul>
+<li>It ships with 140 named color palettes, so random runs are rarely ugly</li>
+<li>Grid layout option gives a more structured, tiled feel versus the organic randomness of the default random placement</li>
+<li>Every run writes a JSON file next to the output with all the parameters used, so you can reproduce any result exactly</li>
+<li>You can also pass a hex color and let it derive a palette from that using color harmony rules (analogous, complementary, triadic, monochrome)</li>
+</ul>
+<p>The code is <a href="https://github.com/longbored/voronoi-generator">on GitHub</a> if you want to take a look or run it yourself. It's a <code>uv</code>-based Python project, so setup should be straightforward, if you're familiar with Python.</p>
+<p>A few samples to give you an idea of the range:</p>
+<p><img alt="Grid layout with dual overlay" src="grid_overlay.svg" /></p>
+<p><img alt="Sparse cells, large canvas" src="sparse.svg" /></p>
+<p><img alt="Analogous color harmony" src="analogous.svg" /></p>
+<p>This started as me trying to understand a concept, and turned into something I'm not totally embarrassed to share. Spinning it up with a random seed and seeing what comes out is quick and cool.</p>
+	
+	<div class="tags"><h3>Tags</h3>
+		<ul>
+			<li><a href="/blog/tags/geeking-out">geeking-out</a></li>
+			<li><a href="/blog/tags/creative">creative</a></li>
+		</ul>
+	</div>
+		<ul class="prior_next">
+	<li class="prior">Prior: <a href="/blog/g2-20250612">G2 20250612</a></li>
+	
+	</ul>
+</article>
+
+		<footer>
+			<section>
+				<p>&copy; 2005-2026 LongboredSurfer.com</p>
+				<p>
+					<a href="https://github.com/longbored">GitHub</a>
+					<a href="https://goodreads.com/longbored">Goodreads</a>
+					<a href="https://thingiverse.com/longbored">Thingiverse</a>
+					<a href="https://longboredsurfer.com/">LongboredSurfer.com</a>
+				</p>
+				<p>
+					<a href="/privacy">Privacy Policy</a>
+					<a href="http://www.amazon.com/exec/obidos/redirect?tag=thelongsurf-20">Shop at Amazon and support LongboredSurfer.com</a>
+			</section>
+		</footer>
+	</main>
+</body>
+</html>

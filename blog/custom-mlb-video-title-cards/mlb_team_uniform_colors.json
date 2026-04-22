@@ -1,0 +1,901 @@
+{
+  "ath": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#FFB81C",
+      "letter": "#024638",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#A2AAAD",
+      "accent": "#FFB81C",
+      "letter": "#024638",
+      "pants": "#A2AAAD"
+    },
+    "alt": {
+      "base": "#006341",
+      "accent": "#FFB81C",
+      "letter": "#FFFFFF",
+      "pants": "#FFFFFF"
+    }
+  },
+  "atl": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#0C2340",
+      "letter": "#BA0C2F",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#A2AAAD",
+      "accent": "#0C2340",
+      "letter": "#BA0C2F",
+      "pants": "#A2AAAD"
+    },
+    "alt": {
+      "base": "#0C2340",
+      "accent": "#FFFFFF",
+      "letter": "#BA0C2F",
+      "pants": "#A2AAAD"
+    },
+    "city_connect": {
+      "base": "#FFFFFF",
+      "accent": "#BA0C2F",
+      "letter": "#1E22AA",
+      "pants": "#FFFFFF",
+      "era": "2023 through 2025"
+    }
+  },
+  "az": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#010101",
+      "letter": "#A6192E",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#A29E9F",
+      "letter": "#A6192E",
+      "pants": "#A29E9F"
+    },
+    "alt": {
+      "base": "#010101",
+      "accent": "#2CCCD3",
+      "letter": "#A6192E",
+      "pants": "#FFFFFF"
+    },
+    "city_connect": {
+      "base": "#523178",
+      "accent": "#010101",
+      "letter": "#2CCCD3",
+      "pinstripe": "#010101",
+      "pants": "#FFFFFF",
+      "era": "2025 through present"
+    },
+    "city_connect_2": {
+      "base": "#FFFCE9",
+      "accent": "#A6192E",
+      "letter": "#0097A9",
+      "pants": "#FFFFFF",
+      "era": "2021 through 2024"
+    }
+  },
+  "bal": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#010101",
+      "letter": "#FC4C02",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#A2AAAD",
+      "accent": "#010101",
+      "letter": "#FC4C02",
+      "pants": "#A2AAAD"
+    },
+    "alt": {
+      "base": "#010101",
+      "accent": "#FC4C02",
+      "letter": "#FC4C02",
+      "pants": "#A2AAAD"
+    },
+    "city_connect": {
+      "base": "#010101",
+      "accent": "#FC4C02",
+      "letter": "#FFFFFF",
+      "pants": "#010101",
+      "era": "2023 through present"
+    }
+  },
+  "bos": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#0C2340",
+      "letter": "#C8102E",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#A2AAAD",
+      "accent": "#C8102E",
+      "letter": "#0C2340",
+      "pants": "#A2AAAD"
+    },
+    "alt": {
+      "base": "#C8102E",
+      "accent": "#FFFFFF",
+      "letter": "#0C2340",
+      "pants": "#FFFFFF"
+    },
+    "city_connect": {
+      "base": "#5A8D84",
+      "accent": "#FFC72C",
+      "letter": "#FFFFFF",
+      "pants": "#FFFFFF",
+      "era": "2025 through present"
+    },
+    "city_connect_2": {
+      "base": "#FFC72C",
+      "accent": "#307FE2",
+      "letter": "#307FE2",
+      "pants": "#FFFFFF",
+      "era": "2021 through 2024"
+    }
+  },
+  "chc": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#002F6C",
+      "letter": "#C8102E",
+      "pinstripe": "#13294B",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#919D9D",
+      "accent": "#C8102E",
+      "letter": "#002F6C",
+      "pants": "#919D9D"
+    },
+    "alt": {
+      "base": "#002F6C",
+      "accent": "#002F6C",
+      "letter": "#C8102E",
+      "pants": "#919D9D"
+    },
+    "city_connect": {
+      "base": "#13294B",
+      "accent": "#7BA4DB",
+      "letter": "#FFFFFF",
+      "pants": "#13294B",
+      "era": "2021 through 2024"
+    }
+  },
+  "cin": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#BA0C2F",
+      "letter": "#BA0C2F",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#919D9D",
+      "accent": "#BA0C2F",
+      "letter": "#BA0C2F",
+      "pants": "#919D9D"
+    },
+    "alt": {
+      "base": "#919D9D",
+      "accent": "#BA0C2F",
+      "letter": "#BA0C2F",
+      "pants": "#919D9D"
+    },
+    "city_connect": {
+      "base": "#010101",
+      "accent": "#BA0C2F",
+      "letter": "#010101",
+      "pants": "#010101",
+      "era": "2023 through 2025"
+    }
+  },
+  "cle": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#0C2340",
+      "letter": "#D50032",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#909EA3",
+      "accent": "#D50032",
+      "letter": "#0C2340",
+      "pants": "#909EA3"
+    },
+    "alt": {
+      "base": "#0C2340",
+      "accent": "#FFFFFF",
+      "letter": "#D50032",
+      "pants": "#909EA3"
+    },
+    "city_connect": {
+      "base": "#0C2340",
+      "accent": "#D50032",
+      "letter": "#FFFFFF",
+      "pants": "#FFFFFF",
+      "era": "2024 through present"
+    }
+  },
+  "col": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#330072",
+      "letter": "#8D9093",
+      "pinstripe": "#010101",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#919D9D",
+      "accent": "#010101",
+      "letter": "#010101",
+      "pants": "#919D9D"
+    },
+    "alt": {
+      "base": "#010101",
+      "accent": "#330072",
+      "letter": "#FFFFFF",
+      "pants": "#919D9D"
+    },
+    "city_connect": {
+      "base": "#7BA4DB",
+      "accent": "#FF5FA2",
+      "letter": "#753BBD",
+      "pants": "#FFFFFF",
+      "era": "2025 through present"
+    },
+    "city_connect_2": {
+      "base": "#1D3C34",
+      "accent": "#FFFFFF",
+      "letter": "#FFFFFF",
+      "pants": "#1D3C34",
+      "era": "2022 through 2024"
+    }
+  },
+  "cws": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#010101",
+      "letter": "#010101",
+      "pinstripe": "#010101",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#A2AAAD",
+      "accent": "#010101",
+      "letter": "#010101",
+      "pants": "#A2AAAD"
+    },
+    "alt": {
+      "base": "#010101",
+      "accent": "#FFFFFF",
+      "letter": "#FFFFFF",
+      "pants": "#A2AAAD"
+    },
+    "city_connect": {
+      "base": "#BA0C2F",
+      "accent": "#010101",
+      "letter": "#010101",
+      "pinstripe": "#010101",
+      "pants": "#010101",
+      "era": "2025 through present"
+    },
+    "city_connect_2": {
+      "base": "#010101",
+      "accent": "#FFFFFF",
+      "letter": "#FFFFFF",
+      "pinstripe": "#FFFFFF",
+      "pants": "#010101",
+      "era": "2021 through 2024"
+    }
+  },
+  "det": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#0C2340",
+      "letter": "#0C2340",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#919D9D",
+      "accent": "#0C2340",
+      "letter": "#FA4616",
+      "pants": "#919D9D"
+    },
+    "alt": {
+      "base": "#919D9D",
+      "accent": "#0C2340",
+      "letter": "#FA4616",
+      "pants": "#919D9D"
+    },
+    "city_connect": {
+      "base": "#1D252D",
+      "accent": "#1E22AA",
+      "letter": "#FFFFFF",
+      "pants": "#1D252D",
+      "era": "2024 through present"
+    }
+  },
+  "hou": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#CF4520",
+      "letter": "#041E42",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#919D9D",
+      "accent": "#CF4520",
+      "letter": "#041E42",
+      "pants": "#919D9D"
+    },
+    "alt": {
+      "base": "#E57200",
+      "accent": "#CF4520",
+      "letter": "#003087",
+      "pants": "#FFFFFF"
+    },
+    "city_connect": {
+      "base": "#FFFFFF",
+      "accent": "#CF4520",
+      "letter": "#041E42",
+      "pants": "#FFFFFF",
+      "era": "2022 through 2024"
+    }
+  },
+  "kc": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#002D72",
+      "letter": "#002D72",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#919D9D",
+      "accent": "#FFFFFF",
+      "letter": "#002D72",
+      "pants": "#919D9D"
+    },
+    "alt": {
+      "base": "#6CACE4",
+      "accent": "#002D72",
+      "letter": "#FFFFFF",
+      "pants": "#919D9D"
+    },
+    "city_connect": {
+      "base": "#002D72",
+      "accent": "#6CACE4",
+      "letter": "#FFFFFF",
+      "pants": "#FFFFFF",
+      "era": "2022 through 2025"
+    }
+  },
+  "laa": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#BA0C2F",
+      "letter": "#BA0C2F",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#919D9D",
+      "accent": "#BA0C2F",
+      "letter": "#BA0C2F",
+      "pants": "#919D9D"
+    },
+    "alt": {
+      "base": "#BA0C2F",
+      "accent": "#FFFFFF",
+      "letter": "#862633",
+      "pants": "#919D9D"
+    },
+    "city_connect": {
+      "base": "#EFDBB2",
+      "letter": "#BA0C2F",
+      "pants": "#EFDBB2",
+      "era": "2022 through present"
+    }
+  },
+  "lad": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#E4002B",
+      "letter": "#002F6C",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#919D9D",
+      "accent": "#E4002B",
+      "letter": "#002F6C",
+      "pants": "#919D9D"
+    },
+    "alt": {
+      "base": "#002F6C",
+      "accent": "#E4002B",
+      "letter": "#FFFFFF",
+      "pants": "#919D9D"
+    },
+    "city_connect": {
+      "base": "#F1F1DE",
+      "accent": "#407EC9",
+      "letter": "#0C2340",
+      "pants": "#F1F1DE",
+      "era": "2024 through present"
+    }
+  },
+  "mia": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#00A3E0",
+      "letter": "#010101",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#ABA7AC",
+      "accent": "#00A3E0",
+      "letter": "#010101",
+      "pants": "#ABA7AC"
+    },
+    "alt": {
+      "base": "#010101",
+      "accent": "#00A3E0",
+      "letter": "#FFFFFF",
+      "pants": "#ABA7AC"
+    },
+    "city_connect": {
+      "base": "#010101",
+      "accent": "#F04E98",
+      "letter": "#0097A9",
+      "pants": "#010101",
+      "era": "2025 through present"
+    },
+    "city_connect_2": {
+      "base": "#C8102E",
+      "accent": "#00629B",
+      "letter": "#FFFFFF",
+      "pinstripe": "#FFFFFF",
+      "pants": "#FFFFFF",
+      "era": "2021 through 2024"
+    }
+  },
+  "mil": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#FFC72C",
+      "letter": "#13294B",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#CDCFD0",
+      "accent": "#FFC72C",
+      "letter": "#13294B",
+      "pants": "#CDCFD0"
+    },
+    "alt": {
+      "base": "#13294B",
+      "accent": "#FFC72C",
+      "letter": "#FFC72C",
+      "pants": "#CDCFD0"
+    },
+    "city_connect": {
+      "base": "#6CACE4",
+      "accent": "#13294B",
+      "letter": "#FFC72C",
+      "pants": "#FFFFFF",
+      "era": "2022 through 2025"
+    }
+  },
+  "min": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#0C2340",
+      "letter": "#BA0C2F",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#A2AAAD",
+      "accent": "#BA0C2F",
+      "letter": "#0C2340",
+      "pinstripe": "#86898C",
+      "pants": "#A2AAAD"
+    },
+    "alt": {
+      "base": "#0C2340",
+      "accent": "#BA0C2F",
+      "letter": "#FFFFFF",
+      "pinstripe": "#86898C",
+      "pants": "#A2AAAD"
+    },
+    "city_connect": {
+      "base": "#1E22AA",
+      "accent": "#FFD100",
+      "letter": "#FFFFFF",
+      "pants": "#1E22AA",
+      "era": "2024 through present"
+    }
+  },
+  "nym": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#FC4C02",
+      "letter": "#002D72",
+      "pinstripe": "#002D72",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#919D9D",
+      "accent": "#FC4C02",
+      "letter": "#002D72",
+      "pants": "#919D9D"
+    },
+    "alt": {
+      "base": "#010101",
+      "accent": "#FC4C02",
+      "letter": "#002D72",
+      "pants": "#FFFFFF"
+    },
+    "city_connect": {
+      "base": "#53565A",
+      "accent": "#383A35",
+      "letter": "#010101",
+      "pants": "#FFFFFF",
+      "era": "2024 through present"
+    }
+  },
+  "nyy": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#0C2340",
+      "letter": "#0C2340",
+      "pinstripe": "#0C2340",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#A29E9F",
+      "accent": "#0C2340",
+      "letter": "#0C2340",
+      "pants": "#A29E9F"
+    }
+  },
+  "phi": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#002D72",
+      "letter": "#BA0C2F",
+      "pinstripe": "#BA0C2F",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#919D9D",
+      "accent": "#002D72",
+      "letter": "#BA0C2F",
+      "pants": "#919D9D"
+    },
+    "alt": {
+      "base": "#FFFAEC",
+      "accent": "#002D72",
+      "letter": "#BA0C2F",
+      "pants": "#FFFAEC"
+    },
+    "city_connect": {
+      "base": "#00629B",
+      "accent": "#FFD100",
+      "letter": "#FFFFFF",
+      "pants": "#13294B",
+      "era": "2024 through present"
+    }
+  },
+  "pit": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#FFC72C",
+      "letter": "#010101",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#919D9D",
+      "accent": "#FFC72C",
+      "letter": "#010101",
+      "pants": "#919D9D"
+    },
+    "alt": {
+      "base": "#010101",
+      "accent": "#FFC72C",
+      "letter": "#FFC72C",
+      "pants": "#919D9D"
+    },
+    "city_connect": {
+      "base": "#FFB81C",
+      "accent": "#F7EA48",
+      "letter": "#010101",
+      "pants": "#010101",
+      "era": "2023 through 2025"
+    }
+  },
+  "sd": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#FFC72C",
+      "letter": "#3E342F",
+      "pinstripe": "#3E342F",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#3E342F",
+      "accent": "#FFC72C",
+      "letter": "#FFC72C",
+      "pants": "#B7A99A"
+    },
+    "alt": {
+      "base": "#B7A99A",
+      "accent": "#FFC72C",
+      "letter": "#3E342F",
+      "pinstripe": "#3E342F",
+      "pants": "#B7A99A"
+    },
+    "city_connect": {
+      "base": "#FFFFFF",
+      "accent": "#9BE3BF",
+      "letter": "#F04E98",
+      "pants": "#FFFFFF",
+      "era": "2024 through 2025"
+    }
+  },
+  "sea": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#00685E",
+      "letter": "#0C2340",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#919D9D",
+      "accent": "#00685E",
+      "letter": "#0C2340",
+      "pants": "#919D9D"
+    },
+    "alt": {
+      "base": "#0C2340",
+      "accent": "#00685E",
+      "letter": "#8D9093",
+      "pants": "#919D9D"
+    },
+    "city_connect": {
+      "base": "#001A72",
+      "accent": "#FFC72C",
+      "letter": "#FFB81C",
+      "pants": "#0C2340",
+      "era": "2023 through present"
+    }
+  },
+  "sf": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#FA4616",
+      "letter": "#010101",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#A7B1B7",
+      "accent": "#FA4616",
+      "letter": "#010101",
+      "pants": "#A7B1B7"
+    },
+    "alt": {
+      "base": "#FA4616",
+      "accent": "#FFFFFF",
+      "letter": "#010101",
+      "pants": "#FFFFFF"
+    },
+    "city_connect": {
+      "base": "#010101",
+      "accent": "#6E3FA3",
+      "letter": "#FF6A39",
+      "pants": "#FFFFFF",
+      "era": "2025 through present"
+    },
+    "city_connect_2": {
+      "base": "#FFFFFF",
+      "accent": "#FF6A39",
+      "letter": "#FF6A39",
+      "pants": "#FFFFFF",
+      "era": "2021 through 2024"
+    }
+  },
+  "stl": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#FEDB00",
+      "letter": "#BA0C2F",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#919D9D",
+      "accent": "#FEDB00",
+      "letter": "#BA0C2F",
+      "pants": "#919D9D"
+    },
+    "alt": {
+      "base": "#FFFAEC",
+      "accent": "#FEDB00",
+      "letter": "#BA0C2F",
+      "pants": "#FFFAEC"
+    },
+    "city_connect": {
+      "base": "#A6192E",
+      "accent": "#FFD100",
+      "letter": "#FFFFFF",
+      "pants": "#FFFFFF",
+      "era": "2024 through present"
+    }
+  },
+  "tb": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#69B3E7",
+      "letter": "#041E42",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#041E42",
+      "accent": "#FFCD00",
+      "letter": "#FFFFFF",
+      "pants": "#919D9D"
+    },
+    "alt": {
+      "base": "#69B3E7",
+      "accent": "#FFCD00",
+      "letter": "#041E42",
+      "pants": "#FFFFFF"
+    },
+    "city_connect": {
+      "base": "#63666A",
+      "accent": "#78BE21",
+      "letter": "#48A9C5",
+      "pants": "#63666A",
+      "era": "2024 through present"
+    }
+  },
+  "tex": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#BA0C2F",
+      "letter": "#002D72",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#919D9D",
+      "accent": "#BA0C2F",
+      "letter": "#002D72",
+      "pants": "#919D9D"
+    },
+    "alt": {
+      "base": "#002D72",
+      "accent": "#BA0C2F",
+      "letter": "#FFFFFF",
+      "pants": "#919D9D"
+    },
+    "city_connect": {
+      "base": "#FFFFFF",
+      "accent": "#C8102E",
+      "letter": "#1D1F2A",
+      "pants": "#1D1F2A",
+      "era": "2023 through 2025"
+    }
+  },
+  "tor": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#D50032",
+      "letter": "#003DA5",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#919D9D",
+      "accent": "#FFFFFF",
+      "letter": "#003DA5",
+      "pants": "#919D9D"
+    },
+    "alt": {
+      "base": "#1E22AA",
+      "accent": "#6CACE4",
+      "letter": "#FFFFFF",
+      "pants": "#919D9D"
+    },
+    "city_connect": {
+      "base": "#00183C",
+      "accent": "#6CACE4",
+      "letter": "#E4002B",
+      "pants": "#00183C",
+      "era": "2024 through present"
+    }
+  },
+  "wsh": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#041E42",
+      "letter": "#BA0C2F",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#909EA3",
+      "accent": "#041E42",
+      "letter": "#BA0C2F",
+      "pants": "#909EA3"
+    },
+    "alt": {
+      "base": "#909EA3",
+      "accent": "#BA0C2F",
+      "letter": "#041E42",
+      "pants": "#909EA3"
+    },
+    "city_connect": {
+      "base": "#5C82A5",
+      "accent": "#5BC2E7",
+      "letter": "#FFFFFF",
+      "pants": "#FFFFFF",
+      "era": "2025 through present"
+    },
+    "city_connect_2": {
+      "base": "#53565A",
+      "accent": "#FFB3AB",
+      "letter": "#FFFFFF",
+      "pants": "#FFFFFF",
+      "era": "2022 through 2024"
+    }
+  },
+  "oak": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#FFB81C",
+      "letter": "#024638",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#A2AAAD",
+      "accent": "#FFB81C",
+      "letter": "#024638",
+      "pants": "#A2AAAD"
+    },
+    "alt": {
+      "base": "#006341",
+      "accent": "#FFB81C",
+      "letter": "#FFFFFF",
+      "pants": "#FFFFFF"
+    }
+  },
+  "al": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#142258",
+      "letter": "#9E1F16",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#142258",
+      "accent": "#9E1F16",
+      "letter": "#FFFFFF",
+      "pants": "#142258"
+    }
+  },
+  "nl": {
+    "home": {
+      "base": "#FFFFFF",
+      "accent": "#142258",
+      "letter": "#9E1F16",
+      "pants": "#FFFFFF"
+    },
+    "away": {
+      "base": "#142258",
+      "accent": "#9E1F16",
+      "letter": "#FFFFFF",
+      "pants": "#142258"
+    }
+  }
+}

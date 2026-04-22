@@ -7,9 +7,16 @@
 <atom:link href="https://longboredsurfer.com/blog/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's blog entries.</description>
 <language>en-us</language>
-<pubDate>Sun, 19 Apr 2026 00:00:00 -0600</pubDate>
+<pubDate>Wed, 22 Apr 2026 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/blog/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Custom MLB Video Title Cards</title>
+<link>https://longboredsurfer.com/blog/custom-mlb-video-title-cards</link>
+<description>I keep some recordings of MLB games to watch - they come in particularly handy in the off-season, wh...</description>
+<pubDate>Wed, 22 Apr 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/blog/custom-mlb-video-title-cards</guid>
+</item>
 <item>
 <title>Voronoi Art Generator</title>
 <link>https://longboredsurfer.com/blog/voronoi-art-generator</link>
@@ -72,13 +79,6 @@
 <description>The other night I was asked if I had a recommendation for earphones, and after gushing about a pair ...</description>
 <pubDate>Mon, 07 Sep 2015 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/blog/i-shure-love-these-earphones</guid>
-</item>
-<item>
-<title>Zelda Cross Stitch</title>
-<link>https://longboredsurfer.com/blog/zelda-cross-stitch</link>
-<description>Last night I finished cross stitching this. I didn't measure, but I think it took me around five hou...</description>
-<pubDate>Tue, 07 Jan 2014 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/blog/zelda-cross-stitch</guid>
 </item>
 </channel>
 </rss>

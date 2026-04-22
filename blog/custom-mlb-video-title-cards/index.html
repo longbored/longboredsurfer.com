@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Custom MLB Video Title Cards - LongboredSurfer.com</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+	<main>
+		<nav>
+			<section>
+				<span class="home">
+					<a href="/" class="home">LongboredSurfer.com</a>
+					<a href="/about">About</a>
+					<a href="/blog">Blog</a>
+					<a href="/links">Links</a>
+					<a href="/book-reviews">Book Reviews</a>
+					<a href="/charts">Charts</a>
+				</span>
+			</section>
+		</nav>
+		
+<article class="blog">
+	<div class="blog"></div>
+	<h1><a href="/blog/custom-mlb-video-title-cards">Custom MLB Video Title Cards</a></h1>
+	<p class="meta">Published on 2026-04-22</p>
+	<p>I keep some recordings of MLB games to watch - they come in particularly handy in the off-season, while I ride a trainer in the garage and think of warmer days. Regardless, I wanted a small title card on the front of each one: teams, date, a one-liner about the game. Rather than styling a bunch of Adobe Illustrator files by hand, I wanted to automate what I could - Illustrator has some <a href="https://helpx.adobe.com/illustrator/desktop/automate-visualize-data/automate-actions/install-and-run-scripts.html">scripting functionality</a> of I was previously unaware. I knew what games I had recorded. My ideal title cards would have team/uniform colors for the two sides - even better if it represented the uniforms they wore for the actual games. MLB has a bunch of APIs. I’m computer-ly inclined. Couldn’t be <em>too</em> bad, right?</p>
+<p>So, the adventure began. MLB’s API publishes <em>what</em> teams are wearing per game (text like "Dodgers City Connect Jersey") but no other relevant details about that uniform. No RGB, no palette ids, nothing graphics-oriented. You’d think they would, but not for us commoners. I could go to each team’s page, and see what could be found, but <em>somebody</em> had to have something out there.</p>
+<p><img alt="TruColor color reference page" src="trucolor_source_sample.png" /></p>
+<p>TruColor did. I was totally unfamiliar with them, but two pages came to the rescue: <a href="https://www.trucolor.net/portfolio/major-league-baseball-american-league-official-colors-1903-through-present/">AL</a> and <a href="https://www.trucolor.net/portfolio/major-league-baseball-national-league-official-colors-1903-through-present/">NL</a>. The pages have WAY more than I needed, but at least they're specific, referenced, and consistent. I scraped those and narrowed to the seasons I care about.</p>
+<p>Then I categorized each team's per-game uniform text into rough buckets (primary home, road, alt, City Connect (including those with two), etc).</p>
+<p><img alt="Assigning base / accent / letter / pants for each look" src="assign_colors_by_look_sample.png" /></p>
+<p>With the help of a HTML picker, I used those uniform buckets and the previously-scraped per-team colors to figure out which colors belong to which uniform combos.</p>
+<p>Unfortunately, the categorizer isn't perfect - sometimes it calls a home team "road grey," and a few promo jerseys have no palette at all. To patch that 10%, I made a little review page that would let me override a game’s selections with a different uniform combo.</p>
+<p><img alt="Per-game review page with drop-downs and live swatches" src="uniform_review_sample.png" /></p>
+<p>Lastly, I needed to create an Illustrator script (JSX) that would combine this per-game data with an actual Illustrator image file. The script was nasty, but the image file was dead-simple: every layer name matched a CSV column, and the script matches things up.</p>
+<p><img alt="Illustrator template layers named to match CSV columns" src="illustrator_layers_sample.png" /></p>
+<p>One game end-to-end - 2025-08-16, Padres @ Dodgers, "Snell's 6 Scoreless" (<a href="https://www.mlb.com/gameday/776717">MLB gamePk 776717</a>):</p>
+<ul>
+<li><a href="https://statsapi.mlb.com/api/v1/uniforms/game?gamePks=776717">StatsAPI uniforms endpoint</a> returns <code>Dodgers City Connect Jersey</code> and <code>Padres Alt Brown Pinstripe Jersey</code>.</li>
+<li>Categorize -&gt; <code>city_connect</code> for LAD, <code>alternate</code> for SD.</li>
+<li>Bucket -&gt; colors: LAD <code>city_connect</code> (2025-through-present block) = white base, blue accents; SD <code>alt</code> = brown pinstripes.</li>
+<li>CSV row -&gt; Illustrator template -&gt; PNG:</li>
+</ul>
+<p><img alt="Final rendered title card for game Snell doing great against his old team" src="title_card_final_sample.png" /></p>
+<p>The longest part was definitely matching up the colors by hand with the various looks per team. So, that’s the piece I’m sharing. If you want the colors file on its own, it’s on <a href="https://gist.github.com/longbored/75fbf949b59f47a7b1a586989ddf650e">Github</a>, or attached below (<code>mlb_team_uniform_colors.json</code>). It has hex slots per team per look (<code>home</code>, <code>away</code>, <code>alt</code>, <code>city_connect</code>, <code>city_connect_2</code> when a team has two eras), plus <code>AL</code> and <code>NL</code> for All-Star games. I <em>guess</em> I'm open to corrections on this, but my focus was simply to share. Remember: it was eyeballed by a guy sitting on his couch distracted by whatever was on the TV, so it's not official by any stretch. Use at your own risk/benefit.</p>
+<p>A few things I'm pleased with:</p>
+<ul>
+<li>The process was static and offline after the initial data pull.</li>
+<li>City Connect selection by calendar year for those troublesome teams with multiple.</li>
+<li>Layer-name-matches-column is the smallest useful contract between the CSV and the template.</li>
+<li>A good excuse to use <a href="https://simplebits.shop/products/grandsans">Grandsans</a> from Dan Cederholm Simplebits.</li>
+</ul>
+<p>This twenty minute "just pull colors from the API” project was a great several-hours-across-multiple-months project. At least my video files will look better next winter, and maybe I’ll have something I can reuse later.</p>
+	
+	<div class="tags"><h3>Tags</h3>
+		<ul>
+			<li><a href="/blog/tags/creative">creative</a></li>
+			<li><a href="/blog/tags/entertainment">entertainment</a></li>
+			<li><a href="/blog/tags/geeking-out">geeking-out</a></li>
+		</ul>
+	</div>
+		<ul class="prior_next">
+	<li class="prior">Prior: <a href="/blog/voronoi-art-generator">Voronoi Art Generator</a></li>
+	
+	</ul>
+</article>
+
+		<footer>
+			<section>
+				<p>&copy; 2005-2026 LongboredSurfer.com</p>
+				<p>
+					<a href="https://github.com/longbored">GitHub</a>
+					<a href="https://goodreads.com/longbored">Goodreads</a>
+					<a href="https://thingiverse.com/longbored">Thingiverse</a>
+					<a href="https://longboredsurfer.com/">LongboredSurfer.com</a>
+				</p>
+				<p>
+					<a href="/privacy">Privacy Policy</a>
+					<a href="http://www.amazon.com/exec/obidos/redirect?tag=thelongsurf-20">Shop at Amazon and support LongboredSurfer.com</a>
+			</section>
+		</footer>
+	</main>
+</body>
+</html>

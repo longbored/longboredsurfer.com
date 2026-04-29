@@ -7,9 +7,23 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Sat, 18 Apr 2026 00:00:00 -0600</pubDate>
+<pubDate>Sat, 25 Apr 2026 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Heaven&#39;s River</title>
+<link>https://longboredsurfer.com/book-reviews/heavens-river</link>
+<description>Another entertaining book in the series. This one is largely focused on some otter-like creatures, a...</description>
+<pubDate>Sat, 25 Apr 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/heavens-river</guid>
+</item>
+<item>
+<title>Stolen Focus</title>
+<link>https://longboredsurfer.com/book-reviews/stolen-focus</link>
+<description>This isn't a self-help book, in that the author won't talk you through how he personally solved the ...</description>
+<pubDate>Tue, 21 Apr 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/stolen-focus</guid>
+</item>
 <item>
 <title>The Underground Railroad</title>
 <link>https://longboredsurfer.com/book-reviews/the-underground-railroad</link>
@@ -65,20 +79,6 @@
 <description>The US Civil War was not a naval war. The naval aspects largely weren't flashy. If you had to name p...</description>
 <pubDate>Tue, 03 Mar 2026 00:00:00 -0700</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/lincoln-and-his-admirals</guid>
-</item>
-<item>
-<title>For Cause and Comrades</title>
-<link>https://longboredsurfer.com/book-reviews/for-cause-and-comrades</link>
-<description>As the subtitle clearly informs you - this is a book focused on why men fought in the Civil War. It ...</description>
-<pubDate>Tue, 24 Feb 2026 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/for-cause-and-comrades</guid>
-</item>
-<item>
-<title>Vicksburg</title>
-<link>https://longboredsurfer.com/book-reviews/vicksburg</link>
-<description>It's easy to say that the 1-2 combo of the Union's victory at Gettysburg (on July 3rd) and Grant tak...</description>
-<pubDate>Fri, 13 Feb 2026 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/vicksburg</guid>
 </item>
 </channel>
 </rss>

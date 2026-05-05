@@ -7,9 +7,23 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Sat, 25 Apr 2026 00:00:00 -0600</pubDate>
+<pubDate>Thu, 30 Apr 2026 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Harry Potter and the Order of the Phoenix</title>
+<link>https://longboredsurfer.com/book-reviews/harry-potter-and-the-order-of-the-phoenix</link>
+<description>I read this with my youngest. Obviously, I take umbrage with Umbridge. She's written to be an annoyi...</description>
+<pubDate>Thu, 30 Apr 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/harry-potter-and-the-order-of-the-phoenix</guid>
+</item>
+<item>
+<title>Not Till We Are Lost</title>
+<link>https://longboredsurfer.com/book-reviews/not-till-we-are-lost</link>
+<description>Another easy installment in the Bobiverse. These are fun books. This one ranks a little lower for me...</description>
+<pubDate>Thu, 30 Apr 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/not-till-we-are-lost</guid>
+</item>
 <item>
 <title>Heaven&#39;s River</title>
 <link>https://longboredsurfer.com/book-reviews/heavens-river</link>
@@ -65,20 +79,6 @@
 <description>This was excellent. Jim of Huckleberry Finn origin, tells his side of the story, as James. The core ...</description>
 <pubDate>Wed, 11 Mar 2026 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/james</guid>
-</item>
-<item>
-<title>Essentialism</title>
-<link>https://longboredsurfer.com/book-reviews/essentialism</link>
-<description>I really liked this one. Essentialism is a mindset that shifts us from being acted upon by endless d...</description>
-<pubDate>Fri, 06 Mar 2026 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/essentialism</guid>
-</item>
-<item>
-<title>Lincoln and His Admirals</title>
-<link>https://longboredsurfer.com/book-reviews/lincoln-and-his-admirals</link>
-<description>The US Civil War was not a naval war. The naval aspects largely weren't flashy. If you had to name p...</description>
-<pubDate>Tue, 03 Mar 2026 00:00:00 -0700</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/lincoln-and-his-admirals</guid>
 </item>
 </channel>
 </rss>

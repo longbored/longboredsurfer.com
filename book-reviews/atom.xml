@@ -7,9 +7,23 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Thu, 30 Apr 2026 00:00:00 -0600</pubDate>
+<pubDate>Wed, 20 May 2026 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Deep Work</title>
+<link>https://longboredsurfer.com/book-reviews/deep-work</link>
+<description>I appreciate how the author suggests that "deep work" is a skill we simply can exercise to get bette...</description>
+<pubDate>Wed, 20 May 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/deep-work</guid>
+</item>
+<item>
+<title>The Daylight War</title>
+<link>https://longboredsurfer.com/book-reviews/the-daylight-war</link>
+<description>It's been a while since I had read a book in this series. I soon was reminded that I like some aspec...</description>
+<pubDate>Sat, 16 May 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/the-daylight-war</guid>
+</item>
 <item>
 <title>Harry Potter and the Order of the Phoenix</title>
 <link>https://longboredsurfer.com/book-reviews/harry-potter-and-the-order-of-the-phoenix</link>
@@ -65,20 +79,6 @@
 <description>Another easy win for the full-cast audio editions from Audible. Fun new sound effects. Same rapt aud...</description>
 <pubDate>Thu, 02 Apr 2026 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/harry-potter-and-the-prisoner-of-azkaban-full-cast-edition</guid>
-</item>
-<item>
-<title>Murder Your Employer</title>
-<link>https://longboredsurfer.com/book-reviews/murder-your-employer</link>
-<description>This was a humorously shared story of people being trained in a sophisticated way to become "delete-...</description>
-<pubDate>Fri, 27 Mar 2026 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/murder-your-employer</guid>
-</item>
-<item>
-<title>James</title>
-<link>https://longboredsurfer.com/book-reviews/james</link>
-<description>This was excellent. Jim of Huckleberry Finn origin, tells his side of the story, as James. The core ...</description>
-<pubDate>Wed, 11 Mar 2026 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/james</guid>
 </item>
 </channel>
 </rss>

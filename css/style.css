@@ -181,12 +181,16 @@ article h1 a:active,
 }
 article.blog img,
 article.error img,
-article.tweets img{
+article.tweets img,
+article.about img:not([src*="#image_right"]):not([src*="#image_left"]){
 	display: block;
 	margin: auto;
 }
 article.tweets img,
-article.links img {
+article.links img,
+article.blog img,
+article.about img,
+img.book_cover {
 	padding: .2em;
 	border: thin dashed var(--orange2);
 }

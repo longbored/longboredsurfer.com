@@ -116,9 +116,6 @@ nav a.home {
 	width: 3em;
 	}
 }
-nav a.home {
-	background: var(--orange1);
-}
 @media screen and (min-width: 601px) {
 	article.book-reviews h1,
 	article.blog h1,
@@ -169,16 +166,12 @@ article {
 }
 article h2 a:link,
 article h2 a:visited,
-article h1 a:link,
-article h1 a:visited,
 .more:link,
 .more:visited {
 	color: var(--blue4);
 }
 article h2 a:hover,
 article h2 a:active,
-article h1 a:hover,
-article h1 a:active,
 .more:hover,
 .more:active {
 	color: var(--orange2);
@@ -186,9 +179,11 @@ article h1 a:active,
 article.blog img,
 article.error img,
 article.tweets img,
-article.about img:not([src*="#image_right"]):not([src*="#image_left"]){
+article.about img:not([src*="#image_right"]):not([src*="#image_left"]),
+article.links img,
+img.book_cover {
 	display: block;
-	margin: auto;
+	margin: 1em auto 0;
 }
 article.tweets img,
 article.links img,
@@ -252,6 +247,13 @@ div.tags ul li {
 	background: var(--orange1);
 	padding: .25em;
 }
+ul.book-list {
+	list-style: none;
+	padding-left: 0;
+}
+ul.book-list span.pos {
+	white-space: pre;
+}
 div.home-blog,
 article.blog,
 div.home-links,
@@ -300,14 +302,6 @@ ul.prior_next li.prior{
 ul.prior_next li.next{
 	float: right;
 	text-align: right;
-}
-
-img.book_cover,
-article.links img {
-	display:block;
-	margin-top: 1em;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 img.book_cover {
@@ -370,7 +364,7 @@ article.tweets span.header span.author{
 article.tweets span.footer {
 	display: block;
 	padding-bottom: .5em;
-	border-bottom: 1px solid var(--blue3);
+	border-bottom: thin solid var(--blue3);
 }
 article.tweets span.maybe {
 	padding-left: 1em;

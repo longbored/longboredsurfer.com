@@ -7,9 +7,23 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Thu, 04 Jun 2026 00:00:00 -0600</pubDate>
+<pubDate>Sat, 20 Jun 2026 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Cibola Burn</title>
+<link>https://longboredsurfer.com/book-reviews/cibola-burn</link>
+<description>Another enjoyable book in the series. Not as gripping as others, but still fun. A whole new world (l...</description>
+<pubDate>Sat, 20 Jun 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/cibola-burn</guid>
+</item>
+<item>
+<title>Beyond Order</title>
+<link>https://longboredsurfer.com/book-reviews/beyond-order</link>
+<description>I read this author's prior book, but am otherwise unfamiliar with his work. Much like his last book,...</description>
+<pubDate>Mon, 15 Jun 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/beyond-order</guid>
+</item>
 <item>
 <title>Abaddon&#39;s Gate</title>
 <link>https://longboredsurfer.com/book-reviews/abaddons-gate</link>
@@ -65,20 +79,6 @@
 <description>Another entertaining book in the series. This one is largely focused on some otter-like creatures, a...</description>
 <pubDate>Sat, 25 Apr 2026 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/heavens-river</guid>
-</item>
-<item>
-<title>Stolen Focus</title>
-<link>https://longboredsurfer.com/book-reviews/stolen-focus</link>
-<description>This isn't a self-help book, in that the author won't talk you through how he personally solved the ...</description>
-<pubDate>Tue, 21 Apr 2026 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/stolen-focus</guid>
-</item>
-<item>
-<title>The Underground Railroad</title>
-<link>https://longboredsurfer.com/book-reviews/the-underground-railroad</link>
-<description>I'll be honest: I finished this book confused. The narrative shifts in ways that defy easy explanati...</description>
-<pubDate>Sat, 18 Apr 2026 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/the-underground-railroad</guid>
 </item>
 </channel>
 </rss>

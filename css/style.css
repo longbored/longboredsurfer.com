@@ -159,6 +159,10 @@ blockquote p {
 	border-left: thick solid var(--orange1);
 	padding-left: 1em;
 }
+hr {
+	border: none;
+	border-top: thin solid var(--orange2);
+}
 article {
 	padding: 1em;
 	background-color: var(--blue0);

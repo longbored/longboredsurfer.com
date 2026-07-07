@@ -7,9 +7,16 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Sat, 20 Jun 2026 00:00:00 -0600</pubDate>
+<pubDate>Sat, 04 Jul 2026 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Four Thousand Weeks</title>
+<link>https://longboredsurfer.com/book-reviews/four-thousand-weeks</link>
+<description>About 77 years, or four thousand weeks - that's how long you're likely to live. The author, Oliver B...</description>
+<pubDate>Sat, 04 Jul 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/four-thousand-weeks</guid>
+</item>
 <item>
 <title>Cibola Burn</title>
 <link>https://longboredsurfer.com/book-reviews/cibola-burn</link>
@@ -72,13 +79,6 @@
 <description>Another easy installment in the Bobiverse. These are fun books. This one ranks a little lower for me...</description>
 <pubDate>Thu, 30 Apr 2026 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/not-till-we-are-lost</guid>
-</item>
-<item>
-<title>Heaven&#39;s River</title>
-<link>https://longboredsurfer.com/book-reviews/heavens-river</link>
-<description>Another entertaining book in the series. This one is largely focused on some otter-like creatures, a...</description>
-<pubDate>Sat, 25 Apr 2026 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/heavens-river</guid>
 </item>
 </channel>
 </rss>

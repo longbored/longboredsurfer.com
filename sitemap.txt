@@ -1323,6 +1323,7 @@ https://longboredsurfer.com/charts/artists/adam-levine
 https://longboredsurfer.com/charts/artists/adam-wade
 https://longboredsurfer.com/charts/artists/adele
 https://longboredsurfer.com/charts/artists/aerosmith
+https://longboredsurfer.com/charts/artists/afrojack
 https://longboredsurfer.com/charts/artists/after-7
 https://longboredsurfer.com/charts/artists/air-supply
 https://longboredsurfer.com/charts/artists/akon
@@ -1335,7 +1336,7 @@ https://longboredsurfer.com/charts/artists/alan-jackson
 https://longboredsurfer.com/charts/artists/alan-parsons-project
 https://longboredsurfer.com/charts/artists/alanis-morissette
 https://longboredsurfer.com/charts/artists/alessia-cara
-https://longboredsurfer.com/charts/artists/alex-band-or-chad-kroeger
+https://longboredsurfer.com/charts/artists/alex-band
 https://longboredsurfer.com/charts/artists/alice-cooper
 https://longboredsurfer.com/charts/artists/alicia-bridges
 https://longboredsurfer.com/charts/artists/alicia-keys
@@ -1353,6 +1354,7 @@ https://longboredsurfer.com/charts/artists/animals
 https://longboredsurfer.com/charts/artists/anita-baker
 https://longboredsurfer.com/charts/artists/anita-bryant
 https://longboredsurfer.com/charts/artists/ann-wilson
+https://longboredsurfer.com/charts/artists/anne-marie
 https://longboredsurfer.com/charts/artists/anne-murray
 https://longboredsurfer.com/charts/artists/annette
 https://longboredsurfer.com/charts/artists/aqua
@@ -1628,6 +1630,7 @@ https://longboredsurfer.com/charts/artists/dino
 https://longboredsurfer.com/charts/artists/dion
 https://longboredsurfer.com/charts/artists/dion-the-belmonts
 https://longboredsurfer.com/charts/artists/dionne-warwick
+https://longboredsurfer.com/charts/artists/diplo
 https://longboredsurfer.com/charts/artists/dire-straits
 https://longboredsurfer.com/charts/artists/divine
 https://longboredsurfer.com/charts/artists/dixie-chicks
@@ -1642,6 +1645,7 @@ https://longboredsurfer.com/charts/artists/don-cornell
 https://longboredsurfer.com/charts/artists/don-gibson
 https://longboredsurfer.com/charts/artists/don-henley
 https://longboredsurfer.com/charts/artists/don-mclean
+https://longboredsurfer.com/charts/artists/don-toliver
 https://longboredsurfer.com/charts/artists/donell-jones
 https://longboredsurfer.com/charts/artists/donna-fargo
 https://longboredsurfer.com/charts/artists/donna-lewis
@@ -1751,6 +1755,7 @@ https://longboredsurfer.com/charts/artists/freda-payne
 https://longboredsurfer.com/charts/artists/freddy-cannon
 https://longboredsurfer.com/charts/artists/freddy-fender
 https://longboredsurfer.com/charts/artists/freddy-martin
+https://longboredsurfer.com/charts/artists/french-montana
 https://longboredsurfer.com/charts/artists/friends-of-distinction
 https://longboredsurfer.com/charts/artists/fuerza-regida
 https://longboredsurfer.com/charts/artists/fun
@@ -1798,11 +1803,11 @@ https://longboredsurfer.com/charts/artists/gordon-jenkins-the-weavers
 https://longboredsurfer.com/charts/artists/gordon-lightfoot
 https://longboredsurfer.com/charts/artists/gorillaz
 https://longboredsurfer.com/charts/artists/gq
-https://longboredsurfer.com/charts/artists/grand-funk
 https://longboredsurfer.com/charts/artists/grand-funk-railroad
 https://longboredsurfer.com/charts/artists/grass-roots
 https://longboredsurfer.com/charts/artists/green-day
 https://longboredsurfer.com/charts/artists/greg-kihn-band
+https://longboredsurfer.com/charts/artists/grey
 https://longboredsurfer.com/charts/artists/groove-theory
 https://longboredsurfer.com/charts/artists/grupo-frontera
 https://longboredsurfer.com/charts/artists/gucci-mane
@@ -1814,7 +1819,7 @@ https://longboredsurfer.com/charts/artists/guy-mitchell
 https://longboredsurfer.com/charts/artists/gwen-stefani
 https://longboredsurfer.com/charts/artists/gym-class-heroes
 https://longboredsurfer.com/charts/artists/haddaway
-https://longboredsurfer.com/charts/artists/hailee-steinfeld-grey
+https://longboredsurfer.com/charts/artists/hailee-steinfeld
 https://longboredsurfer.com/charts/artists/hall-oates
 https://longboredsurfer.com/charts/artists/halsey
 https://longboredsurfer.com/charts/artists/hamilton-joe-frank-reynolds
@@ -1849,7 +1854,7 @@ https://longboredsurfer.com/charts/artists/huey-lewis-the-news
 https://longboredsurfer.com/charts/artists/hugo-winterhalter
 https://longboredsurfer.com/charts/artists/human-league
 https://longboredsurfer.com/charts/artists/hunter-hayes
-https://longboredsurfer.com/charts/artists/huntrx-ejae-audrey-nuna-rei-ami
+https://longboredsurfer.com/charts/artists/huntrx
 https://longboredsurfer.com/charts/artists/iann-dior
 https://longboredsurfer.com/charts/artists/ice-cube
 https://longboredsurfer.com/charts/artists/ice-spice
@@ -1867,7 +1872,6 @@ https://longboredsurfer.com/charts/artists/isaac-hayes
 https://longboredsurfer.com/charts/artists/isley-bros
 https://longboredsurfer.com/charts/artists/iyaz
 https://longboredsurfer.com/charts/artists/j-balvin
-https://longboredsurfer.com/charts/artists/j-balvin-willy-william
 https://longboredsurfer.com/charts/artists/j-cole
 https://longboredsurfer.com/charts/artists/j-geils-band
 https://longboredsurfer.com/charts/artists/j-holiday
@@ -1879,6 +1883,7 @@ https://longboredsurfer.com/charts/artists/jackie-wilson
 https://longboredsurfer.com/charts/artists/jackson-5
 https://longboredsurfer.com/charts/artists/jackson-browne
 https://longboredsurfer.com/charts/artists/jacksons
+https://longboredsurfer.com/charts/artists/jadakiss
 https://longboredsurfer.com/charts/artists/jade
 https://longboredsurfer.com/charts/artists/jagged-edge
 https://longboredsurfer.com/charts/artists/jaheim
@@ -1897,7 +1902,6 @@ https://longboredsurfer.com/charts/artists/jason-mraz
 https://longboredsurfer.com/charts/artists/jay-sean
 https://longboredsurfer.com/charts/artists/jay-the-americans
 https://longboredsurfer.com/charts/artists/jay-z
-https://longboredsurfer.com/charts/artists/jay-z-alicia-keys
 https://longboredsurfer.com/charts/artists/jeezy
 https://longboredsurfer.com/charts/artists/jefferson-airplane
 https://longboredsurfer.com/charts/artists/jefferson-starship
@@ -1918,6 +1922,7 @@ https://longboredsurfer.com/charts/artists/jets
 https://longboredsurfer.com/charts/artists/jewel
 https://longboredsurfer.com/charts/artists/jhene-aiko
 https://longboredsurfer.com/charts/artists/jim-croce
+https://longboredsurfer.com/charts/artists/jim-jones
 https://longboredsurfer.com/charts/artists/jim-lowe
 https://longboredsurfer.com/charts/artists/jim-stafford
 https://longboredsurfer.com/charts/artists/jimmie-rodgers
@@ -1939,7 +1944,6 @@ https://longboredsurfer.com/charts/artists/joe-south
 https://longboredsurfer.com/charts/artists/joe-tex
 https://longboredsurfer.com/charts/artists/joe-walsh
 https://longboredsurfer.com/charts/artists/joey-dee-the-starliters
-https://longboredsurfer.com/charts/artists/john-cougar
 https://longboredsurfer.com/charts/artists/john-cougar-mellencamp
 https://longboredsurfer.com/charts/artists/john-denver
 https://longboredsurfer.com/charts/artists/john-legend
@@ -1958,6 +1962,7 @@ https://longboredsurfer.com/charts/artists/johnny-preston
 https://longboredsurfer.com/charts/artists/johnny-rivers
 https://longboredsurfer.com/charts/artists/johnny-the-hurricanes
 https://longboredsurfer.com/charts/artists/johnny-tillotson
+https://longboredsurfer.com/charts/artists/johnta-austin
 https://longboredsurfer.com/charts/artists/jojo
 https://longboredsurfer.com/charts/artists/jon-b
 https://longboredsurfer.com/charts/artists/jon-secada
@@ -2024,6 +2029,7 @@ https://longboredsurfer.com/charts/artists/kiss
 https://longboredsurfer.com/charts/artists/kitty-kallen
 https://longboredsurfer.com/charts/artists/kodak-black
 https://longboredsurfer.com/charts/artists/koe-wetzel-jessie-murph
+https://longboredsurfer.com/charts/artists/kool-moe-dee
 https://longboredsurfer.com/charts/artists/kool-the-gang
 https://longboredsurfer.com/charts/artists/kris-kross
 https://longboredsurfer.com/charts/artists/kylie-minogue
@@ -2037,7 +2043,7 @@ https://longboredsurfer.com/charts/artists/laura-branigan
 https://longboredsurfer.com/charts/artists/lauren-bennett
 https://longboredsurfer.com/charts/artists/lauryn-hill
 https://longboredsurfer.com/charts/artists/leann-rimes
-https://longboredsurfer.com/charts/artists/lee-ann-womack-sons-of-the-desert
+https://longboredsurfer.com/charts/artists/lee-ann-womack
 https://longboredsurfer.com/charts/artists/lee-brice
 https://longboredsurfer.com/charts/artists/lee-dorsey
 https://longboredsurfer.com/charts/artists/lenny-kravitz
@@ -2052,13 +2058,13 @@ https://longboredsurfer.com/charts/artists/lewis-capaldi
 https://longboredsurfer.com/charts/artists/lfo
 https://longboredsurfer.com/charts/artists/lifehouse
 https://longboredsurfer.com/charts/artists/lil-baby
+https://longboredsurfer.com/charts/artists/lil-boosie
 https://longboredsurfer.com/charts/artists/lil-durk
 https://longboredsurfer.com/charts/artists/lil-flip
 https://longboredsurfer.com/charts/artists/lil-jon
-https://longboredsurfer.com/charts/artists/lil-jon-the-east-side-boyz
 https://longboredsurfer.com/charts/artists/lil-kim
+https://longboredsurfer.com/charts/artists/lil-mo
 https://longboredsurfer.com/charts/artists/lil-nas-x
-https://longboredsurfer.com/charts/artists/lil-nas-x-jack-harlow
 https://longboredsurfer.com/charts/artists/lil-tecca
 https://longboredsurfer.com/charts/artists/lil-tjay
 https://longboredsurfer.com/charts/artists/lil-uzi-vert
@@ -2084,11 +2090,13 @@ https://longboredsurfer.com/charts/artists/logic
 https://longboredsurfer.com/charts/artists/lola-young
 https://longboredsurfer.com/charts/artists/lonestar
 https://longboredsurfer.com/charts/artists/lonnie-donegan
+https://longboredsurfer.com/charts/artists/loon
 https://longboredsurfer.com/charts/artists/lorde
 https://longboredsurfer.com/charts/artists/los-del-rio
 https://longboredsurfer.com/charts/artists/lou-christie
 https://longboredsurfer.com/charts/artists/lou-gramm
 https://longboredsurfer.com/charts/artists/lou-rawls
+https://longboredsurfer.com/charts/artists/love-unlimited
 https://longboredsurfer.com/charts/artists/loverboy
 https://longboredsurfer.com/charts/artists/lovin-spoonful
 https://longboredsurfer.com/charts/artists/ludacris
@@ -2113,6 +2121,7 @@ https://longboredsurfer.com/charts/artists/margaret-whiting
 https://longboredsurfer.com/charts/artists/mariah-carey
 https://longboredsurfer.com/charts/artists/mario
 https://longboredsurfer.com/charts/artists/mario-lanza
+https://longboredsurfer.com/charts/artists/mario-winans
 https://longboredsurfer.com/charts/artists/marky-mark-and-the-funky-bunch
 https://longboredsurfer.com/charts/artists/maroon-5
 https://longboredsurfer.com/charts/artists/marshmello
@@ -2173,6 +2182,7 @@ https://longboredsurfer.com/charts/artists/mr-big
 https://longboredsurfer.com/charts/artists/mr-cheeks
 https://longboredsurfer.com/charts/artists/mr-mister
 https://longboredsurfer.com/charts/artists/muni-long
+https://longboredsurfer.com/charts/artists/murphy-lee
 https://longboredsurfer.com/charts/artists/murray-head
 https://longboredsurfer.com/charts/artists/mustard
 https://longboredsurfer.com/charts/artists/mya
@@ -2207,6 +2217,7 @@ https://longboredsurfer.com/charts/artists/nicki-minaj
 https://longboredsurfer.com/charts/artists/nicky-jam
 https://longboredsurfer.com/charts/artists/night-ranger
 https://longboredsurfer.com/charts/artists/nilsson
+https://longboredsurfer.com/charts/artists/nitty-gritty-dirt-band
 https://longboredsurfer.com/charts/artists/nivea
 https://longboredsurfer.com/charts/artists/nle-choppa
 https://longboredsurfer.com/charts/artists/no-doubt
@@ -2231,6 +2242,7 @@ https://longboredsurfer.com/charts/artists/osmonds
 https://longboredsurfer.com/charts/artists/ot-genasis
 https://longboredsurfer.com/charts/artists/outkast
 https://longboredsurfer.com/charts/artists/owl-city
+https://longboredsurfer.com/charts/artists/ozuna
 https://longboredsurfer.com/charts/artists/pablo-cruise
 https://longboredsurfer.com/charts/artists/panic-at-the-disco
 https://longboredsurfer.com/charts/artists/paramore
@@ -2289,6 +2301,7 @@ https://longboredsurfer.com/charts/artists/pointer-sisters
 https://longboredsurfer.com/charts/artists/poison
 https://longboredsurfer.com/charts/artists/police
 https://longboredsurfer.com/charts/artists/polo-g
+https://longboredsurfer.com/charts/artists/pooh-shiesty
 https://longboredsurfer.com/charts/artists/pop-smoke
 https://longboredsurfer.com/charts/artists/portugal-the-man
 https://longboredsurfer.com/charts/artists/post-malone
@@ -2387,8 +2400,8 @@ https://longboredsurfer.com/charts/artists/seal
 https://longboredsurfer.com/charts/artists/seals-crofts
 https://longboredsurfer.com/charts/artists/sean-combs
 https://longboredsurfer.com/charts/artists/sean-kingston
+https://longboredsurfer.com/charts/artists/sean-p
 https://longboredsurfer.com/charts/artists/sean-paul
-https://longboredsurfer.com/charts/artists/sean-paul-of-the-youngbloodz
 https://longboredsurfer.com/charts/artists/searchers
 https://longboredsurfer.com/charts/artists/seekers
 https://longboredsurfer.com/charts/artists/selena-gomez
@@ -2438,6 +2451,7 @@ https://longboredsurfer.com/charts/artists/snow-patrol
 https://longboredsurfer.com/charts/artists/sombr
 https://longboredsurfer.com/charts/artists/somethin-for-the-people
 https://longboredsurfer.com/charts/artists/sonny
+https://longboredsurfer.com/charts/artists/sons-of-the-desert
 https://longboredsurfer.com/charts/artists/sophie-b-hawkins
 https://longboredsurfer.com/charts/artists/soul-asylum
 https://longboredsurfer.com/charts/artists/soul-for-real
@@ -2490,6 +2504,7 @@ https://longboredsurfer.com/charts/artists/technotronic
 https://longboredsurfer.com/charts/artists/ted-weems
 https://longboredsurfer.com/charts/artists/teddy-swims
 https://longboredsurfer.com/charts/artists/temptations
+https://longboredsurfer.com/charts/artists/tems
 https://longboredsurfer.com/charts/artists/tennessee-ernie-ford
 https://longboredsurfer.com/charts/artists/terence-trent-darby
 https://longboredsurfer.com/charts/artists/teresa-brewer
@@ -2504,7 +2519,10 @@ https://longboredsurfer.com/charts/artists/the-bangles
 https://longboredsurfer.com/charts/artists/the-black-eyed-peas
 https://longboredsurfer.com/charts/artists/the-cataracs
 https://longboredsurfer.com/charts/artists/the-chainsmokers
+https://longboredsurfer.com/charts/artists/the-classics-iv
+https://longboredsurfer.com/charts/artists/the-cover-girls
 https://longboredsurfer.com/charts/artists/the-dream
+https://longboredsurfer.com/charts/artists/the-east-side-boyz
 https://longboredsurfer.com/charts/artists/the-edwin-hawkins-singers
 https://longboredsurfer.com/charts/artists/the-famous-flames
 https://longboredsurfer.com/charts/artists/the-fireballs
@@ -2548,6 +2566,7 @@ https://longboredsurfer.com/charts/artists/tony-bennett
 https://longboredsurfer.com/charts/artists/tony-martin
 https://longboredsurfer.com/charts/artists/tony-orlando
 https://longboredsurfer.com/charts/artists/tony-toni-tone
+https://longboredsurfer.com/charts/artists/too-hort
 https://longboredsurfer.com/charts/artists/tory-lanez
 https://longboredsurfer.com/charts/artists/total
 https://longboredsurfer.com/charts/artists/toto
@@ -2582,7 +2601,9 @@ https://longboredsurfer.com/charts/artists/vaughn-monroe
 https://longboredsurfer.com/charts/artists/ventures
 https://longboredsurfer.com/charts/artists/vic-damone
 https://longboredsurfer.com/charts/artists/village-people
+https://longboredsurfer.com/charts/artists/vita
 https://longboredsurfer.com/charts/artists/vogues
+https://longboredsurfer.com/charts/artists/wale
 https://longboredsurfer.com/charts/artists/walker-hayes
 https://longboredsurfer.com/charts/artists/wang-chung
 https://longboredsurfer.com/charts/artists/war
@@ -2598,6 +2619,7 @@ https://longboredsurfer.com/charts/artists/will-smith
 https://longboredsurfer.com/charts/artists/will-to-power
 https://longboredsurfer.com/charts/artists/william
 https://longboredsurfer.com/charts/artists/willie-nelson
+https://longboredsurfer.com/charts/artists/willy-william
 https://longboredsurfer.com/charts/artists/wilson-phillips
 https://longboredsurfer.com/charts/artists/wilson-pickett
 https://longboredsurfer.com/charts/artists/wings

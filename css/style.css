@@ -39,6 +39,9 @@ table {
 	width: 100%;
 	border: thin dashed var(--orange2);
 }
+pre {
+	line-height: 1.2em;
+}
 h1 span.subtitle {
 	font-size: 0.75em;
 }

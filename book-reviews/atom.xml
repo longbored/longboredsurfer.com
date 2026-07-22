@@ -7,9 +7,16 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Tue, 21 Jul 2026 00:00:00 -0600</pubDate>
+<pubDate>Wed, 22 Jul 2026 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Stamped from the Beginning</title>
+<link>https://longboredsurfer.com/book-reviews/stamped-from-the-beginning</link>
+<description>The subtitle of the book felt spot-on - definitive. The book wasn't written to give anybody...</description>
+<pubDate>Wed, 22 Jul 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/stamped-from-the-beginning</guid>
+</item>
 <item>
 <title>Scattered Minds</title>
 <link>https://longboredsurfer.com/book-reviews/scattered-minds</link>
@@ -72,13 +79,6 @@
 <description>I appreciate how the author suggests that "deep work" is a skill we simply can exercise to get...</description>
 <pubDate>Wed, 20 May 2026 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/deep-work</guid>
-</item>
-<item>
-<title>The Daylight War</title>
-<link>https://longboredsurfer.com/book-reviews/the-daylight-war</link>
-<description>It's been a while since I had read a book in this series. I soon was reminded that I like some...</description>
-<pubDate>Sat, 16 May 2026 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/the-daylight-war</guid>
 </item>
 </channel>
 </rss>

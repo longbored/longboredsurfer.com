@@ -184,20 +184,23 @@ nav a.home {
 	div.home-book-reviews,
 	article.book-reviews,
 	div.home-charts,
-	article.charts {
+	article.charts,
+	article.copies {
 		padding-top: 0.01em;
 	}
 	img {
 		max-width: 90%;
 	}
 	article.book-reviews,
-	article.links {
+	article.links,
+	article.copies {
 		background-size: calc(var(--rhythm) * 2) calc(var(--rhythm) * 2);
 	}
 	article.book-reviews div.book-reviews,
 	article.blog div.blog,
 	article.links div.links,
-	article.charts div.charts {
+	article.charts div.charts,
+	article.copies div.copies {
 	height: calc(var(--rhythm) * 2);
 	width: calc(var(--rhythm) * 2);
 	}
@@ -213,19 +216,22 @@ nav a.home {
 	article.book-reviews h1,
 	article.blog h1,
 	article.links h1,
-	article.charts h1 {
+	article.charts h1,
+	article.copies h1 {
 		/* Matches the icon's own footprint below (4 rhythm units) so the
 		   reserved gutter isn't bigger than what's actually sitting in it. */
 		padding-right: calc(var(--rhythm) * 4);
 	}
 	article.book-reviews,
-	article.links {
+	article.links,
+	article.copies {
 		background-size: calc(var(--rhythm) * 4) calc(var(--rhythm) * 4);
 	}
 	article.book-reviews div.book-reviews,
 	article.blog div.blog,
 	article.links div.links,
-	article.charts div.charts {
+	article.charts div.charts,
+	article.copies div.copies {
 	height: calc(var(--rhythm) * 4);
 	width: calc(var(--rhythm) * 4);
 	}
@@ -415,7 +421,8 @@ article.links,
 div.home-book-reviews,
 article.book-reviews,
 div.home-charts,
-article.charts {
+article.charts,
+article.copies {
 	display: block;
 	background-position: right top;
 	background-repeat: no-repeat;
@@ -436,11 +443,15 @@ div.home-charts,
 article.charts div.charts {
 	background-image: url("/img/charts.svg");
 }
+article.copies {
+	background-image: url("/img/copies.svg");
+}
 
 article.book-reviews div.book-reviews,
 article.blog div.blog,
 article.links div.links,
-article.charts div.charts {
+article.charts div.charts,
+article.copies div.copies {
 	display: block;
 	float: right;
 }
@@ -523,6 +534,63 @@ article.tweets span.footer {
 article.tweets span.maybe {
 	padding-left: 1em;
 	font-size: small;
+}
+
+/* Section preview cards */
+div.section-preview {
+	display: flex;
+	flex-direction: column;
+	gap: var(--rhythm);
+	margin-bottom: var(--rhythm);
+}
+div.preview-card {
+	padding: var(--space) 2ch;
+	background: var(--white);
+	border: thin dashed var(--orange2);
+}
+div.preview-card::after {
+	/* Clears the floated cover thumbnail so the border wraps the whole
+	   card even when the text is shorter than the image. */
+	content: "";
+	display: table;
+	clear: both;
+}
+div.preview-card h2 {
+	margin-top: 0;
+}
+div.preview-card p.excerpt {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+/* div.preview-card qualifier bumps specificity above "article.links img",
+   which would otherwise force these to its own full-width square-crop
+   treatment meant for a link post's own embedded photo, not this thumbnail. */
+div.preview-card img.preview-cover {
+	float: left;
+	margin: 0 1ch var(--space) 0;
+	/* Fixed box regardless of the source image's own aspect ratio - contain
+	   scales the whole image down to fit inside rather than cropping a
+	   slice out of it, so nothing about the source image gets cut off.
+	   Width is ch (the site's horizontal grid unit); height is a rhythm
+	   multiple (the vertical unit). Square by default (links' landscape
+	   screenshots); book-cover below overrides height for a portrait box. */
+	width: 10ch;
+	height: calc(var(--rhythm) * 4);
+	object-fit: contain;
+	background: var(--white);
+	padding: calc(var(--space) / 3);
+	border: thin dashed var(--orange2);
+}
+div.preview-card img.preview-cover.book-cover {
+	/* Book covers run ~2:3, not square - same 10ch width, taller box so
+	   contain doesn't letterbox a portrait image inside a square frame. */
+	height: calc(var(--rhythm) * 6);
+}
+p.meta span.stars {
+	/* Not italic, unlike the rest of p.meta - the star glyphs are already
+	   visually distinct, and italicizing them just skews the characters. */
+	font-style: normal;
+	color: var(--orange4);
 }
 
 /* Affiliate Links */

@@ -446,6 +446,19 @@ article.charts div.charts {
 article.copies {
 	background-image: url("/img/copies.svg");
 }
+article.links,
+article.book-reviews,
+article.copies {
+	/* These three paint the icon as the article's own background; blog and
+	   charts instead float a child div, which sits inset from the edge
+	   for free since it's ordinary content inside the article's own
+	   padding. A background on the article itself paints from the padding
+	   box's corner - "right top" alone ignores that padding and sits
+	   flush against it. Matching the offset to the article's own padding
+	   (2ch right, one rhythm unit down) gives all five sections the same
+	   inset instead of only blog/charts having it by accident. */
+	background-position: right 2ch top var(--rhythm);
+}
 
 article.book-reviews div.book-reviews,
 article.blog div.blog,

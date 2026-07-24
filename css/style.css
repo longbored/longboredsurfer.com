@@ -1,9 +1,31 @@
 /* General */
 @font-face {
   font-family: BerkeleyMono;
+  font-weight: 400;
+  font-style: normal;
   font-display: swap;
-  src: url('/css/BerkeleyMono-Regular.woff2') format('woff2'),
-    url('/css/BerkeleyMono-Regular.woff') format('woff');
+  src: url('/css/BerkeleyMono-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: BerkeleyMono;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('/css/BerkeleyMono-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: BerkeleyMono;
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url('/css/BerkeleyMono-Oblique.woff2') format('woff2');
+}
+@font-face {
+  font-family: BerkeleyMono;
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  src: url('/css/BerkeleyMono-Bold-Oblique.woff2') format('woff2');
 }
 :root {
 	--blue0: #F2F7F9;
@@ -18,6 +40,7 @@
 	--white: #FFFFFF;
 	--gray1: #777777;
 	--gray2: #333333;
+	--gray3: #E8E8E8;
 
 	/* Baseline grid: --space is the atomic unit, --rhythm is one full
 	   text line (2x space). Block margins and body/pre line-heights are
@@ -103,20 +126,24 @@ pre {
 	font-family: inherit;
 	font-size: 1em;
 	line-height: 1.2em;
-	margin: 0 0 var(--rhythm) 0;
-	/* Same framed treatment as images/tables, but white instead of the
-	   article's own --blue0 background, so code doesn't just blend into
-	   the page behind it. */
-	padding: calc(var(--space) / 3);
-	background: var(--white);
-	border: thin dashed var(--orange2);
+	/* Blockquote's accent-border treatment, not the box-border one tables/
+	   images use - same border thickness (calc(--space)/3), but the whole
+	   block is shifted right off the article's edge first (margin-left)
+	   so the border itself reads as indented, with only a narrow gap
+	   between it and the text. Neutral grey fill instead of blockquote's
+	   orange so it reads as quoted/reference material, not a callout. */
+	margin: 0 0 var(--rhythm) 2ch;
+	padding: calc(var(--space) / 3) 1ch;
+	background: var(--gray3);
+	border-left: calc(var(--space) / 3) solid var(--gray1);
 }
-/* Inline code (not inside a pre block) gets its own small highlight so
-   it reads as deliberate styling instead of a smaller, unstyled word
-   sitting in running text. */
+/* Inline code (not inside a pre block) gets pre's same neutral grey fill,
+   just as a plain tinted pill - no border, since a border reads as fussy
+   at this scale for something sitting mid-sentence rather than its own
+   block. */
 :not(pre) > code {
-	background: var(--white);
 	padding: 0 calc(var(--space) / 3);
+	background: var(--gray3);
 	border-radius: calc(var(--space) / 3);
 }
 h1 span.subtitle {
@@ -271,15 +298,31 @@ footer a:last-child {
 	margin-right: 0;
 }
 /* Posts */
-blockquote p {
-	/* "thick" is an unspecified, browser-dependent keyword (usually
-	   5px) - an explicit grid value instead. */
+blockquote {
+	/* Same indent treatment as pre - shifted off the article's edge first,
+	   so the border itself reads as indented rather than flush. Border and
+	   indent live on the blockquote itself, not on "blockquote p" - a
+	   multi-paragraph quote's bar then runs continuously behind the blank-
+	   line gap between paragraphs instead of breaking there, since a
+	   border always spans its own element's full height regardless of
+	   whatever margin gaps its children create inside it. "thick" is an
+	   unspecified, browser-dependent keyword (usually 5px) - an explicit
+	   grid value instead. Same border thickness as pre, own orange accent
+	   kept (pre's is grey). */
+	margin-left: 2ch;
+	padding-left: 1ch;
 	border-left: calc(var(--space) / 3) solid var(--orange1);
-	padding-left: 2ch;
 }
 hr {
 	border: none;
 	border-top: thin solid var(--orange2);
+	/* Same treatment as the section preview cards' divider - inset 24px
+	   (2.5ch) from both edges instead of running full width, with a
+	   rhythm unit of space on both sides of the line (margin-bottom:
+	   rhythm already comes from the shared p/ul/ol/... rule above). */
+	margin-left: 2.5ch;
+	margin-right: 2.5ch;
+	margin-top: var(--rhythm);
 }
 article {
 	padding: var(--rhythm) 2ch;
@@ -469,8 +512,18 @@ article.copies div.copies {
 	float: right;
 }
 ul.prior_next li {
-	display: inline;
+	/* Arrow and title as flex siblings, not one inline run of text - a
+	   wrapped title's second line then indents to line up under the
+	   first line's own text (not the outer edge), and the arrow itself
+	   always stays on the first line instead of trailing after a wrap. */
+	display: flex;
+	align-items: flex-start;
+	gap: 1ch;
 	width: 50%;
+}
+ul.prior_next li .pn-text {
+	flex: 1 1 auto;
+	min-width: 0;
 }
 
 ul.prior_next li.prior{
@@ -479,6 +532,8 @@ ul.prior_next li.prior{
 
 ul.prior_next li.next{
 	float: right;
+}
+ul.prior_next li.next .pn-text {
 	text-align: right;
 }
 
@@ -553,20 +608,42 @@ article.tweets span.maybe {
 div.section-preview {
 	display: flex;
 	flex-direction: column;
-	gap: var(--rhythm);
 	margin-bottom: var(--rhythm);
 }
 div.preview-card {
-	padding: var(--space) 2ch;
-	background: var(--white);
-	border: thin dashed var(--orange2);
+	/* Flex, not float+clearfix: a floated image lets wrapped text (a
+	   2-line title, say) reflow around its shape, and once the text runs
+	   past the image's bottom edge it snaps back to the card's full
+	   width mid-paragraph - a jagged mix of narrow and wide lines. As
+	   flex siblings, the text column keeps its own width regardless of
+	   how many lines anything wraps to; the card just grows to fit
+	   whichever side is taller. */
+	display: flex;
+	gap: 1ch;
 }
-div.preview-card::after {
-	/* Clears the floated cover thumbnail so the border wraps the whole
-	   card even when the text is shorter than the image. */
+div.preview-card:not(:last-child) {
+	/* Two rhythm units total between entries - double the gap elsewhere
+	   here (intro paragraph to first card, last card to the heading
+	   after), since the divider warrants more breathing room than
+	   ordinary paragraph spacing. Split evenly across the line instead
+	   of sitting flush against it, so the image's own border isn't
+	   touching it. The divider itself is a positioned pseudo-element
+	   (below) rather than a border on this box, so it can be inset on
+	   its own without shifting the actual image/text content inward. */
+	position: relative;
+	padding-bottom: var(--rhythm);
+	margin-bottom: var(--rhythm);
+}
+div.preview-card:not(:last-child)::after {
 	content: "";
-	display: table;
-	clear: both;
+	position: absolute;
+	bottom: 0;
+	/* Same divider hr uses elsewhere (solid), inset 24px - 2.5ch measures
+	   out to the same distance on this font - from both edges instead of
+	   running the full card width. */
+	left: 2.5ch;
+	right: 2.5ch;
+	border-bottom: thin solid var(--orange2);
 }
 div.preview-card h2 {
 	margin-top: 0;
@@ -575,35 +652,55 @@ div.preview-card p.excerpt {
 	margin-top: 0;
 	margin-bottom: 0;
 }
+div.preview-body {
+	/* min-width:0 lets this column actually shrink to fit its flex
+	   share - flex items default to a content-based minimum width, which
+	   for text otherwise refuses to wrap below its longest word/link. */
+	flex: 1 1 auto;
+	min-width: 0;
+}
 /* div.preview-card qualifier bumps specificity above "article.links img",
    which would otherwise force these to its own full-width square-crop
    treatment meant for a link post's own embedded photo, not this thumbnail. */
 div.preview-card img.preview-cover {
-	float: left;
-	margin: 0 1ch var(--space) 0;
+	/* Fixed box, never stretched or shrunk by the flex layout. */
+	flex: none;
+	/* Resets "article.links img"'s own margin-top (var(--space)), meant
+	   for a link post's own embedded photo sitting in running content -
+	   without this, that leftover margin pushes just the links thumbnail
+	   down relative to its now-unmargined preview-body sibling. */
+	margin: 0;
 	/* Fixed box regardless of the source image's own aspect ratio - contain
 	   scales the whole image down to fit inside rather than cropping a
 	   slice out of it, so nothing about the source image gets cut off.
 	   Width is ch (the site's horizontal grid unit); height is a rhythm
-	   multiple (the vertical unit). Square by default (links' landscape
-	   screenshots); book-cover below overrides height for a portrait box. */
-	width: 10ch;
-	height: calc(var(--rhythm) * 4);
+	   multiple (the vertical unit). Square by default, matching links'
+	   own square image convention (see article.links img below): 15ch
+	   measures out to the same ~144px as 6 rhythm units on this font, so
+	   the box is square on the grid, not just by eye. book-cover below
+	   overrides width for a narrower, book-cover-proportioned box. */
+	width: 15ch;
+	height: calc(var(--rhythm) * 6);
 	object-fit: contain;
-	background: var(--white);
+	/* No fill - same "border only" treatment as the card itself and
+	   pre/code; any letterboxed gap around a non-matching aspect ratio
+	   just shows the article's own background through, like everywhere
+	   else that isn't trying to stand apart from the page. */
 	padding: calc(var(--space) / 3);
 	border: thin dashed var(--orange2);
 }
 div.preview-card img.preview-cover.book-cover {
-	/* Book covers run ~2:3, not square - same 10ch width, taller box so
-	   contain doesn't letterbox a portrait image inside a square frame. */
-	height: calc(var(--rhythm) * 6);
+	width: 10ch;
+}
+span.stars {
+	/* Shared by the section preview cards' compact rating and the full
+	   book-review page's own - same triangle glyphs, same accent color. */
+	color: var(--orange4);
 }
 p.meta span.stars {
 	/* Not italic, unlike the rest of p.meta - the star glyphs are already
 	   visually distinct, and italicizing them just skews the characters. */
 	font-style: normal;
-	color: var(--orange4);
 }
 
 /* Affiliate Links */
@@ -636,4 +733,30 @@ div.affiliate-links ul li a {
 div.affiliate-links ul li a:hover {
 	background: var(--orange2);
 	text-decoration: none;
+}
+
+/* Chart artist index - alphabet jump nav */
+nav.alpha-jump {
+	/* Fixed 14-column grid instead of flex-wrap: 27 entries (A-Z plus #)
+	   always break 14/13 across two rows on any viewport, rather than
+	   wherever a flex row happens to wrap at the current width. */
+	display: grid;
+	grid-template-columns: repeat(14, 1fr);
+	gap: 1ch;
+	margin-bottom: var(--rhythm);
+}
+nav.alpha-jump a,
+nav.alpha-jump span {
+	text-align: center;
+}
+nav.alpha-jump span {
+	/* Letters with no entries - shown, not linked, so the row stays a
+	   complete A-Z reference instead of silently skipping gaps. */
+	color: var(--gray1);
+}
+p.back-to-top {
+	/* Utility line like p.meta - tight spacing, not body copy. */
+	margin-top: 0;
+	margin-bottom: var(--rhythm);
+	font-size: 0.85em;
 }

@@ -353,7 +353,8 @@ article.tweets img,
 article.links img,
 article.blog img,
 article.about img,
-img.book_cover {
+img.book_cover,
+img.avatar {
 	padding: calc(var(--space) / 3);
 	border: thin dashed var(--orange2);
 }

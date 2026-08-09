@@ -404,14 +404,20 @@ ul li.read-date {
 ul li.format {
 	float:right;
 }
-tr.even {
-	background-color: var(--blue0);
+/* Row banding straight from document structure. This used to be three
+   class names stamped onto every <tr> at write time by a regex pass over
+   the generated HTML; the markup already carries thead/tbody, so the
+   classes were re-encoding something the structure said. Phase matches
+   what that pass produced: it counted the header row first, so the first
+   body row was "odd" - which is also tbody's nth-child(1). */
+thead tr {
+	background-color: var(--blue1);
 }
-tr.odd {
+tbody tr:nth-child(odd) {
 	background-color: var(--white);
 }
-tr.header {
-	background-color: var(--blue1);
+tbody tr:nth-child(even) {
+	background-color: var(--blue0);
 }
 div .more {
 	margin-top: 0;

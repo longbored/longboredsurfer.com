@@ -7,9 +7,23 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Mon, 03 Aug 2026 00:00:00 -0600</pubDate>
+<pubDate>Wed, 19 Aug 2026 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>The Winners</title>
+<link>https://longboredsurfer.com/book-reviews/the-winners</link>
+<description>The rating is for the series - very enjoyable, and a good reminder of why I enjoy Backman's writing....</description>
+<pubDate>Wed, 19 Aug 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/the-winners</guid>
+</item>
+<item>
+<title>Babylon&#39;s Ashes</title>
+<link>https://longboredsurfer.com/book-reviews/babylons-ashes</link>
+<description>Another enjoyable installment in this series. Undoubtedly the series has to come to an end, or...</description>
+<pubDate>Wed, 12 Aug 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/babylons-ashes</guid>
+</item>
 <item>
 <title>The Kaiju Preservation Society</title>
 <link>https://longboredsurfer.com/book-reviews/the-kaiju-preservation-society</link>
@@ -65,20 +79,6 @@
 <description>Another enjoyable book in the series. Not as gripping as others, but still fun. A whole new world...</description>
 <pubDate>Sat, 20 Jun 2026 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/cibola-burn</guid>
-</item>
-<item>
-<title>Beyond Order</title>
-<link>https://longboredsurfer.com/book-reviews/beyond-order</link>
-<description>I read this author's prior book, but am otherwise unfamiliar with his work. Much like his last book,...</description>
-<pubDate>Mon, 15 Jun 2026 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/beyond-order</guid>
-</item>
-<item>
-<title>Abaddon&#39;s Gate</title>
-<link>https://longboredsurfer.com/book-reviews/abaddons-gate</link>
-<description>A good thriller of a novel. It's been a while since I read the book prior to this in the series. But...</description>
-<pubDate>Thu, 04 Jun 2026 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/abaddons-gate</guid>
 </item>
 </channel>
 </rss>

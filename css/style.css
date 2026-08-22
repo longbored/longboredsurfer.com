@@ -170,7 +170,8 @@ a:link, a:visited {
 }
 a:hover, a:active {
 	color: var(--blue4);
-	text-decoration: underline
+	text-decoration: underline;
+	text-decoration-color: var(--orange2);
 }
 
 nav section,
@@ -342,18 +343,6 @@ hr {
 article {
 	padding: var(--rhythm) 2ch;
 	background-color: var(--blue0);
-}
-article h2 a:link,
-article h2 a:visited,
-.more:link,
-.more:visited {
-	color: var(--blue4);
-}
-article h2 a:hover,
-article h2 a:active,
-.more:hover,
-.more:active {
-	color: var(--orange2);
 }
 article.blog img,
 article.error img,

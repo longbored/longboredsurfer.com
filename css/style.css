@@ -228,7 +228,8 @@ nav a.home {
 	article.book-reviews,
 	div.home-charts,
 	article.charts,
-	article.copies {
+	article.copies,
+	article.tweets {
 		padding-top: 0.01em;
 	}
 	img {
@@ -243,7 +244,8 @@ nav a.home {
 	article.blog div.blog,
 	article.links div.links,
 	article.charts div.charts,
-	article.copies div.copies {
+	article.copies div.copies,
+	article.tweets div.tweets {
 	height: calc(var(--rhythm) * 2);
 	width: calc(var(--rhythm) * 2);
 	}
@@ -260,7 +262,8 @@ nav a.home {
 	article.blog h1,
 	article.links h1,
 	article.charts h1,
-	article.copies h1 {
+	article.copies h1,
+	article.tweets h1 {
 		/* Matches the icon's own footprint below (4 rhythm units) so the
 		   reserved gutter isn't bigger than what's actually sitting in it. */
 		padding-right: calc(var(--rhythm) * 4);
@@ -274,7 +277,8 @@ nav a.home {
 	article.blog div.blog,
 	article.links div.links,
 	article.charts div.charts,
-	article.copies div.copies {
+	article.copies div.copies,
+	article.tweets div.tweets {
 	height: calc(var(--rhythm) * 4);
 	width: calc(var(--rhythm) * 4);
 	}
@@ -476,7 +480,8 @@ div.home-book-reviews,
 article.book-reviews,
 div.home-charts,
 article.charts,
-article.copies {
+article.copies,
+article.tweets {
 	display: block;
 	background-position: right top;
 	background-repeat: no-repeat;
@@ -500,6 +505,9 @@ article.charts div.charts {
 article.copies {
 	background-image: url("/img/copies.svg");
 }
+article.tweets div.tweets {
+	background-image: url("/img/tweet.svg");
+}
 article.links,
 article.book-reviews,
 article.copies {
@@ -518,7 +526,8 @@ article.book-reviews div.book-reviews,
 article.blog div.blog,
 article.links div.links,
 article.charts div.charts,
-article.copies div.copies {
+article.copies div.copies,
+article.tweets div.tweets {
 	display: block;
 	float: right;
 }
@@ -586,20 +595,24 @@ img[src*="#image_left"] {
 }
 
 article.tweets span.header {
-	background-image: url(https://longboredsurfer.com/img/avatar_kid_90x90.jpg);
-	background-size: 4em 4em;
+	background-image: url(/img/avatar_kid_90x90.jpg);
+	/* Same grid treatment as everything else (--space-multiple calc
+	   values) instead of fixed em values, so the tweets card's avatar
+	   scales with the shared baseline grid like the rest of the site. */
+	background-size: calc(var(--space) * 5) calc(var(--space) * 5);
 	background-repeat: no-repeat;
 	background-position: left;
-	width: 4em;
-	height: 4em;
-	border-radius: 2em;
-	-webkit-border-radius: 2em;
-	-moz-border-radius: 2em;
+	width: calc(var(--space) * 5);
+	height: calc(var(--space) * 5);
+	border-radius: calc(var(--space) * 5 / 2);
+	-webkit-border-radius: calc(var(--space) * 5 / 2);
+	-moz-border-radius: calc(var(--space) * 5 / 2);
 	display: block;
 }
 article.tweets span.header span {
-	padding-left: 5em;
-	padding-top: .25em;
+	/* Avatar width (5 spaces) plus a one-space gap. */
+	padding-left: calc(var(--space) * 6);
+	padding-top: calc(var(--space) / 3);
 	display: inline-block;
 }
 article.tweets span.header span.author{
@@ -607,11 +620,11 @@ article.tweets span.header span.author{
 }
 article.tweets span.footer {
 	display: block;
-	padding-bottom: .5em;
+	padding-bottom: calc(var(--space) / 2);
 	border-bottom: thin solid var(--blue3);
 }
 article.tweets span.maybe {
-	padding-left: 1em;
+	padding-left: 2ch;
 	font-size: small;
 }
 

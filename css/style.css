@@ -681,6 +681,14 @@ article.tweets span.maybe {
 	padding-left: 2ch;
 	font-size: small;
 }
+article.tweets span.thread {
+	/* Internal reply-thread continuation line (documentation/
+	   tweets-metadata-ideas.md, "Internal reply-thread links"), appended
+	   after span.footer when archived tweets reply to this one -- same
+	   idiom as span.maybe above. */
+	padding-left: 2ch;
+	font-size: small;
+}
 article.tweets div.commentary {
 	/* Present-day commentary on an old tweet (a tweet page's content.md),
 	   shown below the card's closing rule: smaller than the tweet itself

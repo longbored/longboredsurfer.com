@@ -62,9 +62,8 @@ img,
 video {
 	/* ~480px at default root size - close to the old 60% cap on this
 	   column width, but a fixed grid value instead of a fraction. video
-	   added alongside img for tweets' video/animated_gif attachments (bug
-	   #3 fix: these used to render a broken <img> with a bogus glued-together
-	   src -- see documentation/tweets-generation-proposal.md). */
+	   added alongside img for tweets' video/animated_gif attachments (these
+	   used to render a broken <img> with a bogus glued-together src). */
 	max-width: 50ch;
 	height: auto;
 }
@@ -657,7 +656,7 @@ article.tweets span.tweet-content {
 	   as valid sibling spans instead of the old markdown pipeline's broken
 	   <p>-inside-<p> (which browsers silently discarded, leaving
 	   span.tweet-content empty and span.footer outside span.tweet
-	   entirely -- see documentation/tweets-generation-proposal.md's bug #4).
+	   entirely -- the old baked markup's invalid p-in-p nesting, fixed 2026-08).
 	   That old, invalid DOM still read fine because a stray <p> before this
 	   span and another stray <p> for the text itself each carried the
 	   shared "p" rule's margin-bottom: var(--rhythm) above -- one gap after

@@ -58,9 +58,13 @@ body {
 	color: var(--gray2);
 	font-family: 'BerkeleyMono', monospace;
 }
-img {
+img,
+video {
 	/* ~480px at default root size - close to the old 60% cap on this
-	   column width, but a fixed grid value instead of a fraction. */
+	   column width, but a fixed grid value instead of a fraction. video
+	   added alongside img for tweets' video/animated_gif attachments (bug
+	   #3 fix: these used to render a broken <img> with a bogus glued-together
+	   src -- see documentation/tweets-generation-proposal.md). */
 	max-width: 50ch;
 	height: auto;
 }
@@ -351,6 +355,7 @@ article {
 article.blog img,
 article.error img,
 article.tweets img,
+article.tweets video,
 article.about img:not([src*="#image_right"]):not([src*="#image_left"]),
 article.links img,
 img.book_cover {
@@ -358,6 +363,7 @@ img.book_cover {
 	margin: var(--rhythm) auto 0;
 }
 article.tweets img,
+article.tweets video,
 article.links img,
 article.blog img,
 article.about img,
@@ -594,6 +600,22 @@ img[src*="#image_left"] {
 	background: var(--orange3);
 }
 
+article.tweets span.tweet {
+	/* Old's (invalid) markup had every tweet's true closing "</p>" stray --
+	   its matching "<p>" had already been auto-closed by the browser when it
+	   hit the nested <p> bug #4 describes -- and a stray closing </p> with no
+	   open <p> makes browsers synthesize and immediately close an EMPTY
+	   <p></p> right there (a documented HTML5 parsing quirk). That phantom
+	   paragraph's own margin-bottom: var(--rhythm) (from the shared "p" rule)
+	   was, by accident, the one-rhythm-unit gap after every tweet card --
+	   between one tweet's footer and the next tweet's header on a
+	   compilation list, or between the last tweet and the page's own footer
+	   on a single-tweet page. Now that span.tweet is real, valid, single
+	   markup with no stray tags, that gap needs restating explicitly here to
+	   keep the same spacing. */
+	display: block;
+	margin-bottom: var(--rhythm);
+}
 article.tweets span.header {
 	background-image: url(/img/avatar_kid_90x90.jpg);
 	/* Same grid treatment as everything else (--space-multiple calc
@@ -610,8 +632,15 @@ article.tweets span.header {
 	display: block;
 }
 article.tweets span.header span {
-	/* Avatar width (5 spaces) plus a one-space gap. */
-	padding-left: calc(var(--space) * 6);
+	/* Horizontal spacing is ch, not --space (see the baseline-grid comment
+	   at the top of this file) - this used to be calc(--space * 6) (72px),
+	   matching the avatar's own width-plus-gap in the vertical unit, but
+	   that put the text's left edge off the character grid instead of on
+	   a column boundary like every other block's horizontal offset. 7.5ch
+	   measures out to the same ~72px on this font (matching the avatar's
+	   footprint plus its one-space gap almost to the pixel) while landing
+	   on the half-ch grid stop, same as .rss's own 0.5ch padding below. */
+	padding-left: 7.5ch;
 	padding-top: calc(var(--space) / 3);
 	display: inline-block;
 }
@@ -623,9 +652,50 @@ article.tweets span.footer {
 	padding-bottom: calc(var(--space) / 2);
 	border-bottom: thin solid var(--blue3);
 }
+article.tweets span.tweet-content {
+	/* The segments/tweet-card rewrite nests header/reply-info/content/footer
+	   as valid sibling spans instead of the old markdown pipeline's broken
+	   <p>-inside-<p> (which browsers silently discarded, leaving
+	   span.tweet-content empty and span.footer outside span.tweet
+	   entirely -- see documentation/tweets-generation-proposal.md's bug #4).
+	   That old, invalid DOM still read fine because a stray <p> before this
+	   span and another stray <p> for the text itself each carried the
+	   shared "p" rule's margin-bottom: var(--rhythm) above -- one gap after
+	   the header (+ reply info, if any), one gap after the text, before the
+	   footer. margin-top here reproduces the first gap; margin-bottom
+	   reproduces the second (collapsing with the last tweet-para's own
+	   margin-bottom below when there is one, not stacking on top of it). */
+	display: block;
+	margin-top: var(--rhythm);
+	margin-bottom: var(--rhythm);
+}
+article.tweets span.tweet-para {
+	/* Only present when a tweet's own text contained a blank-line break --
+	   the old pipeline's markdown pass turned that into a second <p>, each
+	   carrying its own margin-bottom: var(--rhythm). This reproduces that
+	   paragraph gap without reintroducing a <p>. */
+	display: block;
+	margin-bottom: var(--rhythm);
+}
 article.tweets span.maybe {
 	padding-left: 2ch;
 	font-size: small;
+}
+article.tweets div.commentary {
+	/* Present-day commentary on an old tweet (a tweet page's content.md),
+	   shown below the card's closing rule: smaller than the tweet itself
+	   and inset, like an aside. Sizing follows the p.meta idiom; the
+	   inherited fixed line-height keeps it on the vertical grid, and the
+	   4ch inset keeps it on the character grid. */
+	margin: var(--rhythm) 0 var(--rhythm) 4ch;
+	font-size: 0.8em;
+	color: var(--gray1);
+}
+article.tweets div.commentary p {
+	margin: 0 0 var(--space) 0;
+}
+article.tweets div.commentary p:last-child {
+	margin-bottom: 0;
 }
 
 /* Section preview cards */

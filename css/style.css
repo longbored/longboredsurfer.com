@@ -704,6 +704,25 @@ article.tweets div.commentary p {
 article.tweets div.commentary p:last-child {
 	margin-bottom: 0;
 }
+article.tweets pre.stats {
+	/* /stats/'s text charts (documentation/CLAUDE.md, documentation/
+	   text-charts.html) are block-element bar charts and a sparkline, not
+	   quoted/reference material like the generic "pre" rule above assumes
+	   - drop its grey background and accent border so this reads as a
+	   display, not a code block. line-height must stay exactly 1.0: the
+	   cookbook's rendering-gotcha section confirms (via direct screenshot
+	   comparison) that anything above 1.0 puts visible gaps between
+	   stacked block glyphs across rows - these charts don't use vertical
+	   box-drawing strokes, but the hour-of-day chart stacks a sparkline
+	   row directly over its axis line, so the same continuity requirement
+	   applies here. Margins stay whole --space multiples, same grid as
+	   every other block on the page. */
+	background: transparent;
+	border-left: none;
+	margin: 0 0 var(--rhythm) 2ch;
+	padding: 0;
+	line-height: 1.0;
+}
 
 /* Section preview cards */
 div.section-preview {

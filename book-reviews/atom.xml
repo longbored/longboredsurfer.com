@@ -7,9 +7,23 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Thu, 27 Aug 2026 00:00:00 -0600</pubDate>
+<pubDate>Wed, 02 Sep 2026 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Dark One: Forgotten</title>
+<link>https://longboredsurfer.com/book-reviews/dark-one-forgotten</link>
+<description>This (fantasy) "book" takes the form of a true crime podcast about a missing person, that takes a...</description>
+<pubDate>Wed, 02 Sep 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/dark-one-forgotten</guid>
+</item>
+<item>
+<title>The Original</title>
+<link>https://longboredsurfer.com/book-reviews/the-original</link>
+<description>If you commit a crime, the government can make a backup clone of you... to go hunt yourself down. I...</description>
+<pubDate>Mon, 31 Aug 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/the-original</guid>
+</item>
 <item>
 <title>Persepolis Rising</title>
 <link>https://longboredsurfer.com/book-reviews/persepolis-rising</link>
@@ -65,20 +79,6 @@
 <description>At times I needed to remind myself this book was written in the 1990's. So much has been learned...</description>
 <pubDate>Tue, 21 Jul 2026 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/scattered-minds</guid>
-</item>
-<item>
-<title>Us Against You</title>
-<link>https://longboredsurfer.com/book-reviews/us-against-you</link>
-<description>A great installment in this series. I was curious to see how the town would correct their deplorable...</description>
-<pubDate>Tue, 14 Jul 2026 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/us-against-you</guid>
-</item>
-<item>
-<title>Four Thousand Weeks</title>
-<link>https://longboredsurfer.com/book-reviews/four-thousand-weeks</link>
-<description>About 77 years, or four thousand weeks - that's how long you're likely to live. The author, Oliver...</description>
-<pubDate>Sat, 04 Jul 2026 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/four-thousand-weeks</guid>
 </item>
 </channel>
 </rss>

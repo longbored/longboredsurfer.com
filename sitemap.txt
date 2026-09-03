@@ -401,6 +401,7 @@ https://longboredsurfer.com/book-reviews/authors/bono
 https://longboredsurfer.com/book-reviews/authors/boyd-k-packer
 https://longboredsurfer.com/book-reviews/authors/brandon-mull
 https://longboredsurfer.com/book-reviews/authors/brandon-sanderson
+https://longboredsurfer.com/book-reviews/authors/brandon-sanderson-dan-wells
 https://longboredsurfer.com/book-reviews/authors/brené-brown
 https://longboredsurfer.com/book-reviews/authors/brian-jacques
 https://longboredsurfer.com/book-reviews/authors/bruce-catton
@@ -552,6 +553,7 @@ https://longboredsurfer.com/book-reviews/authors/martha-wells
 https://longboredsurfer.com/book-reviews/authors/martin-fowler
 https://longboredsurfer.com/book-reviews/authors/marty-cagan
 https://longboredsurfer.com/book-reviews/authors/mary-beard
+https://longboredsurfer.com/book-reviews/authors/mary-robinette-kowal
 https://longboredsurfer.com/book-reviews/authors/matt-dinniman
 https://longboredsurfer.com/book-reviews/authors/matthew-mcconaughey
 https://longboredsurfer.com/book-reviews/authors/matthew-walker-phd
@@ -696,6 +698,7 @@ https://longboredsurfer.com/book-reviews/custers-trials
 https://longboredsurfer.com/book-reviews/cytonic
 https://longboredsurfer.com/book-reviews/daemon
 https://longboredsurfer.com/book-reviews/dances-with-wolves
+https://longboredsurfer.com/book-reviews/dark-one-forgotten
 https://longboredsurfer.com/book-reviews/david-and-goliath
 https://longboredsurfer.com/book-reviews/david-copperfield
 https://longboredsurfer.com/book-reviews/dawn-of-wonder
@@ -1128,6 +1131,7 @@ https://longboredsurfer.com/book-reviews/the-next-conversation
 https://longboredsurfer.com/book-reviews/the-nightingale
 https://longboredsurfer.com/book-reviews/the-obelisk-gate
 https://longboredsurfer.com/book-reviews/the-opal-deception
+https://longboredsurfer.com/book-reviews/the-original
 https://longboredsurfer.com/book-reviews/the-passage-of-power
 https://longboredsurfer.com/book-reviews/the-path-of-daggers
 https://longboredsurfer.com/book-reviews/the-path-to-power

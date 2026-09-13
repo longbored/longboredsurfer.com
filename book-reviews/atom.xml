@@ -7,9 +7,23 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Wed, 02 Sep 2026 00:00:00 -0600</pubDate>
+<pubDate>Fri, 11 Sep 2026 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Lux</title>
+<link>https://longboredsurfer.com/book-reviews/lux</link>
+<description>This is a great side-series to the main series of "The Reckoners" by Brandon Sanderson. I really...</description>
+<pubDate>Fri, 11 Sep 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/lux</guid>
+</item>
+<item>
+<title>Do Nothing</title>
+<link>https://longboredsurfer.com/book-reviews/do-nothing</link>
+<description>I read this with a book club at work, on the heels of reading a book about acknowledging the time...</description>
+<pubDate>Sat, 05 Sep 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/do-nothing</guid>
+</item>
 <item>
 <title>Dark One: Forgotten</title>
 <link>https://longboredsurfer.com/book-reviews/dark-one-forgotten</link>
@@ -65,20 +79,6 @@
 <description>This was another enjoyable book in the series. It's a transitional book, as the crew/series was...</description>
 <pubDate>Tue, 28 Jul 2026 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/nemesis-games</guid>
-</item>
-<item>
-<title>Stamped from the Beginning</title>
-<link>https://longboredsurfer.com/book-reviews/stamped-from-the-beginning</link>
-<description>The subtitle of the book felt spot-on - definitive. The book wasn't written to give anybody...</description>
-<pubDate>Wed, 22 Jul 2026 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/stamped-from-the-beginning</guid>
-</item>
-<item>
-<title>Scattered Minds</title>
-<link>https://longboredsurfer.com/book-reviews/scattered-minds</link>
-<description>At times I needed to remind myself this book was written in the 1990's. So much has been learned...</description>
-<pubDate>Tue, 21 Jul 2026 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/scattered-minds</guid>
 </item>
 </channel>
 </rss>

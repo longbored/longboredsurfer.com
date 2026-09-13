@@ -408,6 +408,7 @@ https://longboredsurfer.com/book-reviews/authors/bryce-courtenay
 https://longboredsurfer.com/book-reviews/authors/cal-newport
 https://longboredsurfer.com/book-reviews/authors/carlos-ruiz-zafón
 https://longboredsurfer.com/book-reviews/authors/cary-elwes
+https://longboredsurfer.com/book-reviews/authors/celeste-headlee
 https://longboredsurfer.com/book-reviews/authors/celeste-ng
 https://longboredsurfer.com/book-reviews/authors/charles-dickens
 https://longboredsurfer.com/book-reviews/authors/charles-duhigg
@@ -627,6 +628,7 @@ https://longboredsurfer.com/book-reviews/authors/stephen-king
 https://longboredsurfer.com/book-reviews/authors/stephen-mr-covey
 https://longboredsurfer.com/book-reviews/authors/stephenie-meyer
 https://longboredsurfer.com/book-reviews/authors/steven-johnson
+https://longboredsurfer.com/book-reviews/authors/steven-michael-bohls
 https://longboredsurfer.com/book-reviews/authors/susan-cain
 https://longboredsurfer.com/book-reviews/authors/susanna-clarke
 https://longboredsurfer.com/book-reviews/authors/suzanne-collins
@@ -712,6 +714,7 @@ https://longboredsurfer.com/book-reviews/demon-copperhead
 https://longboredsurfer.com/book-reviews/digger-unearthed
 https://longboredsurfer.com/book-reviews/dinner-with-the-president
 https://longboredsurfer.com/book-reviews/divine-justice
+https://longboredsurfer.com/book-reviews/do-nothing
 https://longboredsurfer.com/book-reviews/don-quixote
 https://longboredsurfer.com/book-reviews/doomsday-book
 https://longboredsurfer.com/book-reviews/dopamine-nation
@@ -814,6 +817,7 @@ https://longboredsurfer.com/book-reviews/lonesome-dove
 https://longboredsurfer.com/book-reviews/lord-of-chaos
 https://longboredsurfer.com/book-reviews/lord-of-the-flies
 https://longboredsurfer.com/book-reviews/love+work
+https://longboredsurfer.com/book-reviews/lux
 https://longboredsurfer.com/book-reviews/managing-up
 https://longboredsurfer.com/book-reviews/mark-twain
 https://longboredsurfer.com/book-reviews/master-and-commander
@@ -933,6 +937,7 @@ https://longboredsurfer.com/book-reviews/series/skyward
 https://longboredsurfer.com/book-reviews/series/slough-house
 https://longboredsurfer.com/book-reviews/series/spin
 https://longboredsurfer.com/book-reviews/series/tales-of-the-otori
+https://longboredsurfer.com/book-reviews/series/texas-reckoners
 https://longboredsurfer.com/book-reviews/series/the-broken-earth
 https://longboredsurfer.com/book-reviews/series/the-camel-club
 https://longboredsurfer.com/book-reviews/series/the-candy-shop-war

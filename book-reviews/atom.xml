@@ -7,9 +7,37 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Fri, 11 Sep 2026 00:00:00 -0600</pubDate>
+<pubDate>Mon, 12 Oct 2026 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>American Kingpin</title>
+<link>https://longboredsurfer.com/book-reviews/american-kingpin</link>
+<description>A very well-assembled and telling of the events surrounding the building of, and downfall of The...</description>
+<pubDate>Mon, 12 Oct 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/american-kingpin</guid>
+</item>
+<item>
+<title>Leviathan Falls</title>
+<link>https://longboredsurfer.com/book-reviews/leviathan-falls</link>
+<description>Since this is the conclusion of the series, let me review it first: 5 stars. Very enjoyable. This...</description>
+<pubDate>Wed, 07 Oct 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/leviathan-falls</guid>
+</item>
+<item>
+<title>Stephen Leeds: Death &amp; Faxes</title>
+<link>https://longboredsurfer.com/book-reviews/stephen-leeds-death-&amp;-faxes</link>
+<description>Stephen Leeds has a special ability to essentially allow multiple personalities to take on...</description>
+<pubDate>Thu, 24 Sep 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/stephen-leeds-death-&amp;-faxes</guid>
+</item>
+<item>
+<title>Tiamat&#39;s Wrath</title>
+<link>https://longboredsurfer.com/book-reviews/tiamats-wrath</link>
+<description>A perfect setup for the next book - the series finale. I've appreciate the way the stories keep me...</description>
+<pubDate>Tue, 22 Sep 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/tiamats-wrath</guid>
+</item>
 <item>
 <title>Lux</title>
 <link>https://longboredsurfer.com/book-reviews/lux</link>
@@ -51,34 +79,6 @@
 <description>The rating is for the series - very enjoyable, and a good reminder of why I enjoy Backman's writing....</description>
 <pubDate>Wed, 19 Aug 2026 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/the-winners</guid>
-</item>
-<item>
-<title>Babylon&#39;s Ashes</title>
-<link>https://longboredsurfer.com/book-reviews/babylons-ashes</link>
-<description>Another enjoyable installment in this series. Undoubtedly the series has to come to an end, or...</description>
-<pubDate>Wed, 12 Aug 2026 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/babylons-ashes</guid>
-</item>
-<item>
-<title>The Kaiju Preservation Society</title>
-<link>https://longboredsurfer.com/book-reviews/the-kaiju-preservation-society</link>
-<description>This isn't highfalutin sci-fi. This is the stuff anybody can pick up and enjoy. A largely secret...</description>
-<pubDate>Mon, 03 Aug 2026 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/the-kaiju-preservation-society</guid>
-</item>
-<item>
-<title>Operation Bounce House</title>
-<link>https://longboredsurfer.com/book-reviews/operation-bounce-house</link>
-<description>I'm not entirely sure I know what I just read. In some ways it was pretty messed up. In other ways,...</description>
-<pubDate>Fri, 31 Jul 2026 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/operation-bounce-house</guid>
-</item>
-<item>
-<title>Nemesis Games</title>
-<link>https://longboredsurfer.com/book-reviews/nemesis-games</link>
-<description>This was another enjoyable book in the series. It's a transitional book, as the crew/series was...</description>
-<pubDate>Tue, 28 Jul 2026 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/nemesis-games</guid>
 </item>
 </channel>
 </rss>

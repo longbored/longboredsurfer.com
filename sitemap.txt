@@ -505,6 +505,7 @@ https://longboredsurfer.com/book-reviews/authors/john-kenney
 https://longboredsurfer.com/book-reviews/authors/john-medina
 https://longboredsurfer.com/book-reviews/authors/john-scalzi
 https://longboredsurfer.com/book-reviews/authors/john-toland
+https://longboredsurfer.com/book-reviews/authors/john-wiswell
 https://longboredsurfer.com/book-reviews/authors/jon-krakauer
 https://longboredsurfer.com/book-reviews/authors/jon-meacham
 https://longboredsurfer.com/book-reviews/authors/jonas-jonasson
@@ -585,6 +586,7 @@ https://longboredsurfer.com/book-reviews/authors/neal-a-maxwell
 https://longboredsurfer.com/book-reviews/authors/neal-stephenson
 https://longboredsurfer.com/book-reviews/authors/neil-gaiman
 https://longboredsurfer.com/book-reviews/authors/nick-bilton
+https://longboredsurfer.com/book-reviews/authors/nick-bostrom
 https://longboredsurfer.com/book-reviews/authors/nikki-erlick
 https://longboredsurfer.com/book-reviews/authors/nikole-hannah-jones
 https://longboredsurfer.com/book-reviews/authors/nk-jemisin
@@ -996,6 +998,7 @@ https://longboredsurfer.com/book-reviews/skin-deep
 https://longboredsurfer.com/book-reviews/skyward
 https://longboredsurfer.com/book-reviews/slow-horses
 https://longboredsurfer.com/book-reviews/solito
+https://longboredsurfer.com/book-reviews/someone-you-can-build-a-nest-in
 https://longboredsurfer.com/book-reviews/speaker-for-the-dead
 https://longboredsurfer.com/book-reviews/spies-of-no-country
 https://longboredsurfer.com/book-reviews/spin
@@ -1015,6 +1018,7 @@ https://longboredsurfer.com/book-reviews/stone-cold
 https://longboredsurfer.com/book-reviews/storm-front
 https://longboredsurfer.com/book-reviews/sunreach
 https://longboredsurfer.com/book-reviews/supercommunicators
+https://longboredsurfer.com/book-reviews/superintelligence
 https://longboredsurfer.com/book-reviews/surrender
 https://longboredsurfer.com/book-reviews/system-collapse
 https://longboredsurfer.com/book-reviews/tags/a-nother-book-club
@@ -1027,6 +1031,7 @@ https://longboredsurfer.com/book-reviews/tags/book-club
 https://longboredsurfer.com/book-reviews/tags/church
 https://longboredsurfer.com/book-reviews/tags/civil-war
 https://longboredsurfer.com/book-reviews/tags/classic
+https://longboredsurfer.com/book-reviews/tags/computing
 https://longboredsurfer.com/book-reviews/tags/fantasy
 https://longboredsurfer.com/book-reviews/tags/favorites
 https://longboredsurfer.com/book-reviews/tags/graphic-novel

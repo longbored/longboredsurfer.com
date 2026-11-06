@@ -7,9 +7,23 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Mon, 12 Oct 2026 00:00:00 -0600</pubDate>
+<pubDate>Sat, 31 Oct 2026 00:00:00 -0600</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>Someone You Can Build a Nest In</title>
+<link>https://longboredsurfer.com/book-reviews/someone-you-can-build-a-nest-in</link>
+<description>This was certainly a fantasy novel, but it was also a conversation about relationships and social...</description>
+<pubDate>Sat, 31 Oct 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/someone-you-can-build-a-nest-in</guid>
+</item>
+<item>
+<title>Superintelligence</title>
+<link>https://longboredsurfer.com/book-reviews/superintelligence</link>
+<description>This book was really dense. I discussed this book every two weeks with a group of people at work, as...</description>
+<pubDate>Fri, 30 Oct 2026 00:00:00 -0600</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/superintelligence</guid>
+</item>
 <item>
 <title>American Kingpin</title>
 <link>https://longboredsurfer.com/book-reviews/american-kingpin</link>
@@ -65,20 +79,6 @@
 <description>If you commit a crime, the government can make a backup clone of you... to go hunt yourself down. I...</description>
 <pubDate>Mon, 31 Aug 2026 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/the-original</guid>
-</item>
-<item>
-<title>Persepolis Rising</title>
-<link>https://longboredsurfer.com/book-reviews/persepolis-rising</link>
-<description>Another solid installment in this series. In this one, an adversary re-emerges, and the people of...</description>
-<pubDate>Thu, 27 Aug 2026 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/persepolis-rising</guid>
-</item>
-<item>
-<title>The Winners</title>
-<link>https://longboredsurfer.com/book-reviews/the-winners</link>
-<description>The rating is for the series - very enjoyable, and a good reminder of why I enjoy Backman's writing....</description>
-<pubDate>Wed, 19 Aug 2026 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/the-winners</guid>
 </item>
 </channel>
 </rss>

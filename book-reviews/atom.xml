@@ -7,9 +7,16 @@
 <atom:link href="https://longboredsurfer.com/book-reviews/atom.xml" rel="self" type="application/rss+xml" />
 <description>The RSS feed for LongboredSurfer.com's book reviews.</description>
 <language>en-us</language>
-<pubDate>Tue, 10 Nov 2026 00:00:00 -0700</pubDate>
+<pubDate>Fri, 20 Nov 2026 00:00:00 -0700</pubDate>
 <docs>https://longboredsurfer.com/book-reviews/atom.xml</docs>
 <generator>https://longboredsurfer.com</generator>
+<item>
+<title>The Fires of December</title>
+<link>https://longboredsurfer.com/book-reviews/the-fires-of-december</link>
+<description>Although I just read multiple Brandon Sanderson books not very long ago, I was glad to get to...</description>
+<pubDate>Fri, 20 Nov 2026 00:00:00 -0700</pubDate>
+<guid>https://longboredsurfer.com/book-reviews/the-fires-of-december</guid>
+</item>
 <item>
 <title>Nexus</title>
 <link>https://longboredsurfer.com/book-reviews/nexus</link>
@@ -72,13 +79,6 @@
 <description>I read this with a book club at work, on the heels of reading a book about acknowledging the time...</description>
 <pubDate>Sat, 05 Sep 2026 00:00:00 -0600</pubDate>
 <guid>https://longboredsurfer.com/book-reviews/do-nothing</guid>
-</item>
-<item>
-<title>Dark One: Forgotten</title>
-<link>https://longboredsurfer.com/book-reviews/dark-one-forgotten</link>
-<description>This (fantasy) "book" takes the form of a true crime podcast about a missing person, that takes a...</description>
-<pubDate>Wed, 02 Sep 2026 00:00:00 -0600</pubDate>
-<guid>https://longboredsurfer.com/book-reviews/dark-one-forgotten</guid>
 </item>
 </channel>
 </rss>

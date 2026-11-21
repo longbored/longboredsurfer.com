@@ -22,7 +22,9 @@ jobs:
     - name: Rsync
       uses: burnett01/rsync-deployments@7.0.1
       with:
-        switches: -avzr --delete
+        # -c compares by checksum and no -t keeps checkout mtimes off the
+        # server: unchanged files are skipped and keep their Last-Modified/ETag.
+        switches: -rlvzc --delete
         path: public/
         remote_path: /var/www/longboredsurfer.com/html
         remote_host: ${{ secrets.SERVER_IP }}
